@@ -12,7 +12,7 @@ npm -v
 
 Install firebase
 ```
-npm install --save firebase
+npm install -g firebase-tools
 ```
 
 ### Firebase Login
