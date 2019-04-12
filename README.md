@@ -26,3 +26,27 @@ firebase login
 ```
 firebase deploy
 ```
+
+### Git
+Änderungen ansehen
+```
+git status
+```
+
+Fügt alle Änderungen hinzu
+```
+git add *
+oder
+git add <pfadname>
+```
+
+Commit mit Message
+```
+git commit -m 'Hier kommt ein Satz hin was geändert hat'
+```
+
+Änderungen in das Repository pushen
+```
+git push origin <branchname> -> develop
+```
+
