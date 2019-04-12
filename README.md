@@ -28,6 +28,16 @@ firebase deploy
 ```
 
 ### Git
+Branch wechseln
+```
+git checkout <branchname> z.B. luca
+```
+
+Neuer Branch erstellen
+```
+git checkout -b <branchname> z.B. luca
+```
+
 Änderungen ansehen
 ```
 git status
