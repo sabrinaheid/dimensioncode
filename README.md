@@ -38,7 +38,7 @@ Neuer Branch erstellen
 git checkout -b <branchname> z.B. luca
 ```
 
-Änderungen ansehen
+Änderungen ansehen, die ich gemacht habe
 ```
 git status
 ```
