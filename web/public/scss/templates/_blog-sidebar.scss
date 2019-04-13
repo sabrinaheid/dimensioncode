@@ -36,7 +36,7 @@
         margin-bottom: 10px;
         a {
           color: #837f7e;
-          @include transition (all, 0.3s, ease);
+          transition: all, 0.ss, ease;
           &:before {
             padding-right: 10px;
           }
@@ -63,7 +63,7 @@
           border:1px solid #dedede;
           border-radius: 30px;
           font-size: 14px;
-          @include transition (all, 0.3s, ease);
+          transition: all, 0.3s, ease;
           &:hover {
             color:$light;
             background: $primary-color;
