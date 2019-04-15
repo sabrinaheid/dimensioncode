@@ -28,6 +28,21 @@ firebase deploy
 ```
 
 ### Git
+Repository clonen 
+```
+git clone 
+```
+
+Um lokal entwickeln zu können
+```
+npm install
+```
+
+lokale Entwicklungsungebung starten (localhost etc.)
+```
+gulp
+```
+
 Branch wechseln
 ```
 git checkout <branchname> z.B. luca
