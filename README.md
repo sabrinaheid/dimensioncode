@@ -30,7 +30,7 @@ firebase deploy
 ### Git
 Repository clonen 
 ```
-git clone 
+git clone https://github.com/sabrinaheid/dimensioncode.git
 ```
 
 Um lokal entwickeln zu können
