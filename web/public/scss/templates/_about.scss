@@ -1,32 +1,29 @@
-// About Setcion
-
-.bg-about{
-  	position: absolute;
-  	content:"";
-  	left: 0px;
-  	top: 0px;
-  	width: 45%;
-  	min-height: 650px;
-  	background: url("../images/about/home-8.jpg") no-repeat;
-  	background-size: cover;
+.bg-about {
+	background-size: cover;
+	background: url("../images/about/home-8.jpg") no-repeat;
+	content: "";
+	left: 0px;
+	min-height: 650px;
+	position: absolute;
+	top: 0px;
+	width: 45%;
 }
 
 
-.about-content{
+.about-content {
 	padding: 20px 0px 0px 80px;
-	h4{
+
+	h4 {
 		font-weight: 600;
 
-		&:before{
-			position: absolute;
-			content:"\f576";
+		&:before {
+			content: "\f576";
 			font-family: "Font Awesome 5 Free";
 			font-size: 30px;
+			font-weight: 700;
+			left: -65px;
 			position: absolute;
 			top: 8px;
-			left: -65px;
-			font-weight: 700;
 		}
 	}
-
 }
