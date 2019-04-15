@@ -1,10 +1,19 @@
-$light: #fff;
 $primary-color: #f75757;
 $secondary-color: #f5f8f9;
+
+$white: #fff;
+$whitetransparent: rgba(255,255,255,.05);
+
+$black: #242424;
+$blacktransparent: rgba(0,0,0,0.8);
+$gray: #c9c9c9;
+$darkgray: #666; 
+
 $event-color: #c54041;
 $law-color: #b99769;
-$black: #242424;
+
 $border-color:#dedede;
+
 $primary-font:'Montserrat', sans-serif;
 $secondary-font:'Poppins', sans-serif;
 $extra-font:'Hind', serif;
