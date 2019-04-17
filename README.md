@@ -43,15 +43,16 @@ lokale Entwicklungsungebung starten (localhost etc.)
 gulp
 ```
 
-Branch wechseln
-```
-git checkout <branchname> z.B. luca
-```
-
 Neuer Branch erstellen
 ```
-git checkout -b <branchname> z.B. luca
+git checkout -b <branchname> z.B. feauture1
 ```
+
+Branch wechseln
+```
+git checkout <branchname> z.B. feauture1
+```
+
 
 Änderungen ansehen, die ich gemacht habe
 ```
