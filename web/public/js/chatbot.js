@@ -171,10 +171,10 @@ class BuildHTML {
 
 let messenger = new Messenger(),
 		buildHTML = new BuildHTML(),
-		$input = $('#input'),
-		$send = $('#send'),
-		$content = $('#content'),
-		$inner = $('#inner'),
+		$input = $('.chatbot-textarea'),
+		$send = $('.chatbot-send'),
+		$content = $('.chatbot-content'),
+		$inner = $('.chatbot-inner'),
 		buttonOption = data.button;
 
 class Button {

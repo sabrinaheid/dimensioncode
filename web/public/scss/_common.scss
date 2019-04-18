@@ -1,7 +1,3 @@
-* {
-	box-sizing: border-box; 
-}
-
 input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 	box-shadow: none;
 	font-size: 14px;
@@ -176,6 +172,7 @@ a:focus {
 
 .page-title {
 	padding: 100px 0;
+	@extend .overly;
 
 	.block {
 		h1 {
