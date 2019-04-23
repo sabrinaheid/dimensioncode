@@ -32,20 +32,19 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
     outline: 0px; }
 
 .btn-main, .btn-small {
-  background: #f75757;
-  color: #fff;
+  background: grey;
+  color: white;
   transition: all, 0.2s, ease; }
   .btn-main:hover, .btn-small:hover {
-    background: #dd0b0b;
-    color: #fff; }
+    background: black;
+    color: white; }
 
 .btn-solid-border {
-  border: 2px solid #f75757;
-  background: transparent;
-  color: #242424; }
+  border: 2px solid grey;
+  color: white; }
   .btn-solid-border:hover {
-    border: 2px solid #f75757;
-    background: #f75757; }
+    border: 2px solid black;
+    background: black; }
 
 .btn-small {
   padding: 10px 25px;
@@ -76,7 +75,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
     line-height: 50px; }
   .section-title p {
     color: #666;
-    font-family: "Poppins", sans-serif; }
+    font-family: "Montserrat", sans-serif; }
 
 .subtitle {
   color: #f75757;
@@ -87,7 +86,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   position: relative; }
   .overly:before, .page-title:before, .slider:before {
     content: "";
-    background: #242424;
+    background: white;
     bottom: 0;
     height: 100%;
     opacity: 0.5;
@@ -98,10 +97,10 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
     width: 100%; }
 
 .text-color {
-  color: #f75757; }
+  color: black; }
 
 .text-black {
-  color: #242424; }
+  color: white; }
 
 .text-sm {
   font-size: 14px; }
@@ -114,11 +113,11 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 
 /* Links */
 a {
-  color: #242424;
+  color: grey;
   text-decoration: none; }
 
 a:focus, a:hover {
-  color: #f75757;
+  color: black;
   text-decoration: none; }
 
 a:focus {
@@ -131,9 +130,9 @@ a:focus {
 .page-title {
   padding: 100px 0; }
   .page-title .block h1 {
-    color: #fff; }
+    color: black; }
   .page-title .block p {
-    color: #fff; }
+    color: black; }
 
 .bg-about {
   background-size: cover;
@@ -150,7 +149,7 @@ a:focus {
   .about-content h4 {
     font-weight: 600; }
     .about-content h4:before {
-      content: "\f576";
+      content: "\f126";
       font-family: "Font Awesome 5 Free";
       font-size: 30px;
       font-weight: 700;
@@ -163,7 +162,7 @@ a:focus {
   background-size: cover; }
 
 .bg-2 {
-  background: url("../images/bg/home-5.jpg");
+  background: url("../images/bg/home-1.jpg");
   background-size: cover; }
 
 .blog-item-content h3 {
@@ -172,13 +171,13 @@ a:focus {
 .blog-item-content h3 a {
   transition: all .4s ease 0s; }
   .blog-item-content h3 a:hover {
-    color: #f75757 !important; }
+    color: black !important; }
 
 .lh-36 {
   line-height: 36px; }
 
 .tags a {
-  background: #fff;
+  background: black;
   border-radius: 38px;
   border: 1px solid #dedede;
   display: inline-block;
@@ -188,7 +187,7 @@ a:focus {
   text-transform: capitalize; }
 
 .pagination .nav-links a, .pagination .nav-links span.current {
-  color: #c9c9c9;
+  color: grey;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 1.2px;
@@ -196,7 +195,7 @@ a:focus {
   text-transform: uppercase; }
 
 .pagination .nav-links span.current, .pagination .nav-links a.next, .pagination .nav-links a.prev {
-  color: #242424; }
+  color: black; }
 
 h3.quote {
   font-size: 25px;
@@ -237,9 +236,9 @@ h3.quote::before {
   transition: 0.3s ease;
   width: 320px; }
   .chatbot .chatbot-nav {
-    background-color: #f75757;
-    border-bottom: 3px solid #c54041;
-    color: #fff;
+    background-color: black;
+    border-bottom: 3px solid white;
+    color: white;
     height: 64px;
     position: absolute;
     left: 0;
@@ -290,25 +289,25 @@ h3.quote::before {
         width: 100%; }
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.them .circle-wrapper,
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.them .text-wrapper {
-          background: #f75757;
-          color: #fff;
+          background: grey;
+          color: black;
           float: left; }
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.them .text-wrapper:before {
           border-width: 0 10px 10px 0;
-          border-color: transparent #f75757 transparent transparent;
+          border-color: transparent grey transparent transparent;
           position: absolute;
           top: 0;
           left: -9px; }
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .circle-wrapper,
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .text-wrapper {
-          background: #f75757;
-          color: #242424;
+          background: grey;
+          color: white;
           float: right; }
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .text-wrapper {
-          background: #fff; }
+          background: black; }
           .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .text-wrapper:before {
             border-width: 10px 10px 0 0;
-            border-color: #fff transparent transparent transparent;
+            border-color: black transparent transparent transparent;
             position: absolute;
             top: 0;
             right: -9px; }
@@ -333,7 +332,7 @@ h3.quote::before {
             height: 0;
             width: 0; }
           .chatbot .chatbot-inner .chatbot-content .message-wrapper .text-wrapper .buttons a {
-            background: #f75757;
+            background: grey;
             border-radius: 5px;
             color: #fff;
             display: inline-block;
@@ -342,10 +341,10 @@ h3.quote::before {
             padding: 10px 20px 10px 20px;
             text-decoration: none; }
             .chatbot .chatbot-inner .chatbot-content .message-wrapper .text-wrapper .buttons a:hover {
-              background: #c54041;
+              background: grey;
               text-decoration: none; }
   .chatbot .chatbot-textarea-wrapper {
-    background: #fff;
+    background: black;
     bottom: 0;
     height: 64px;
     position: fixed;
@@ -353,7 +352,7 @@ h3.quote::before {
     width: 320px; }
     .chatbot .chatbot-textarea-wrapper .chatbot-textarea {
       -ms-overflow-style: none;
-      background: #fff;
+      background: black;
       border: none;
       font-weight: 300;
       height: 64px;
@@ -369,10 +368,10 @@ h3.quote::before {
       .chatbot .chatbot-textarea-wrapper .chatbot-textarea::-webkit-scrollbar {
         width: 0 !important; }
     .chatbot .chatbot-textarea-wrapper .chatbot-send {
-      background: #f75757;
+      background: grey;
       border-radius: 50%;
       border: 0;
-      color: #fff;
+      color: black;
       height: 42.66667px;
       position: fixed;
       bottom: 10.66667px;
@@ -445,14 +444,14 @@ h3.quote::before {
   color: #f75757; }
 
 #navbar {
-  background: #242424; }
+  background: white; }
   #navbar li {
     padding-left: 15px; }
     #navbar li.active .nav-link {
-      color: #f75757; }
+      color: black; }
   #navbar .nav-link {
-    color: #fff;
-    font-family: "Poppins", sans-serif;
+    color: grey;
+    font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: .5px;
@@ -463,17 +462,14 @@ h3.quote::before {
     -o-transition: all .25s ease;
     transition: all .25s ease; }
     #navbar .nav-link:hover, #navbar .nav-link:focus {
-      color: #f75757; }
+      color: black; }
   #navbar .btn {
     padding: .5rem 1.5rem;
-    color: #fff; }
+    color: black; }
 
 .navbar-brand {
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 1px; }
-  .navbar-brand span {
-    color: #f75757; }
+  width: 300px;
+  height: auto; }
 
 .portflio-item:before {
   background: rgba(0, 0, 0, 0.8);
@@ -517,7 +513,7 @@ h3.quote::before {
 .portflio-item .overlay-item {
   align-items: center;
   bottom: 0px;
-  color: #f75757;
+  color: grey;
   content: "";
   display: flex;
   font-size: 80px;
@@ -536,7 +532,7 @@ h3.quote::before {
 /*=== MEDIA QUERY ===*/
 @media (max-width: 400px) {
   .navbar-toggler {
-    color: #fff; }
+    color: black; }
   .slider .block h1 {
     font-size: 28px;
     line-height: 40px; }
@@ -567,7 +563,7 @@ h3.quote::before {
 
 @media (max-width: 480px) {
   .navbar-toggler {
-    color: #fff; }
+    color: black; }
   .slider .block h1 {
     font-size: 38px;
     line-height: 50px; }
@@ -597,7 +593,7 @@ h3.quote::before {
 
 @media (max-width: 768px) {
   .navbar-toggler {
-    color: #fff; }
+    color: black; }
   .bg-about {
     display: none; }
   .footer-socials {
@@ -620,7 +616,7 @@ h3.quote::before {
     top: 30px;
     z-index: 1; }
   .testimonial-item .testimonial-text {
-    color: #242424;
+    color: grey;
     font-size: 20px;
     font-style: italic;
     line-height: 38px;
@@ -648,7 +644,7 @@ h3.quote::before {
   padding: 200px 0 280px 0;
   position: relative; }
   .slider .block h1 {
-    color: #fff;
+    color: black;
     font-size: 70px;
     font-weight: 600;
     line-height: 80px; }
@@ -671,7 +667,7 @@ h3.quote::before {
   background: #cc66cc; }
 
 .team-img-hover .team-social li a.linkedin {
-  background: #3399cc; }
+  background: white; }
 
 .team-img-hover {
   position: absolute;
@@ -682,7 +678,7 @@ h3.quote::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.75);
   opacity: 0;
   transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
@@ -697,7 +693,7 @@ h3.quote::before {
 .team-img-hover li a {
   border-radius: 2px;
   border: 2px solid transparent;
-  color: #fff;
+  color: black;
   font-size: 20px;
   height: 50px;
   line-height: 50px;
@@ -731,14 +727,14 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  color: #242424;
-  font-family: "Hind", serif;
+  color: grey;
+  font-family: "Montserrat", serif;
   font-size: 17px;
   line-height: 1.5; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  color: #242424;
-  font-family: "Poppins", sans-serif;
+  color: black;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600; }
 
 h1, .h1 {
@@ -760,6 +756,7 @@ h5, .h5 {
   font-size: 1.25rem; }
 
 h6, .h6 {
+  color: grey;
   font-size: 1rem; }
 
 p {

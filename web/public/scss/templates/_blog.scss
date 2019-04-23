@@ -7,7 +7,7 @@
 		transition:all .4s ease 0s;
 
 		&:hover {
-			color: $primary-color!important;
+			color: $white!important;
 		}
 	}
 }
@@ -30,7 +30,7 @@
 }
 
 .pagination .nav-links a, .pagination .nav-links span.current {
-		color: $gray;
+		color: $grey;
 		font-size: 20px;
 		font-weight: 500;
 		letter-spacing: 1.2px;
@@ -40,7 +40,7 @@
 }
 
 .pagination .nav-links span.current, .pagination .nav-links a.next, .pagination .nav-links a.prev {
-		 color: $black;
+		 color: $white;
 }
 
 h3.quote {

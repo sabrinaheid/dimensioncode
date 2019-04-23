@@ -14,9 +14,9 @@
 	width: 320px;
 
 	.chatbot-nav {
-		background-color: $primary-color;
-		border-bottom: 3px solid $event-color;
-		color: $white;
+		background-color: $white;
+		border-bottom: 3px solid $black;
+		color: $black;
 		height: 64px;
 		position: absolute;
 		left: 0;
@@ -79,14 +79,14 @@
 
 				&.them .circle-wrapper,
 				&.them .text-wrapper {
-					background: $primary-color;
+					background: $grey;
 					color: $white;
 					float: left;
 				}
 
 				&.them .text-wrapper:before {
 					border-width: 0 10px 10px 0;
-					border-color: transparent $primary-color transparent transparent;
+					border-color: transparent $grey transparent transparent;
 					position: absolute;
 					top: 0;
 					left: -9px;
@@ -94,7 +94,7 @@
 
 				&.me .circle-wrapper,
 				&.me .text-wrapper {
-					background: $primary-color;
+					background: $grey;
 					color: $black;
 					float: right;
 				}
@@ -137,7 +137,7 @@
 					}
 
 					.buttons a {
-						background: $primary-color;
+						background: $grey;
 						border-radius: 5px;
 						color: #fff;
 						display: inline-block;
@@ -147,7 +147,7 @@
 						text-decoration: none;
 
 						&:hover {
-							background: $event-color;
+							background: $grey;
 							text-decoration: none;
 						}
 					}
@@ -186,7 +186,7 @@
 		}
 
 		.chatbot-send {
-			background: $primary-color;
+			background: $grey;
 			border-radius: 50%;
 			border: 0;
 			color: $white;

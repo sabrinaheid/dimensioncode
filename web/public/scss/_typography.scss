@@ -10,14 +10,14 @@ html {
 
 body {
 	-webkit-font-smoothing: antialiased;
-	color: $black;
+	color: $grey;
 	font-family: $extra-font;
 	font-size: 17px;
 	line-height: 1.5;
 
 }
 h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
-	color: $black;
+	color: $white;
 	font-family: $secondary-font;
 	font-weight:600;
 }
@@ -47,6 +47,7 @@ h5,.h5 {
 }
 
 h6,.h6 {
+  color: $grey;
 	font-size: 1rem;
 }
 
