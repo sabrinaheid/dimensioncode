@@ -1,14 +1,16 @@
 $primary-color: #f75757;
 $secondary-color: #f5f8f9;
 
-$white: #fff;
-$whitetransparent: rgba(255,255,255,.05);
+$white: black;
+$whitetransparent: rgba(0,0,0,.75);
 
-$black: #242424;
+$black: white;
 $blacktransparent: rgba(0,0,0,0.8);
 $gray: #c9c9c9;
 $lightgray: #f2f2f2;
-$darkgray: #666; 
+$darkgray: #666;
+
+$grey: grey;
 
 $event-color: #c54041;
 $law-color: #b99769;
@@ -16,5 +18,5 @@ $law-color: #b99769;
 $border-color:#dedede;
 
 $primary-font:'Montserrat', sans-serif;
-$secondary-font:'Poppins', sans-serif;
-$extra-font:'Hind', serif;
+$secondary-font:'Montserrat', sans-serif;
+$extra-font:'Montserrat', serif;
