@@ -99,9 +99,6 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 .text-color {
   color: black; }
 
-.text-black {
-  color: white; }
-
 .text-sm {
   font-size: 14px; }
 
