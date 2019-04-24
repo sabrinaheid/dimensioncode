@@ -5,12 +5,12 @@
     padding-left: 15px;
 
     &.active .nav-link {
-      color: $primary-color;
+      color: $white;
     }
   }
 
  .nav-link {
-    color: $white;
+    color: $grey;
     font-family: $secondary-font;
     font-size: 14px;
     font-weight: 500;
@@ -23,7 +23,7 @@
             transition: all .25s ease;
     
     &:hover, &:focus {
-      color: $primary-color;
+      color: $white;
     }
   }
 
@@ -36,11 +36,6 @@
 }
 
 .navbar-brand {
-  color: $white;
-  font-weight: 600;
-  letter-spacing: 1px;
-
-  span {
-    color: $primary-color;
-  }
+  width: 300px;
+  height: auto;
 }
