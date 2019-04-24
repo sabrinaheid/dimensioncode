@@ -38,4 +38,8 @@
 .navbar-brand {
   width: 300px;
   height: auto;
+
+  @include mobile {
+    width: 240px;
+  }
 }

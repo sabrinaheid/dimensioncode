@@ -467,6 +467,9 @@ h3.quote::before {
 .navbar-brand {
   width: 300px;
   height: auto; }
+  @media (max-width: 480px) {
+    .navbar-brand {
+      width: 240px; } }
 
 .portflio-item:before {
   background: rgba(0, 0, 0, 0.8);
