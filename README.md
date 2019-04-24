@@ -42,6 +42,15 @@ Gulp installieren
 ```
 npm install --global gulp
 ```
+Gulp Adminrechte erteilen
+```
+sudo npm install --global gulp
+```
+Gulp-Version im Ordner installieren
+```
+npm install --save-dev gulp
+```
+
 
 
 lokale Entwicklungsungebung starten (localhost etc.)
