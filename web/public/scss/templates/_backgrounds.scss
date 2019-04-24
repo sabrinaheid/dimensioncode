@@ -6,4 +6,5 @@
 .bg-2 {
 	background: url("../images/bg/home-5.jpg");
 	background-size: cover;
+	@extend .overly;
 }
