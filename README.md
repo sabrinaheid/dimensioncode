@@ -86,7 +86,7 @@ Gulp Adminrechte erteilen
 ```
 sudo npm install --global gulp
 ```
-Gulp-Version im Ordner installieren
+Gulp-Version im Website-Ordner installieren
 ```
 npm install --save-dev gulp
 ```
