@@ -90,3 +90,7 @@ Gulp-Version im Website-Ordner installieren
 ```
 npm install --save-dev gulp
 ```
+Gulp-Version überprüfen, CLI version und Local version erforderlich
+```
+gulp --version
+```
