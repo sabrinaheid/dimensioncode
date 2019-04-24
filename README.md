@@ -38,21 +38,6 @@ Um lokal entwickeln zu können
 npm install
 ```
 
-Gulp installieren
-```
-npm install --global gulp
-```
-Gulp Adminrechte erteilen
-```
-sudo npm install --global gulp
-```
-Gulp-Version im Ordner installieren
-```
-npm install --save-dev gulp
-```
-
-
-
 lokale Entwicklungsungebung starten (localhost etc.)
 ```
 gulp
@@ -91,3 +76,17 @@ git commit -m 'Hier kommt ein Satz hin was geändert hat'
 git push origin <branchname> -> develop
 ```
 
+
+### Gulp
+Gulp installieren
+```
+npm install --global gulp
+```
+Gulp Adminrechte erteilen
+```
+sudo npm install --global gulp
+```
+Gulp-Version im Ordner installieren
+```
+npm install --save-dev gulp
+```
