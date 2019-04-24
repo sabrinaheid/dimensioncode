@@ -38,6 +38,12 @@ Um lokal entwickeln zu können
 npm install
 ```
 
+Gulp installieren
+```
+npm install --global gulp
+```
+
+
 lokale Entwicklungsungebung starten (localhost etc.)
 ```
 gulp
