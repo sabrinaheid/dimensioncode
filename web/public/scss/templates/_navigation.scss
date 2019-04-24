@@ -1,11 +1,11 @@
 #navbar {
-  background: $black;
+  background: $white;
 
   li {
     padding-left: 15px;
 
     &.active .nav-link {
-      color: $white;
+      color: $black;
     }
   }
 
@@ -23,14 +23,14 @@
             transition: all .25s ease;
     
     &:hover, &:focus {
-      color: $white;
+      color: $black;
     }
   }
 
 
   .btn {
     padding: .5rem 1.5rem;
-    color: $white;
+    color: $black;
   }
 
 }

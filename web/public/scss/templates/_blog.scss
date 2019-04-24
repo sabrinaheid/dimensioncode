@@ -7,7 +7,7 @@
 		transition:all .4s ease 0s;
 
 		&:hover {
-			color: $white!important;
+			color: $black!important;
 		}
 	}
 }
@@ -18,7 +18,7 @@
 
 .tags {
 	a {
-		background: $white;
+		background: $black;
 		border-radius: 38px;
 		border: 1px solid $border-color;
 		display: inline-block;
@@ -40,7 +40,7 @@
 }
 
 .pagination .nav-links span.current, .pagination .nav-links a.next, .pagination .nav-links a.prev {
-		 color: $white;
+		 color: $black;
 }
 
 h3.quote {

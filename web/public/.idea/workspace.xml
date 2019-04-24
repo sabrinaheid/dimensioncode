@@ -18,9 +18,9 @@
       <find>get a q</find>
       <find>company</find>
       <find>navbar</find>
-      <find>$black</find>
-      <find>.navbar-brand</find>
       <find>$white</find>
+      <find>.navbar-brand</find>
+      <find>$black</find>
       <find>test</find>
       <find>.btn-solid-border</find>
       <find>navbar-brand</find>

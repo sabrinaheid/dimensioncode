@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300,400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300,400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700);
 input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
@@ -82,9 +82,9 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   font-size: 14px;
   letter-spacing: 1px; }
 
-.overly, .page-title, .slider {
+.overly, .page-title, .bg-about, .bg-2, .slider {
   position: relative; }
-  .overly:before, .page-title:before, .slider:before {
+  .overly:before, .page-title:before, .bg-about:before, .bg-2:before, .slider:before {
     content: "";
     background: white;
     bottom: 0;
@@ -236,9 +236,9 @@ h3.quote::before {
   transition: 0.3s ease;
   width: 320px; }
   .chatbot .chatbot-nav {
-    background-color: black;
+    background-color: white;
     border-bottom: 3px solid white;
-    color: white;
+    color: black;
     height: 64px;
     position: absolute;
     left: 0;
@@ -379,8 +379,8 @@ h3.quote::before {
       width: 42.66667px; }
       .chatbot .chatbot-textarea-wrapper .chatbot-send:before {
         content: "";
-        background-size: 25.6px;
         background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/104946/ic_send_white_48dp.png) no-repeat center center;
+        background-size: 26px;
         position: absolute;
         bottom: 0;
         left: 0;

@@ -15,7 +15,7 @@
 
 	.chatbot-nav {
 		background-color: $white;
-		border-bottom: 3px solid $black;
+		border-bottom: 3px solid $white;
 		color: $black;
 		height: 64px;
 		position: absolute;
@@ -80,7 +80,7 @@
 				&.them .circle-wrapper,
 				&.them .text-wrapper {
 					background: $grey;
-					color: $white;
+					color: $black;
 					float: left;
 				}
 
@@ -95,16 +95,16 @@
 				&.me .circle-wrapper,
 				&.me .text-wrapper {
 					background: $grey;
-					color: $black;
+					color: $white;
 					float: right;
 				}
 
 				&.me .text-wrapper {
-					background: $white;
+					background: $black;
 
 					&:before {
 						border-width: 10px 10px 0 0;
-						border-color: $white transparent transparent transparent;
+						border-color: $black transparent transparent transparent;
 						position: absolute;
 						top: 0;
 						right: -9px;
@@ -157,7 +157,7 @@
 	}
 
 	.chatbot-textarea-wrapper {
-		background: $white;
+		background: $black;
 		bottom: 0;
 		height: 64px;
 		position: fixed;
@@ -166,7 +166,7 @@
 
 		.chatbot-textarea {
 			-ms-overflow-style: none;
-			background: $white;
+			background: $black;
 			border: none;
 			font-weight: 300;
 			height: 64px;
@@ -189,7 +189,7 @@
 			background: $grey;
 			border-radius: 50%;
 			border: 0;
-			color: $white;
+			color: $black;
 			height: 42.66667px;
 			position: fixed;
 			bottom: 10.66667px;
@@ -198,8 +198,8 @@
 
 			&:before {
 				content: "";
-				background-size: 25.6px;
 				background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/104946/ic_send_white_48dp.png) no-repeat center center;
+				background-size: 26px;
 				position: absolute;
 				bottom: 0;
 				left: 0;
