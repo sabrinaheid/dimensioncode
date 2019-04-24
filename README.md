@@ -38,7 +38,7 @@ Um lokal entwickeln zu können
 npm install
 ```
 
-lokale Entwicklungsungebung starten (localhost etc.)
+lokale Entwicklungsungebung starten (localhost etc.), sofern gulp installiert (siehe unten) ist
 ```
 gulp
 ```
