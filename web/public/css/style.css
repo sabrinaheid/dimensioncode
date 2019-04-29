@@ -222,9 +222,23 @@ h3.quote::before {
 .blog-item {
   border-bottom: 1px solid #dedede; }
 
-.chatbot {
+.chatbot-open {
   background-color: white;
-  box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.5);
+  color: black;
+  cursor: pointer;
+  height: 50px;
+  padding: 15px 20px 15px 15px;
+  text-align: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 300px; }
+
+.chatbot {
+  display: none;
+  background-color: white;
+  box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.5);
   height: 520px;
   overflow: hidden;
   position: fixed;
@@ -234,7 +248,7 @@ h3.quote::before {
   width: 320px; }
   .chatbot .chatbot-nav {
     background-color: white;
-    border-bottom: 3px solid white;
+    border-bottom: 1px solid grey;
     color: black;
     height: 64px;
     position: absolute;
@@ -244,14 +258,14 @@ h3.quote::before {
     list-style: none;
     margin: 0;
     padding: 0;
+    text-align: center;
     transition: 0.3s ease;
     width: 100%;
     z-index: 110; }
     .chatbot .chatbot-nav .chatbot-nav-item {
-      float: left;
       height: 64px;
       line-height: 64px;
-      margin-right: 50px;
+      margin-right: 5px;
       position: relative;
       transition: 0.3s ease; }
       .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link {
@@ -275,19 +289,20 @@ h3.quote::before {
     .chatbot .chatbot-inner::-webkit-scrollbar {
       width: 0 !important; }
     .chatbot .chatbot-inner .chatbot-content {
-      margin-bottom: 32px;
-      padding: 10.66667px;
+      margin-bottom: 40px;
+      padding: 15px;
       position: relative; }
       .chatbot .chatbot-inner .chatbot-content .message-wrapper {
         margin: 10.66667px 0;
         overflow: hidden;
         padding: 10.66667px 0;
         position: relative;
+        word-break: break-word;
         width: 100%; }
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.them .circle-wrapper,
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.them .text-wrapper {
           background: grey;
-          color: black;
+          color: white;
           float: left; }
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.them .text-wrapper:before {
           border-width: 0 10px 10px 0;
@@ -297,14 +312,15 @@ h3.quote::before {
           left: -9px; }
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .circle-wrapper,
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .text-wrapper {
-          background: grey;
+          background: white;
           color: white;
           float: right; }
         .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .text-wrapper {
-          background: black; }
+          background: white;
+          color: black; }
           .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .text-wrapper:before {
             border-width: 10px 10px 0 0;
-            border-color: black transparent transparent transparent;
+            border-color: white transparent transparent transparent;
             position: absolute;
             top: 0;
             right: -9px; }
@@ -313,7 +329,7 @@ h3.quote::before {
           height: 42.66667px;
           width: 42.66667px; }
         .chatbot .chatbot-inner .chatbot-content .message-wrapper .text-wrapper {
-          /* word-break: break-all; */
+          word-break: break-word;
           border-radius: 2px;
           box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.3);
           font-weight: 300;
@@ -334,30 +350,28 @@ h3.quote::before {
             color: #fff;
             display: inline-block;
             font-size: 16px;
-            margin: 0 5px;
+            margin: 5px;
             padding: 10px 20px 10px 20px;
             text-decoration: none; }
             .chatbot .chatbot-inner .chatbot-content .message-wrapper .text-wrapper .buttons a:hover {
               background: grey;
               text-decoration: none; }
   .chatbot .chatbot-textarea-wrapper {
-    background: black;
+    background: white;
+    border-top: 1px solid grey;
     bottom: 0;
-    height: 64px;
+    height: 60px;
     position: fixed;
     right: 0;
     width: 320px; }
     .chatbot .chatbot-textarea-wrapper .chatbot-textarea {
       -ms-overflow-style: none;
-      background: black;
       border: none;
+      color: black;
       font-weight: 300;
       height: 64px;
       left: 0;
-      overflow: -moz-scrollbars-none;
-      overflow: scroll;
-      padding-top: 24px;
-      padding: 0 5%;
+      padding: 10px;
       position: absolute;
       resize: none;
       top: 0;
@@ -729,7 +743,7 @@ body {
   -webkit-font-smoothing: antialiased;
   color: grey;
   font-family: "Montserrat", serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 1.5; }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {

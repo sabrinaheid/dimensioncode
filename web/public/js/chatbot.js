@@ -246,17 +246,27 @@ messenger.onSend = buildSent;
 messenger.onRecieve = buildRecieved;
 messenger.onButtonOption = buidButton;
 
-setTimeout(() => {
-	messenger.recieve('Hello! Welcome to live chatbot.');
-}, 1500);
+$('.chatbot-open').click(function() {
+	$('.chatbot').show();
 
-setTimeout(() => {
-	messenger.recieve('What would you like to learn more about?');
-}, 5000);
+	setTimeout(() => {
+		messenger.recieve('Hello! Welcome to live chatbot.');
+	}, 1500);
 	
-setTimeout(() => {
-	buttonMain();
-}, 7500);
+	setTimeout(() => {
+		messenger.recieve('What would you like to learn more about?');
+	}, 5000);
+
+	setTimeout(() => {
+		buttonMain();
+	}, 7500);
+});
+
+$('.chatbot-nav-item-link').click(function() {
+	$('.chatbot').hide();
+	$('.message-wrapper').remove();
+});
+
 
 $input.focus();
 send.addEventListener("click", sendMessage);

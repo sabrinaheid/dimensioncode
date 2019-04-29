@@ -1,21 +1,31 @@
-
+.chatbot-open {
+	background-color: $white;
+	box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.5);
+	color: black;
+	cursor: pointer;
+	height: 50px;
+	padding: 15px 20px 15px 15px;
+	text-align: center;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 300px;
+}
 .chatbot {
+	display: none;
 	background-color: white;
-	box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.5);
+	box-shadow: 0px 0px 10px 5px rgba(50, 50, 50, 0.5);
 	height: 520px;
-	// left: 50%;
 	overflow: hidden;
 	position: fixed;
 	right: 0;
 	bottom: 0;
-	// top: 100px;
-	// transform: translateX(-50%);
 	transition: 0.3s ease;
 	width: 320px;
 
 	.chatbot-nav {
 		background-color: $white;
-		border-bottom: 3px solid $white;
+		border-bottom: 1px solid $grey;
 		color: $black;
 		height: 64px;
 		position: absolute;
@@ -25,15 +35,15 @@
 		list-style: none;
 		margin: 0;
 		padding: 0;
+		text-align: center;
 		transition: 0.3s ease;
 		width: 100%;
 		z-index: 110;
 
 		.chatbot-nav-item {
-			float: left;
 			height: 64px;
 			line-height: 64px;
-			margin-right: 50px;
+			margin-right: 5px;
 			position: relative;
 			transition: 0.3s ease;
 
@@ -66,8 +76,8 @@
 		}
 
 		.chatbot-content {
-			margin-bottom: 32px;
-			padding: 10.66667px;
+			margin-bottom: 40px;
+			padding: 15px;
 			position: relative;
 
 			.message-wrapper {
@@ -75,12 +85,13 @@
 				overflow: hidden;
 				padding: 10.66667px 0;
 				position: relative;
+				word-break: break-word;
 				width: 100%;
 
 				&.them .circle-wrapper,
 				&.them .text-wrapper {
 					background: $grey;
-					color: $black;
+					color: $white;
 					float: left;
 				}
 
@@ -94,17 +105,18 @@
 
 				&.me .circle-wrapper,
 				&.me .text-wrapper {
-					background: $grey;
+					background: $white;
 					color: $white;
 					float: right;
 				}
 
 				&.me .text-wrapper {
-					background: $black;
+					background: $white;
+					color: $black;
 
 					&:before {
 						border-width: 10px 10px 0 0;
-						border-color: $black transparent transparent transparent;
+						border-color: $white transparent transparent transparent;
 						position: absolute;
 						top: 0;
 						right: -9px;
@@ -118,7 +130,7 @@
 				}
 
 				.text-wrapper {
-					/* word-break: break-all; */
+					word-break: break-word;
 					border-radius: 2px;
 					box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.3);
 					font-weight: 300;
@@ -142,7 +154,7 @@
 						color: #fff;
 						display: inline-block;
 						font-size: 16px;
-						margin: 0 5px;
+						margin: 5px;
 						padding: 10px 20px 10px 20px;
 						text-decoration: none;
 
@@ -157,24 +169,23 @@
 	}
 
 	.chatbot-textarea-wrapper {
-		background: $black;
+		background: $white;
+		border-top: 1px solid $grey;
 		bottom: 0;
-		height: 64px;
+		height: 60px;
 		position: fixed;
 		right: 0;
 		width: 320px;
 
 		.chatbot-textarea {
 			-ms-overflow-style: none;
-			background: $black;
+			// background: $grey;
 			border: none;
+			color: $black;
 			font-weight: 300;
 			height: 64px;
 			left: 0;
-			overflow: -moz-scrollbars-none;
-			overflow: scroll;
-			padding-top: 24px;
-			padding: 0 5%;
+			padding: 10px;
 			position: absolute;
 			resize: none;
 			top: 0;
