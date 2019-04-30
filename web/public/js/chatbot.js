@@ -230,7 +230,7 @@ function sendMessage() {
 function buttonMain() {
 	let tempArray = [];
 	buttonOption.forEach(function(item, index){
-		tempArray.push(`<a href=${item.link} target="_blank">${item.buttonName}</a>`);
+		tempArray.push(`<a href=${item.link} class=${item.buttonName} target="_blank">${item.buttonName}</a>`);
 	})
 
 	messenger.buttonOption(tempArray)
