@@ -22,13 +22,11 @@
 		<link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/104946/animate.min.css'>
 
 		<!-- Firebase (DB) Connection -->
-		<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-auth.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-database.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-firestore.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-messaging.js"></script>
-		<script src="https://www.gstatic.com/firebasejs/5.9.2/firebase-functions.js"></script>
-		<script src="js/firebase.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+		<script src="js/firebase_config.js"></script>
+		<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
+		<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+		<script src="js/firebase_login.js"></script>
 	</head>
 
 	<body>
@@ -60,6 +58,12 @@
 			</nav>
 		</header>
 		<!-- Header Close --> 
+
+		<!-- Button that starts the sign-in flow -->
+		<button class="btn btn-main" id="sign-in-button">Sign-in with Phone number</button>
+
+		<!-- Button that handles sign-out -->
+		<button class="btn btn-main" id="sign-out-button">Sign-out</button>
 
 		<div class="main-wrapper ">
 			<!-- Slider Start -->
@@ -375,6 +379,7 @@
 
 		<!-- Main JS -->
 		<script src="js/script.js"></script>
+		<script src="js/login.js"></script>
 
 		<!-- Chatbot JS -->
 		<script src="js/chatbot.js"></script>
