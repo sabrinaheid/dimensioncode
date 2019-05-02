@@ -50,6 +50,26 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 	}
 }
 
+.sign-btn {
+  position: relative;
+  display: block;
+  z-index: 1;
+  float: right;
+  height: 20px;
+  width: 100px;
+  padding: 0;
+  background: $grey;
+  color: $white;
+  font-size: 10px;
+  font-weight: 400;
+  transition: all, 0.2s, ease;
+
+  &:hover {
+    background: $grey;
+    color: $white;
+  }
+}
+
 
 .btn-solid-border {
 	border: 2px solid $grey;
