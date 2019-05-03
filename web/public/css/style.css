@@ -708,6 +708,8 @@ h3.quote::before {
   background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative; }
+  .popup #sign-in-form {
+    z-index: 1; }
 
 html {
   overflow-x: hidden; }
