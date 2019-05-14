@@ -1,7 +1,7 @@
 .chatbot-open {
 	background-color: $white;
 	box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.3);
-	color: $grey;
+	color: $gray;
 	cursor: pointer;
 	height: 50px;
 	padding: 5px 0 0 0;
@@ -34,8 +34,8 @@
 
 	.chatbot-nav {
 		background-color: $white;
-		border-bottom: 1px solid $grey;
-		color: $grey;
+		border-bottom: 1px solid $gray;
+		color: $gray;
 		height: 50px;
 		position: absolute;
 		left: 0;
@@ -103,14 +103,14 @@
 
 				&.them .circle-wrapper,
 				&.them .text-wrapper {
-					background: $grey;
+					background: $gray;
 					color: $white;
 					float: left;
 				}
 
 				&.them .text-wrapper:before {
 					border-width: 0 10px 10px 0;
-					border-color: transparent $grey transparent transparent;
+					border-color: transparent $gray transparent transparent;
 					position: absolute;
 					top: 0;
 					left: -9px;
@@ -162,7 +162,7 @@
 					}
 
 					.buttons a {
-						background: $grey;
+						background: $gray;
 						border-radius: 5px;
 						color: #fff;
 						display: inline-block;
@@ -172,7 +172,7 @@
 						text-decoration: none;
 
 						&:hover {
-							background: $grey;
+							background: $gray;
 							text-decoration: none;
 						}
 					}
@@ -183,7 +183,7 @@
 
 	.chatbot-textarea-wrapper {
 		background: $white;
-		border-top: 1px solid $grey;
+		border-top: 1px solid $gray;
 		bottom: 0;
 		height: 60px;
 		position: fixed;
@@ -192,7 +192,7 @@
 
 		.chatbot-textarea {
 			-ms-overflow-style: none;
-			// background: $grey;
+			// background: $gray;
 			border: none;
 			color: $black;
 			font-weight: 300;
@@ -210,7 +210,7 @@
 		}
 
 		.chatbot-send {
-			background: $grey;
+			background: $gray;
 			border-radius: 50%;
 			border: 0;
 			color: $black;
