@@ -240,11 +240,12 @@ h3.quote::before {
 
 .chatbot-open {
   background-color: white;
-  box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.3);
+  border: 1px solid #dedede;
+  box-shadow: 3px 10px 3px 3px rgba(50, 50, 50, 0.3);
   color: gray;
   cursor: pointer;
-  height: 50px;
-  padding: 5px 0 0 0;
+  height: 65px;
+  padding: 10px 0 0 0;
   font-size: 30px;
   text-align: center;
   text-transform: uppercase;
@@ -260,7 +261,7 @@ h3.quote::before {
   display: none;
   background-color: white;
   box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.3);
-  height: 520px;
+  height: 400px;
   overflow: hidden;
   position: fixed;
   right: 0;
@@ -306,123 +307,20 @@ h3.quote::before {
   .chatbot .chatbot-inner {
     -ms-overflow-style: none;
     background: #f2f2f2;
-    height: 520px;
+    height: 400px;
     overflow: -moz-scrollbars-none;
     overflow: scroll;
-    padding-top: 64px; }
+    padding-top: 50px; }
     .chatbot .chatbot-inner::-webkit-scrollbar {
       width: 0 !important; }
-    .chatbot .chatbot-inner .chatbot-content {
-      margin-bottom: 40px;
-      padding: 15px;
-      position: relative; }
-      .chatbot .chatbot-inner .chatbot-content .message-wrapper {
-        margin: 10.66667px 0;
-        overflow: hidden;
-        padding: 10.66667px 0;
-        position: relative;
-        word-break: break-word;
-        width: 100%; }
-        .chatbot .chatbot-inner .chatbot-content .message-wrapper.them .circle-wrapper,
-        .chatbot .chatbot-inner .chatbot-content .message-wrapper.them .text-wrapper {
-          background: gray;
-          color: white;
-          float: left; }
-        .chatbot .chatbot-inner .chatbot-content .message-wrapper.them .text-wrapper:before {
-          border-width: 0 10px 10px 0;
-          border-color: transparent gray transparent transparent;
-          position: absolute;
-          top: 0;
-          left: -9px; }
-        .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .circle-wrapper,
-        .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .text-wrapper {
-          background: white;
-          color: white;
-          float: right; }
-        .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .text-wrapper {
-          background: white;
-          color: black; }
-          .chatbot .chatbot-inner .chatbot-content .message-wrapper.me .text-wrapper:before {
-            border-width: 10px 10px 0 0;
-            border-color: white transparent transparent transparent;
-            position: absolute;
-            top: 0;
-            right: -9px; }
-        .chatbot .chatbot-inner .chatbot-content .message-wrapper .circle-wrapper {
-          border-radius: 50%;
-          height: 42.66667px;
-          width: 42.66667px; }
-        .chatbot .chatbot-inner .chatbot-content .message-wrapper .text-wrapper {
-          word-break: break-word;
-          border-radius: 2px;
-          box-shadow: 0px 1px 0px 0px rgba(50, 50, 50, 0.3);
-          font-weight: 300;
-          margin: 0 10.66667px;
-          min-height: 42.66667px;
-          opacity: 0;
-          padding: 10.66667px;
-          position: relative;
-          width: 60%; }
-          .chatbot .chatbot-inner .chatbot-content .message-wrapper .text-wrapper:before {
-            content: "";
-            border-style: solid;
-            height: 0;
-            width: 0; }
-          .chatbot .chatbot-inner .chatbot-content .message-wrapper .text-wrapper .buttons a {
-            background: gray;
-            border-radius: 5px;
-            color: #fff;
-            display: inline-block;
-            font-size: 16px;
-            margin: 5px;
-            padding: 10px 20px 10px 20px;
-            text-decoration: none; }
-            .chatbot .chatbot-inner .chatbot-content .message-wrapper .text-wrapper .buttons a:hover {
-              background: gray;
-              text-decoration: none; }
-  .chatbot .chatbot-textarea-wrapper {
-    background: white;
-    border-top: 1px solid gray;
-    bottom: 0;
-    height: 60px;
-    position: fixed;
-    right: 0;
-    width: 320px; }
-    .chatbot .chatbot-textarea-wrapper .chatbot-textarea {
-      -ms-overflow-style: none;
-      border: none;
-      color: black;
-      font-weight: 300;
-      height: 64px;
-      left: 0;
-      padding: 10px;
-      position: absolute;
-      resize: none;
-      top: 0;
-      width: calc(100% - 64px); }
-      .chatbot .chatbot-textarea-wrapper .chatbot-textarea::-webkit-scrollbar {
-        width: 0 !important; }
-    .chatbot .chatbot-textarea-wrapper .chatbot-send {
-      background: gray;
-      border-radius: 50%;
-      border: 0;
-      color: black;
-      height: 42.66667px;
-      position: fixed;
-      bottom: 10.66667px;
-      right: 10.66667px;
-      width: 42.66667px; }
-      .chatbot .chatbot-textarea-wrapper .chatbot-send:before {
-        content: "";
-        background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/104946/ic_send_white_48dp.png) no-repeat center center;
-        background-size: 26px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        top: 0; }
-      .chatbot .chatbot-textarea-wrapper .chatbot-send:hover {
-        cursor: pointer; }
+    .chatbot .chatbot-inner .botui-container {
+      background: none;
+      font-size: 16px;
+      font-family: "Montserrat", sans-serif; }
+    .chatbot .chatbot-inner .botui-message-content.text {
+      background: white; }
+    .chatbot .chatbot-inner .botui-message-content.human {
+      background: gray; }
 
 .address-block li {
   margin-bottom: 10px; }
