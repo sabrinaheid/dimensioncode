@@ -26,6 +26,17 @@
 		<script src="js/firebase_config.js"></script>
 		<script src="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.js"></script>
 		<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.5.2/firebaseui.css" />
+
+
+		<link rel="stylesheet" href="https://unpkg.com/botui/build/botui.min.css">
+
+		<link rel="stylesheet" href="https://unpkg.com/botui/build/botui-theme-default.css">
+		<script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+		<script src="https://unpkg.com/botui/build/botui.min.js"></script>
+
+
+
+
 	</head>
 
 	<body>
@@ -59,6 +70,9 @@
 		<!-- Header Close -->
 
 		<div class="main-wrapper">
+				<div id="my-botui-app">
+				
+				</div>
 			<!-- Button that starts the sign-in flow -->
 			<button class="btn btn-main sign-btn" id="sign-in-button">sign in <i class="fas fa-sign-in-alt"></i></button>
 
@@ -136,11 +150,9 @@
 									</div>
 								</nav>
 								<div class="chatbot-inner">
-									<div class="chatbot-content"></div>
-								</div>
-								<div class="chatbot-textarea-wrapper">
-									<textarea class="chatbot-textarea"></textarea>
-									<div class="chatbot-send" id="send"></div>
+									<div class="chatbot-content" id="chatbot-inner">
+										<bot-ui></bot-ui>
+									</div>
 								</div>
 							</div>
 						</div>

@@ -24,6 +24,7 @@
     "run-sequence": "^1.1.2"
   },
   "dependencies": {
+    "botui": "^0.3.8",
     "firebase": "^5.10.1"
   }
 }
