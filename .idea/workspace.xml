@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5216c128-d0d3-44ad-b329-0de85007205d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/public/scss/templates/_popup.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/about.html" afterPath="$PROJECT_DIR$/web/public/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/css/style.css" afterPath="$PROJECT_DIR$/web/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/index.html" afterPath="$PROJECT_DIR$/web/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/phone-simple-popup.html" afterPath="$PROJECT_DIR$/web/public/phone-simple-popup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/scss/_common.scss" afterPath="$PROJECT_DIR$/web/public/scss/_common.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/scss/style.scss" afterPath="$PROJECT_DIR$/web/public/scss/style.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/scss/templates/_about.scss" afterPath="$PROJECT_DIR$/web/public/scss/templates/_about.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/scss/templates/_chatbot.scss" afterPath="$PROJECT_DIR$/web/public/scss/templates/_chatbot.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/scss/templates/_counter.scss" afterPath="$PROJECT_DIR$/web/public/scss/templates/_counter.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/scss/templates/_navigation.scss" afterPath="$PROJECT_DIR$/web/public/scss/templates/_navigation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/scss/templates/_responsive.scss" afterPath="$PROJECT_DIR$/web/public/scss/templates/_responsive.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/public/scss/templates/_slider.scss" afterPath="$PROJECT_DIR$/web/public/scss/templates/_slider.scss" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sign-in-button</find>
+      <find>btn</find>
+      <find>open chatbot</find>
+      <find>.counter</find>
+      <find>section</find>
+      <find>about</find>
+      <find>.testimonial</find>
+      <find>mdl-js</find>
+      <find>html</find>
+      <find>.slider .block h1</find>
+      <find>.slider .block h1</find>
+      <find>overly</find>
+      <find>sign</find>
+      <find>transition: all, 0.2s, ease;</find>
+      <find>test</find>
+      <find>testimonial</find>
+      <find>blog-item-meta</find>
+      <find>card-body</find>
+      <find>slider</find>
+      <find>sign-btn</find>
+      <find>card</find>
+      <find>.section</find>
+      <find>latest ar</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/public/phone-simple-popup.html" />
+        <option value="$PROJECT_DIR$/web/public/scss/templates/_popup.scss" />
+        <option value="$PROJECT_DIR$/web/public/scss/templates/_slider.scss" />
+        <option value="$PROJECT_DIR$/web/public/scss/templates/_counter.scss" />
+        <option value="$PROJECT_DIR$/web/public/scss/templates/_backgrounds.scss" />
+        <option value="$PROJECT_DIR$/web/public/scss/style.scss" />
+        <option value="$PROJECT_DIR$/web/public/scss/templates/_navigation.scss" />
+        <option value="$PROJECT_DIR$/web/public/scss/_common.scss" />
+        <option value="$PROJECT_DIR$/web/public/scss/templates/_chatbot.scss" />
+        <option value="$PROJECT_DIR$/web/public/scss/templates/_blog.scss" />
+        <option value="$PROJECT_DIR$/web/public/about.html" />
+        <option value="$PROJECT_DIR$/web/public/scss/templates/_responsive.scss" />
+        <option value="$PROJECT_DIR$/web/public/index.html" />
+        <option value="$PROJECT_DIR$/web/public/scss/templates/_about.scss" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="47" />
+    <option name="y" value="23" />
+    <option name="width" value="1393" />
+    <option name="height" value="794" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dimensioncode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dimensioncode" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dimensioncode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dimensioncode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dimensioncode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dimensioncode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dimensioncode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dimensioncode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dimensioncode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dimensioncode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dimensioncode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dimensioncode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="dimensioncode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dimensioncode" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="scss" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v8.11.1/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/public/scss/templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5216c128-d0d3-44ad-b329-0de85007205d" name="Default" comment="" />
+      <created>1556736534848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556736534848</updated>
+      <workItem from="1556736536031" duration="6889000" />
+      <workItem from="1556821056537" duration="8514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15403000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="23" width="1393" height="794" extended-state="0" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2531458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2531458" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/public/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="42" column="30" lean-forward="true" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_intro.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/chatbot.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_popup.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/phone-simple-popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="24" column="106" lean-forward="true" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="106" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_counter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_slider.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_review.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_backgrounds.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/js/chatbot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1556736456000" expanded="true" signature="3443:3573" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_chatbot.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="49" column="8" lean-forward="false" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/_media-query.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1315">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_team.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="95" column="39" lean-forward="true" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="74" column="21" lean-forward="false" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8505">
+          <caret line="589" column="19" lean-forward="true" selection-start-line="589" selection-start-column="19" selection-end-line="589" selection-end-column="19" />
+          <folding>
+            <marker date="1556832873000" expanded="true" signature="3651:3744" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="3752:3827" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="3851:3875" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="3901:3935" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="3968:4000" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="4009:4033" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="4043:4237" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="4301:4430" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="4560:4714" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="4733:4850" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="4869:4912" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="4927:4977" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="4990:5029" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="5045:5344" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="5367:5388" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="5399:5635" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="5660:5969" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="6014:6142" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="6212:6486" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="6618:6776" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="6824:6854" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="6900:6977" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="7042:7213" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="7387:7465" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="7558:7736" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="7906:7986" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="8070:8126" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="8219:8409" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="8492:8584" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="8665:8992" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="9082:9188" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="9282:9538" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="9640:9712" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="9750:9894" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="9952:10199" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="10364:10579" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="10642:10920" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11043:11085" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11133:11249" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11284:11310" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11355:11472" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11492:11518" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11541:11582" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11601:11621" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11639:11683" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11713:11735" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11753:11778" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11789:11816" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11839:11862" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11876:11912" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11935:11959" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="11975:12018" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="12031:12052" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="12062:12086" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="12100:12127" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="12160:12183" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="12204:12542" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="12596:12619" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="12635:12683" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="12704:12861" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="12890:12938" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="12954:12989" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="13018:13063" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="13038:13061" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="13087:13416" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="13446:13463" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="13510:13558" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="13595:13612" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="13653:13901" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="13932:14306" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="14326:14351" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="14374:14469" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="14508:14621" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="14668:14695" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="14732:14752" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="14768:14815" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="14834:14928" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="14938:15104" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="15125:15212" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="15232:15343" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="15366:15394" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="15439:15465" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="15509:15535" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="15581:15607" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="15652:15676" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="15694:16198" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="16221:16632" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="16667:16700" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="16735:16941" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="16950:17116" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17123:17148" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17155:17287" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17342:17422" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17432:17456" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17466:17529" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17539:17563" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17573:17618" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17628:17653" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17663:17700" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17704:17728" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17780:18116" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17800:17820" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17847:17870" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17883:17905" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17924:17949" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="17973:17998" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="18019:18066" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="18090:18114" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="18144:18430" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="18164:18184" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="18211:18234" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="18255:18302" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="18313:18344" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="18356:18380" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="18398:18426" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19342:19345" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19342:19949" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19363:19410" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19423:19445" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19453:19486" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19497:19568" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19615:19664" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19685:19719" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19731:19770" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19789:19814" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19838:19863" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19875:19899" ph="{...}" />
+            <marker date="1556832873000" expanded="true" signature="19923:19947" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="35" column="2" lean-forward="false" selection-start-line="35" selection-start-column="2" selection-end-line="47" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/templates/_blog.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="23" lean-forward="true" selection-start-line="71" selection-start-column="23" selection-end-line="71" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/scss/_common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="112" column="8" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="73" column="89" lean-forward="false" selection-start-line="73" selection-start-column="89" selection-end-line="73" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
