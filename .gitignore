@@ -66,4 +66,5 @@ node_modules/
 
 # idea
 .idea/
+.idea
 web/public/.idea/
