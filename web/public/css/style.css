@@ -1,3 +1,6 @@
+/* LEVEL 1 */
+/* LEVEL 2 */
+/* LEVEL 3 */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300,400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700);
@@ -31,7 +34,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
     box-shadow: none;
     outline: 0px; }
 
-.btn-main, .btn-small {
+.btn-main, .btn-small, .level-1 .btn-small {
   background: gray;
   color: white;
   transition: all, 0.2s, ease; }
@@ -53,7 +56,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   font-weight: 400;
   transition: all, 0.2s, ease; }
   .sign-btn:hover {
-    background: gray; }
+    background: black; }
 
 #sign-out-button {
   display: none; }
@@ -156,9 +159,103 @@ a:focus {
   .page-title .block p {
     color: black; }
 
+/* LEVEL 1 */
+.level-1 {
+  /* Links */ }
+  .level-1 .btn-main, .level-1 .btn-small {
+    background: gray;
+    color: white;
+    transition: all, 0.2s, ease; }
+    .level-1 .btn-main:hover, .level-1 .btn-small:hover {
+      background: white;
+      color: black; }
+  .level-1 .sign-btn {
+    position: relative;
+    display: block;
+    z-index: 1;
+    float: right;
+    height: 30px;
+    width: 120px;
+    padding: 0;
+    background: white;
+    color: gray;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all, 0.2s, ease; }
+    .level-1 .sign-btn:hover {
+      background: white;
+      color: black; }
+  .level-1 .btn-solid-border {
+    border: 2px solid gray;
+    color: black; }
+    .level-1 .btn-solid-border:hover {
+      border: 2px solid #0064ff;
+      background: gray;
+      color: black; }
+  .level-1 .btn-small {
+    padding: 10px 25px;
+    font-size: 12px; }
+  .level-1 .bg-gray {
+    background: #f2f2f2; }
+  .level-1 .bg-primary {
+    background: #0000ff; }
+  .level-1 .section {
+    background: #353535;
+    padding: 100px 0; }
+  .level-1 .section-title {
+    margin-bottom: 70px; }
+    .level-1 .section-title .title {
+      font-size: 50px;
+      line-height: 50px; }
+    .level-1 .section-title p {
+      color: gray;
+      font-family: "Montserrat", sans-serif; }
+  .level-1 .subtitle {
+    color: #0000ff;
+    font-size: 16px;
+    letter-spacing: 1px; }
+  .level-1 .overly, .level-1 .page-title, .level-1 .bg-about, .level-1 .bg-2, .level-1 .slider, .level-1 .popup {
+    position: relative; }
+    .level-1 .overly:before, .level-1 .page-title:before, .level-1 .bg-about:before, .level-1 .bg-2:before, .level-1 .slider:before, .level-1 .popup:before {
+      content: "";
+      background: none;
+      bottom: 0;
+      height: 100%;
+      opacity: 0.5;
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      width: 100%; }
+  .level-1 .text-color {
+    color: white; }
+  .level-1 .text-sm {
+    font-size: 16px; }
+  .level-1 .text-md {
+    font-size: 2.25rem; }
+  .level-1 .text-lg {
+    font-size: 3.75rem; }
+  .level-1 a {
+    color: white;
+    text-decoration: none; }
+  .level-1 a:focus, .level-1 a:hover {
+    color: #0064ff;
+    text-decoration: none; }
+  .level-1 a:focus {
+    outline: none; }
+  .level-1 .content-title {
+    font-size: 40px;
+    line-height: 50px; }
+  .level-1 .page-title {
+    padding: 100px 0; }
+    .level-1 .page-title .block h1 {
+      color: white; }
+    .level-1 .page-title .block p {
+      color: white; }
+
 .bg-about {
   background-size: cover;
-  background: url("../images/about/home-8.jpg") no-repeat;
+  background: url("../images/about/ai.jpg") no-repeat;
   content: "";
   left: 0px;
   min-height: 650px;
@@ -179,12 +276,65 @@ a:focus {
       position: absolute;
       top: 8px; }
 
+/* LEVEL 1 */
+.level-1 .bg-about {
+  background-size: cover;
+  background: url("../images/about/ai_blue.jpg") no-repeat;
+  content: "";
+  left: 0px;
+  min-height: 650px;
+  position: absolute;
+  top: 0px;
+  width: 45%; }
+
+.level-1 .about-content {
+  padding: 20px 0px 0px 80px; }
+  .level-1 .about-content h4 {
+    font-weight: 600; }
+    .level-1 .about-content h4:before {
+      content: "\f126";
+      font-family: "Font Awesome 5 Free";
+      font-size: 30px;
+      font-weight: 700;
+      left: -65px;
+      position: absolute;
+      top: 8px; }
+
 .bg-1 {
-  background: url("../images/bg/home-2.jpg") no-repeat 50% 50%;
+  background: url("../images/bg/home_white.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover; }
 
 .bg-2 {
-  background: url("../images/bg/home-1.jpg");
+  background: url("../images/bg/home_white.jpg");
+  background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/* LEVEL 1 */
+.level-1 .bg-1 {
+  background: url("../images/bg/home_blue.jpg") no-repeat 50% 50%;
+  background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.level-1 .bg-2 {
+  background: url("../images/bg/home_blue.jpg");
+  background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover; }
 
 .blog-item-content h3 {
@@ -244,8 +394,9 @@ h3.quote::before {
   padding-bottom: 150px;
   position: relative; }
 
-.blog-item {
-  border-bottom: 1px solid #dedede; }
+/* LEVEL 1 */
+.level-1 .bg-white {
+  background-color: black !important; }
 
 .chatbot-open {
   background-color: white;
@@ -331,6 +482,91 @@ h3.quote::before {
     .chatbot .chatbot-inner .botui-message-content.human {
       background: gray; }
 
+/* LEVEL 1 */
+.level-1 .chatbot-open {
+  background-color: black;
+  border: 1px solid black;
+  box-shadow: 3px 10px 3px 3px rgba(50, 50, 50, 0.3);
+  color: white;
+  cursor: pointer;
+  height: 65px;
+  padding: 10px 0 0 0;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  z-index: 1; }
+  .level-1 .chatbot-open:hover {
+    color: #0064ff; }
+
+.level-1 .chatbot {
+  display: none;
+  background-color: #353535;
+  box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.3);
+  height: 400px;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transition: 0.3s ease;
+  width: 320px;
+  z-index: 1; }
+  .level-1 .chatbot .chatbot-nav {
+    background-color: black;
+    border-bottom: 1px solid white;
+    color: gray;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    list-style: none;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    transition: 0.3s ease;
+    width: 100%;
+    z-index: 110; }
+    .level-1 .chatbot .chatbot-nav .chatbot-nav-item {
+      height: 50px;
+      line-height: 50px;
+      margin-right: 5px;
+      position: relative;
+      transition: 0.3s ease; }
+      .level-1 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link {
+        color: inherit;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.3s ease;
+        width: 100%; }
+        .level-1 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover {
+          color: #0064ff; }
+  .level-1 .chatbot .chatbot-inner {
+    -ms-overflow-style: none;
+    background: #f2f2f2;
+    height: 400px;
+    overflow: -moz-scrollbars-none;
+    overflow: scroll;
+    padding-top: 50px; }
+    .level-1 .chatbot .chatbot-inner::-webkit-scrollbar {
+      width: 0 !important; }
+    .level-1 .chatbot .chatbot-inner .botui-container {
+      background: none;
+      font-size: 16px;
+      font-family: "Montserrat", sans-serif; }
+    .level-1 .chatbot .chatbot-inner .botui-message-content.text {
+      background: white; }
+    .level-1 .chatbot .chatbot-inner .botui-message-content.human {
+      background: gray; }
+
 .address-block li {
   margin-bottom: 10px; }
   .address-block li i {
@@ -360,6 +596,18 @@ h3.quote::before {
   border-top: 1px solid #dedede; }
 
 .footer-socials li a {
+  margin-left: 15px; }
+
+/* LEVEL 1 */
+.level-1 .footer {
+  background: #353535; }
+  .level-1 .footer .copyright a {
+    font-weight: 600; }
+
+.level-1 .footer-btm {
+  border-top: 1px solid #353535; }
+
+.level-1 .footer-socials li a {
   margin-left: 15px; }
 
 .intro-item i {
@@ -409,6 +657,60 @@ h3.quote::before {
   @media (max-width: 480px) {
     .navbar-brand {
       width: 240px; } }
+  .navbar-brand .logo {
+    display: block; }
+  .navbar-brand .logo-blue {
+    display: none; }
+  .navbar-brand .logo-green {
+    display: none; }
+  .navbar-brand .logo-red {
+    display: none; }
+
+/* LEVEL 1 */
+.level-1 #navbar {
+  background: #353535; }
+  .level-1 #navbar li {
+    padding-left: 15px; }
+    .level-1 #navbar li.active .nav-link {
+      color: #0064ff; }
+  .level-1 #navbar .nav-link {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease; }
+    .level-1 #navbar .nav-link:hover, .level-1 #navbar .nav-link:focus {
+      color: #0064ff; }
+  .level-1 #navbar .btn {
+    padding: .5rem 1.5rem;
+    color: white; }
+  .level-1 #navbar .sign-btn {
+    padding: .5rem 1.5rem .5rem 0rem;
+    background: black;
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all, 0.2s, ease; }
+    .level-1 #navbar .sign-btn:hover {
+      background: black;
+      color: white; }
+
+.level-1 .navbar-brand {
+  width: 300px;
+  height: auto; }
+  @media (max-width: 480px) {
+    .level-1 .navbar-brand {
+      width: 240px; } }
+  .level-1 .navbar-brand .logo {
+    display: none; }
+  .level-1 .navbar-brand .logo-blue {
+    display: block; }
 
 .portflio-item:before {
   background: rgba(0, 0, 0, 0.8);
@@ -499,11 +801,16 @@ h3.quote::before {
     opacity: .4; }
 
 .slider {
-  background: url("../images/bg/home-1.jpg") no-repeat;
+  background: url("../images/bg/home_white.jpg") no-repeat;
   background-size: cover;
   background-position: 10% 0%;
   padding: 100px 0 150px 0;
-  position: relative; }
+  position: relative;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
   .slider .block h1 {
     color: black;
     font-size: 70px;
@@ -516,6 +823,32 @@ h3.quote::before {
     line-height: 27px;
     margin-bottom: 30px; }
   .slider .block span {
+    letter-spacing: 1px; }
+
+/* LEVEL 1 */
+.level-1 .slider {
+  background: url("../images/bg/home_blue.jpg") no-repeat;
+  background-size: cover;
+  background-position: 10% 0%;
+  padding: 100px 0 150px 0;
+  position: relative;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .level-1 .slider .block h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 80px; }
+  .level-1 .slider .block p {
+    color: #0064ff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-bottom: 30px; }
+  .level-1 .slider .block span {
     letter-spacing: 1px; }
 
 .team-img-hover .team-social li a.facebook {
@@ -631,6 +964,23 @@ h6, .h6 {
 
 p {
   line-height: 30px; }
+
+/* LEVEL 1 */
+.level-1 body {
+  -webkit-font-smoothing: antialiased;
+  color: #0064ff;
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  line-height: 1.5; }
+
+.level-1 h1, .level-1 .h1, .level-1 h2, .level-1 .h2, .level-1 h3, .level-1 .h3, .level-1 h4, .level-1 .h4, .level-1 h5, .level-1 .h5, .level-1 h6, .level-1 .h6 {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600; }
+
+.level-1 h6, .level-1 .h6 {
+  color: #0064ff;
+  font-size: 1.2rem; }
 
 /*=== MEDIA QUERY ===*/
 @media (max-width: 992px) {

@@ -54,3 +54,31 @@ h6,.h6 {
 p {
 	line-height: 30px;
 }
+
+
+/* LEVEL 1 */
+
+.level-1 {
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    color: $blue;
+    font-family: $extra-font;
+    font-size: 16px;
+    line-height: 1.5;
+
+  }
+
+  h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+    color: $white;
+    font-family: $secondary-font;
+    font-weight:600;
+  }
+
+  h6,.h6 {
+    color: $blue;
+    font-size: 1.2rem;
+  }
+
+
+}

@@ -14,28 +14,30 @@
 	</head>
 
 	<body>
-		<h1 class="title">Pure JavaScript chatbot</h1>
-		<div class="wrapper">
-			<nav class="nav" id="nav">
-				<div class="default-nav">
-					<div class="main-nav">
-						<div class="toggle"></div>
-						<div class="main-nav-item"><a class="main-nav-item-link" href="#">Back</a></div>
-						<div class="options"></div>
+		<div class="main">
+			<h1 class="title">Pure JavaScript chatbot</h1>
+			<div class="wrapper">
+				<nav class="nav" id="nav">
+					<div class="default-nav">
+						<div class="main-nav">
+							<div class="toggle"></div>
+							<div class="main-nav-item"><a class="main-nav-item-link" href="#">Back</a></div>
+							<div class="options"></div>
+						</div>
 					</div>
+				</nav>
+				<div class="inner" id="inner">
+					<div class="content" id="content"></div>
 				</div>
-			</nav>
-			<div class="inner" id="inner">
-				<div class="content" id="content"></div>
+				<div class="bottom" id="bottom"><textarea class="input" id="input"></textarea>
+					<div class="send" id="send"></div>
+				</div>
 			</div>
-			<div class="bottom" id="bottom"><textarea class="input" id="input"></textarea>
-				<div class="send" id="send"></div>
-			</div>
+
+			<!--build:js js/main.min.js -->
+			<script src="js/jquery/jquery.js"></script>
+			<script src="js/chatbot.js"></script>
+			<!-- endbuild -->
 		</div>
-	
-		<!--build:js js/main.min.js -->
-		<script src="js/jquery/jquery.js"></script>
-		<script src="js/chatbot.js"></script>
-		<!-- endbuild -->
 	</body>
 </html>
