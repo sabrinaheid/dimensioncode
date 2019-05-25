@@ -133,4 +133,8 @@ git add -p
 ```
 
 
+files in git löschen (mit vorsicht behandeln!)
+```
+git rm filename filename filename 
+```
 
