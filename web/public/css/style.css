@@ -55,6 +55,15 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   .sign-btn:hover {
     background: gray; }
 
+#sign-out-button {
+  display: none; }
+
+.isLoggedIn #sign-in-button {
+  display: none; }
+
+.isLoggedIn #sign-out-button {
+  display: block; }
+
 .btn-solid-border {
   border: 2px solid gray;
   color: white; }
