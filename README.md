@@ -27,11 +27,7 @@ firebase login
 firebase deploy
 ```
 
-### Git
-Repository clonen 
-```
-git clone https://github.com/sabrinaheid/dimensioncode.git
-```
+### NPM
 
 Um lokal entwickeln zu können
 ```
@@ -42,40 +38,6 @@ lokale Entwicklungsungebung starten (localhost etc.), sofern gulp installiert (s
 ```
 gulp
 ```
-
-Neuer Branch erstellen
-```
-git checkout -b <branchname> z.B. feauture1
-```
-
-Branch wechseln
-```
-git checkout <branchname> z.B. feauture1
-```
-
-
-Änderungen ansehen, die ich gemacht habe
-```
-git status
-```
-
-Fügt alle Änderungen hinzu
-```
-git add *
-oder
-git add <pfadname>
-```
-
-Commit mit Message
-```
-git commit -m 'Hier kommt ein Satz hin was geändert hat'
-```
-
-Änderungen in das Repository pushen
-```
-git push origin <branchname> -> develop
-```
-
 
 ### Gulp
 Gulp installieren
@@ -94,3 +56,81 @@ Gulp-Version überprüfen, CLI version und Local version erforderlich
 ```
 gulp --version
 ```
+
+### GIT Lokaler Branch aktualisieren
+
+wechsle branch develop
+```
+git checkout develop
+```
+
+aktuellster develop branch herunterladen
+```
+git pull
+```
+
+zu lokalem branch wechseln
+```
+git checkout lokalerbranch
+```
+
+update lokaler branch mit local develop aktualisieren
+```
+git rebase develop
+```
+
+—> lokaler branch aktuell
+
+### GIT Online Branch aktualisieren
+
+alles hinzufügen
+```
+git add .
+```
+
+commiten mit kommentar
+```
+git commit -m ’kommentar’
+```
+
+upload branch
+```
+git push origin branchname
+```
+
+—> nun könnte gemerged werden auf github.com
+
+### GIT weitere wichtige Commands
+
+Repository clonen 
+```
+git clone https://github.com/sabrinaheid/dimensioncode.git
+```
+
+Änderungen ansehen, die ich gemacht habe
+```
+git status
+```
+
+Neuer Branch erstellen
+```
+git checkout -b <branchname> z.B. feauture1
+```
+
+alle änderung löschen 
+```
+git checkout — .
+```
+
+wechsle zu neuem branch
+```
+git checkout -b neuerbranchname
+```
+
+jede änderung
+```
+git add -p 
+```
+
+
+
