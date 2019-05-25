@@ -73,6 +73,16 @@ h3.quote::before {
 }
 
 .blog-item {
-	border-bottom: 1px solid $border-color;
+	//border-bottom: 1px solid $border-color;
+}
+
+/* LEVEL 1 */
+
+.level-1 {
+
+  .bg-white {
+    background-color: $black !important;
+  }
+
 }
 
