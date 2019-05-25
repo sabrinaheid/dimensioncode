@@ -34,9 +34,6 @@
 		<script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
 		<script src="https://unpkg.com/botui/build/botui.min.js"></script>
 
-
-
-
 	</head>
 
 	<body>
@@ -73,11 +70,21 @@
 				<div id="my-botui-app">
 				
 				</div>
-			<!-- Button that starts the sign-in flow -->
-			<button class="btn btn-main sign-btn" id="sign-in-button">sign in <i class="fas fa-sign-in-alt"></i></button>
+			<!-- <script>
+				firebase.auth().onAuthStateChanged(function(user) {
+					if (user) {	
+							var uid = firebase.auth().currentUser.uid;
+							var email = firebase.auth().currentUser.email;
+							console.log(uid + ' ' + email);
+					} else {
 
-			<!-- Button that handles sign-out -->
+					}
+				});
+			</script> -->
+
+			<button class="btn btn-main sign-btn" id="sign-in-button">sign in <i class="fas fa-sign-in-alt"></i></button>
 			<button class="btn btn-main sign-btn" id="sign-out-button">sign out <i class="fas fa-sign-out-alt"></i></button>
+
 			<!-- Slider Start -->
 			<section class="slider">
 				<div class="container">
@@ -395,7 +402,7 @@
 
 		<!-- Main JS -->
 		<script src="js/script.js"></script>
-		<script src="js/login.js"></script>
+		<script src="js/check_login.js"></script>
 
 		<!-- Chatbot JS -->
 		<script src="js/chatbot.js"></script>
