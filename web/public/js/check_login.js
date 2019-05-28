@@ -7,4 +7,8 @@ firebase.auth().onAuthStateChanged(function(user) {
 	} else {
 		$('.main').removeClass('isLoggedIn');
 	}
+
+	$('#sign-out-button').click(function() {
+		firebase.auth().signOut();
+	});
 });
