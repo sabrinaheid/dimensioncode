@@ -65,6 +65,78 @@
     }
   }
 
+}
 
+
+/* LEVEL 2 */
+
+.level-2 {
+
+  .bg-about {
+    background-size: cover;
+    background: url("../images/about/ai_green.jpg") no-repeat;
+    content: "";
+    left: 0px;
+    min-height: 650px;
+    position: absolute;
+    top: 0px;
+    width: 45%;
+  }
+
+
+  .about-content {
+    padding: 20px 0px 0px 80px;
+
+    h4 {
+      font-weight: 600;
+
+      &:before {
+        content: "\f126";
+        font-family: "Font Awesome 5 Free";
+        font-size: 30px;
+        font-weight: 700;
+        left: -65px;
+        position: absolute;
+        top: 8px;
+      }
+    }
+  }
+
+}
+
+
+/* LEVEL 3 */
+
+.level-3 {
+
+  .bg-about {
+    background-size: cover;
+    background: url("../images/about/ai_red.jpg") no-repeat;
+    content: "";
+    left: 0px;
+    min-height: 650px;
+    position: absolute;
+    top: 0px;
+    width: 45%;
+  }
+
+
+  .about-content {
+    padding: 20px 0px 0px 80px;
+
+    h4 {
+      font-weight: 600;
+
+      &:before {
+        content: "\f126";
+        font-family: "Font Awesome 5 Free";
+        font-size: 30px;
+        font-weight: 700;
+        left: -65px;
+        position: absolute;
+        top: 8px;
+      }
+    }
+  }
 
 }

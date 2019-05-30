@@ -41,7 +41,56 @@
     }
   }
 
+}
 
 
+/* LEVEL 2 */
+
+.level-2 {
+
+  .footer {
+    background: $dark;
+    .copyright {
+      a {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .footer-btm {
+    border-top: 1px solid $dark;
+  }
+
+  .footer-socials {
+    li a {
+      margin-left: 15px;
+    }
+  }
+
+}
+
+
+/* LEVEL 3 */
+
+.level-3 {
+
+  .footer {
+    background: $dark;
+    .copyright {
+      a {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .footer-btm {
+    border-top: 1px solid $dark;
+  }
+
+  .footer-socials {
+    li a {
+      margin-left: 15px;
+    }
+  }
 
 }

@@ -8,7 +8,7 @@
 
 
 @include large-desktop {
- 
+
 }
 
 @include desktop {
@@ -40,7 +40,7 @@
 	.address-block,
 	.social-icons {
 		text-align: center;
-	} 
+	}
 
 }
 
@@ -133,6 +133,15 @@
 	.blog-item-meta span{
 		margin: 6px 0px;
 	}
+    .chatbot {
+        width: 100%;
+    }
+    .chatbot-open {
+        width: 100%;
+    }
+    .chatbot-nav {
+      width: 100%;
+    }
 }
 
 @include mobile-xs {

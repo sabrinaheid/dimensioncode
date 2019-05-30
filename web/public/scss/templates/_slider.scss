@@ -76,7 +76,90 @@
     }
   }
 
+}
 
 
+/* LEVEL 2 */
+
+.level-2 {
+
+  .slider{
+    background: url("../images/bg/home_green.jpg") no-repeat;
+    background-size: cover;
+    background-position: 10% 0%;
+    padding:100px 0 150px 0;
+    position: relative;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .block {
+      h1 {
+        color: $white;
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 80px;
+
+      }
+
+      p {
+        color: $green;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-bottom: 30px;
+      }
+
+      span {
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+}
+
+
+/* LEVEL 3 */
+
+.level-3 {
+
+  .slider{
+    background: url("../images/bg/home_red.jpg") no-repeat;
+    background-size: cover;
+    background-position: 10% 0%;
+    padding:100px 0 150px 0;
+    position: relative;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .block {
+      h1 {
+        color: $white;
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 80px;
+
+      }
+
+      p {
+        color: $red;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-bottom: 30px;
+      }
+
+      span {
+        letter-spacing: 1px;
+      }
+    }
+  }
 
 }
