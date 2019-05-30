@@ -49,5 +49,62 @@
     background-size: cover;
   }
 
+}
+
+
+/* LEVEL 2 */
+
+.level-2 {
+
+  .bg-1 {
+    background: url("../images/bg/home_green.jpg") no-repeat 50% 50%;
+    background-size: cover;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-2 {
+    background: url("../images/bg/home_green.jpg");
+    background-size: cover;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+
+/* LEVEL 3 */
+
+.level-3 {
+
+  .bg-1 {
+    background: url("../images/bg/home_red.jpg") no-repeat 50% 50%;
+    background-size: cover;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-2 {
+    background: url("../images/bg/home_red.jpg");
+    background-size: cover;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 }

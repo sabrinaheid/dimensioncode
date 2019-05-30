@@ -1,0 +1,29 @@
+// Input Login
+.mdl-textfield__input {
+  //width: 100%;
+}
+
+// Input Login Placeholder
+.mdl-textfield__input::-webkit-input-placeholder {
+  font-family: $secondary-font;
+  color: $gray;
+  opacity: 0.5;
+}
+
+.mdl-textfield__input:-ms-input-placeholder {
+  font-family: $secondary-font;
+  color: $gray;
+  opacity: 0.5;
+}
+
+.mdl-textfield__input:-moz-placeholder {
+  font-family: $secondary-font;
+  color: $gray;
+  opacity: 0.5;
+}
+
+.mdl-textfield__input::-moz-placeholder {
+  font-family: $secondary-font;
+  color: $gray;
+  opacity: 0.5;
+}
