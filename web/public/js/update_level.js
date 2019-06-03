@@ -2,21 +2,30 @@
 firebase.auth().onAuthStateChanged(function(user) {
 	if (user) {	
 		var uid = firebase.auth().currentUser.uid;
-		// Get the user data
-		return firebase.database().ref('/users/' + uid).once('value').then(function(snapshot) {
+
+		var update = database.ref('/users/' + uid);
+		update.on('value', function(snapshot) {
 			var data = snapshot.val();
-
+			
 			if (data.level === '1') {
-				$('.main').addClass('level-1')
+				$('.main').addClass('level-1');
+				$('.main').removeClass('level-2');
+				$('.main').removeClass('level-3');
 			}
+
+			if (data.level === '2') {
+				$('.main').addClass('level-2');
+				$('.main').removeClass('level-1');
+				$('.main').removeClass('level-3');
+			}
+
+			if (data.level === '3') {
+				$('.main').addClass('level-3');
+				$('.main').removeClass('level-1');
+				$('.main').removeClass('level-2');
+			} 
 			console.log(data);
-
 		});
-
-		// var uid = firebase.auth().currentUser.uid;
-		// var email = firebase.auth().currentUser.email;
-		// console.log(uid + ' ' + email);
-		// $('.main').addClass('isLoggedIn');
 	} else {
 		console.log('Not logged in.');
 	}
