@@ -1202,8 +1202,6 @@ h3.quote::before {
     padding-left: 15px; }
     #navbar li.active .nav-link {
       color: black; }
-  #navbar .nav-item-download {
-    display: none; }
   #navbar .nav-link {
     color: gray;
     font-family: "Montserrat", sans-serif;
