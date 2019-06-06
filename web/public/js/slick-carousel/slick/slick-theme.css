@@ -197,8 +197,21 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.level-1 .slick-dots li button:before,
+.level-2 .slick-dots li button:before,
+.level-3 .slick-dots li button:before {
+    color:white;
+}
+
 .slick-dots li.slick-active button:before
 {
     opacity: .75;
     color: black;
+}
+
+.level-1 .slick-dots li.slick-active button:before,
+.level-2 .slick-dots li.slick-active button:before,
+.level-3 .slick-dots li.slick-active button:before {
+    color:white;
+    opacity: .75;
 }
