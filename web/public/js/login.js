@@ -128,7 +128,7 @@ function readUserData() {
 		return firebase.database().ref('/users/' + uid).once('value').then(function(snapshot) {
 			//Do something with your user data located in snapshot
 			console.log(snapshot.val());
-			window.location = '/'; 
+			window.location = '/download.html'; 
 		});
 
 		
@@ -159,7 +159,6 @@ function initApp() {
 			document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
 			document.getElementById('quickstart-sign-in').textContent = 'Sign out';
 			document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
-			// window.location = '/'; 
 
 			// if (!emailVerified) {
 			// 	document.getElementById('quickstart-verify-email').disabled = false;

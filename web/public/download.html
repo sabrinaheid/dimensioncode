@@ -13,7 +13,36 @@
 		<link rel="stylesheet" href="js/fontawesome/css/all.css">
 
 		<!-- Main Stylesheet -->
-		<link rel="stylesheet" href="css/style.css">
+		<script>
+			if (localStorage.level == '1') {
+				console.log('1');
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style-level-1.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+			} else if (localStorage.level == '2') {
+				console.log('2');
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style-level-2.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+			} else if (localStorage.level == '3') {
+				console.log('3');
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style-level-3.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+			} else {
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+			}
+		</script>
 
 		<!-- Firebase (DB) Connection -->
 		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
@@ -49,7 +78,6 @@
 								<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 								<li class="nav-item"><a class="nav-link" href="sponsors.html">Sponsors</a></li>
 								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-								<li class="nav-item nav-item-download active"><a class="nav-link" href="download.html">Download</a></li>
 							</ul>
 						</div>
 					</div>

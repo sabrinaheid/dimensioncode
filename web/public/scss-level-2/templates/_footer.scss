@@ -1,0 +1,18 @@
+.footer {
+    background: $dark;
+    .copyright {
+      a {
+        font-weight: 600;
+      }
+    }
+  }
+
+  .footer-btm {
+    border-top: 1px solid $dark;
+  }
+
+  .footer-socials {
+    li a {
+      margin-left: 15px;
+    }
+  }
