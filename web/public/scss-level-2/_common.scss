@@ -1,0 +1,254 @@
+input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
+	box-shadow: none;
+    font-family: $secondary-font;
+	font-size: 16px;
+	height: 45px;
+	outline: none;
+    /*
+	&:focus {
+		border:1px solid $primary-color;
+		box-shadow: none;
+	}*/
+}
+
+
+.form-control {
+	box-shadow: none;
+	border-radius: 0;
+
+	&:focus {
+		box-shadow: none;
+		border: 1px solid $primary-color;
+	}
+}
+
+
+// Button Style
+.btn {
+	border-radius: 0;
+	display: inline-block;
+	font-size: 0.8125rem;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 1rem 2.5rem;
+    margin: 5px 0 5px 0;
+	text-transform: uppercase;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    border: 0px;
+
+	&:focus {
+		border: 0px;
+		box-shadow: none;
+		outline: 0px;
+	}
+}
+
+.btn-main {
+  background: $dark;
+  color: $white;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+
+  &:hover {
+    background: $white;
+    color: $black;
+  }
+}
+
+.sign-btn {
+  position: relative;
+  display: block;
+  z-index: 1;
+  float: right;
+  height: 30px;
+  width: 120px;
+  padding: 3px 0 0 0;
+  margin: 0;
+  background: $dark;
+  color: $white;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+
+  &:hover {
+    background: $dark;
+    color: $blue;
+  }
+}
+
+#sign-out-button {
+	display: none;
+}
+
+.isLoggedIn  {
+	#sign-in-button {
+		display: none;
+	}
+
+	#sign-out-button {
+		display: block;
+	}
+}
+
+
+.btn-solid-border {
+  border: 2px solid $dark;
+  color: $black;
+
+  &:hover {
+    border: 2px solid $blue;
+    background: $blue;
+    color: $black;
+  }
+}
+
+.btn-small {
+	@extend .btn-main ;
+	padding: 10px 25px;
+	font-size: 12px;
+}
+
+.btn-round {
+	border-radius: 4px;
+}
+
+.btn-round-full {
+	border-radius: 50px;
+}
+
+.btn.active:focus, .btn:active:focus, .btn:focus {
+	outline: 0;
+}
+
+// Background
+
+.bg-gray {
+	background: $lightgray;
+}
+
+.bg-primary {
+	background: $primary-color;
+}
+
+  //  Section Title
+  .section {
+    background: $dark;
+    padding: 100px 0;
+  }
+
+  .section-title {
+    margin-bottom: 70px;
+
+    .title {
+      font-size: 50px;
+      line-height: 50px;
+    }
+
+    p {
+      color: $gray;
+      font-family: $secondary-font;
+    }
+  }
+
+.subtitle {
+	color: $primary-color;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+
+.overly {
+	position: relative;
+
+	&:before {
+		content: "";
+		background: $white;
+		bottom: 0;
+		height: 100%;
+		opacity: 0.5;
+		position: absolute; 
+		left: 0; 
+		top: 0; 
+		right: 0;		
+		width: 100%;
+	}
+}
+
+.text-color {
+	color: $white;
+}
+
+.text-sm {
+	font-size: 16px;
+}
+.text-md {
+	font-size: 2.25rem;
+}
+.text-lg {
+	font-size:3.75rem; 
+}
+
+  /* Links */
+  a {
+    color: $white;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+  }
+
+  a:focus, a:hover {
+    color: $blue;
+    text-decoration: none;
+  }
+
+  a:focus {
+    outline: none;
+  }
+
+.content-title {
+	font-size: 40px;
+	line-height: 50px;
+}
+
+.page-title {
+	padding: 100px 0;
+
+	.block {
+		h1 {
+			color:$black;
+		}
+
+		p {
+			color:$black;
+		}
+	}
+}
+
+code {
+  color: $black;
+}
+
+pre code {
+  color: $black;
+}
+
+
+  
+
+  
+
+
+ 

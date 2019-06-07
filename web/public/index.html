@@ -19,13 +19,26 @@
 		<!-- Main Stylesheet -->
 		<script>
 			if (localStorage.level == '1') {
-				console.log('yes');
+				console.log('1');
 				var link = document.createElement('link');
 				link.setAttribute('rel', 'stylesheet');
 				link.setAttribute('type', 'text/css');
 				link.setAttribute('href', 'css/style-level-1.css');
 				document.getElementsByTagName('head')[0].appendChild(link);
-
+			} else if (localStorage.level == '2') {
+				console.log('2');
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style-level-2.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+			} else if (localStorage.level == '3') {
+				console.log('3');
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style-level-3.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
 			} else {
 				var link = document.createElement('link');
 				link.setAttribute('rel', 'stylesheet');
@@ -33,7 +46,6 @@
 				link.setAttribute('href', 'css/style.css');
 				document.getElementsByTagName('head')[0].appendChild(link);
 			}
-		
 		</script>
 
 		<!-- Firebase (DB) Connection -->
@@ -405,7 +417,7 @@
 			<script src="js/chatbot.js"></script>
 
 			<!-- Update UI after login/logout-->
-			<script src="js/check_login.js"></script>		
+			<script src="js/check_login.js"></script>
 		</div>
 	</body>
 </html>

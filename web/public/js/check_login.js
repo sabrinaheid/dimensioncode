@@ -14,7 +14,6 @@ firebase.auth().onAuthStateChanged(function(user) {
 			
 			if (data.level === '1') {
 				localStorage.level = '1';
-				console.log(localStorage.getItem('level'));
 				// $('.main').addClass('level-1');
 				// $('.main').removeClass('level-2');
 				// $('.main').removeClass('level-3');
@@ -22,16 +21,16 @@ firebase.auth().onAuthStateChanged(function(user) {
 
 			if (data.level === '2') {
 				localStorage.level = '2';
-				$('.main').addClass('level-2');
-				$('.main').removeClass('level-1');
-				$('.main').removeClass('level-3');
+				// $('.main').addClass('level-2');
+				// $('.main').removeClass('level-1');
+				// $('.main').removeClass('level-3');
 			}
 
 			if (data.level === '3') {
 				localStorage.level = '3';
-				$('.main').addClass('level-3');
-				$('.main').removeClass('level-1');
-				$('.main').removeClass('level-2');
+				// $('.main').addClass('level-3');
+				// $('.main').removeClass('level-1');
+				// $('.main').removeClass('level-2');
 			} 
 		});
 	} else {
