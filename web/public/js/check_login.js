@@ -13,18 +13,22 @@ firebase.auth().onAuthStateChanged(function(user) {
 			var data = snapshot.val();
 			
 			if (data.level === '1') {
-				$('.main').addClass('level-1');
-				$('.main').removeClass('level-2');
-				$('.main').removeClass('level-3');
+				localStorage.level = '1';
+				console.log(localStorage.getItem('level'));
+				// $('.main').addClass('level-1');
+				// $('.main').removeClass('level-2');
+				// $('.main').removeClass('level-3');
 			}
 
 			if (data.level === '2') {
+				localStorage.level = '2';
 				$('.main').addClass('level-2');
 				$('.main').removeClass('level-1');
 				$('.main').removeClass('level-3');
 			}
 
 			if (data.level === '3') {
+				localStorage.level = '3';
 				$('.main').addClass('level-3');
 				$('.main').removeClass('level-1');
 				$('.main').removeClass('level-2');
@@ -32,6 +36,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 		});
 	} else {
 		$('.main').removeClass('isLoggedIn');
+		localStorage.removeItem('level');
 
 		if ($('.nav-item-download').length) {
 			$('.nav-item-download').remove();
@@ -40,9 +45,10 @@ firebase.auth().onAuthStateChanged(function(user) {
 
 	$('#sign-out-button').click(function() {
 		firebase.auth().signOut();
-		
-		$('.main').removeClass('level-1');
-		$('.main').removeClass('level-2');
-		$('.main').removeClass('level-3');
+		localStorage.removeItem('level');
+		location.reload();
+		// $('.main').removeClass('level-1');
+		// $('.main').removeClass('level-2');
+		// $('.main').removeClass('level-3');
 	});
 });

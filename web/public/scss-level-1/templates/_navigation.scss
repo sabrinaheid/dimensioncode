@@ -1,0 +1,78 @@
+
+
+#navbar {
+    background: $dark;
+
+    li {
+      padding-left: 15px;
+
+      &.active .nav-link {
+        color: $blue;
+      }
+    }
+
+    .nav-link {
+      color: $white;
+      font-family: $secondary-font;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+
+      &:hover, &:focus {
+        color: $blue;
+      }
+    }
+
+
+    .btn {
+      padding: .5rem 1.5rem;
+      color: $white;
+    }
+
+    .sign-btn {
+      padding: .5rem 1.5rem .5rem 0rem;
+      background: $black;
+      color: $gray;
+      font-size: 20px;
+      font-weight: 400;
+      transition: all, 0.2s, ease;
+
+      &:hover {
+        background: $black;
+        color: $white;
+      }
+    }
+
+  }
+
+  .navbar-brand {
+    width: 300px;
+    height: auto;
+
+    @include mobile {
+      width: 240px;
+    }
+
+    .logo {
+      display: none;
+    }
+
+    .logo-blue {
+      display: block;
+    }
+
+    .logo-green {
+      display: none;
+    }
+
+    .logo-red {
+      display: none;
+    }
+
+  }

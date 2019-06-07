@@ -124,9 +124,9 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   font-size: 16px;
   letter-spacing: 1px; }
 
-.overly, .page-title, .bg-about, .bg-2, .slider {
+.overly, .page-title, .slider {
   position: relative; }
-  .overly:before, .page-title:before, .bg-about:before, .bg-2:before, .slider:before {
+  .overly:before, .page-title:before, .slider:before {
     content: "";
     background: white;
     bottom: 0;
@@ -247,9 +247,9 @@ pre code {
     color: gray;
     font-size: 16px;
     letter-spacing: 1px; }
-  .level-1 .overly, .level-1 .page-title, .level-1 .bg-about, .level-1 .bg-2, .level-1 .slider {
+  .level-1 .overly, .level-1 .page-title, .level-1 .slider {
     position: relative; }
-    .level-1 .overly:before, .level-1 .page-title:before, .level-1 .bg-about:before, .level-1 .bg-2:before, .level-1 .slider:before {
+    .level-1 .overly:before, .level-1 .page-title:before, .level-1 .slider:before {
       content: "";
       background: none;
       bottom: 0;
@@ -354,9 +354,9 @@ pre code {
     color: gray;
     font-size: 16px;
     letter-spacing: 1px; }
-  .level-2 .overly, .level-2 .page-title, .level-2 .bg-about, .level-2 .bg-2, .level-2 .slider {
+  .level-2 .overly, .level-2 .page-title, .level-2 .slider {
     position: relative; }
-    .level-2 .overly:before, .level-2 .page-title:before, .level-2 .bg-about:before, .level-2 .bg-2:before, .level-2 .slider:before {
+    .level-2 .overly:before, .level-2 .page-title:before, .level-2 .slider:before {
       content: "";
       background: none;
       bottom: 0;
@@ -461,9 +461,9 @@ pre code {
     color: gray;
     font-size: 16px;
     letter-spacing: 1px; }
-  .level-3 .overly, .level-3 .page-title, .level-3 .bg-about, .level-3 .bg-2, .level-3 .slider {
+  .level-3 .overly, .level-3 .page-title, .level-3 .slider {
     position: relative; }
-    .level-3 .overly:before, .level-3 .page-title:before, .level-3 .bg-about:before, .level-3 .bg-2:before, .level-3 .slider:before {
+    .level-3 .overly:before, .level-3 .page-title:before, .level-3 .slider:before {
       content: "";
       background: none;
       bottom: 0;
@@ -507,7 +507,7 @@ pre code {
 
 .bg-about {
   background-size: cover;
-  background: url("../images/about/ai.jpg") no-repeat;
+  background: url("../images/about/ai_blue.jpg") no-repeat;
   content: "";
   left: 0px;
   min-height: 650px;
@@ -528,80 +528,8 @@ pre code {
       position: absolute;
       top: 8px; }
 
-/* LEVEL 1 */
-.level-1 .bg-about {
-  background-size: cover;
-  background: url("../images/about/ai_blue.jpg") no-repeat;
-  content: "";
-  left: 0px;
-  min-height: 650px;
-  position: absolute;
-  top: 0px;
-  width: 45%; }
-
-.level-1 .about-content {
-  padding: 20px 0px 0px 80px; }
-  .level-1 .about-content h4 {
-    font-weight: 600; }
-    .level-1 .about-content h4:before {
-      content: "\f126";
-      font-family: "Font Awesome 5 Free";
-      font-size: 30px;
-      font-weight: 700;
-      left: -65px;
-      position: absolute;
-      top: 8px; }
-
-/* LEVEL 2 */
-.level-2 .bg-about {
-  background-size: cover;
-  background: url("../images/about/ai_green.jpg") no-repeat;
-  content: "";
-  left: 0px;
-  min-height: 650px;
-  position: absolute;
-  top: 0px;
-  width: 45%; }
-
-.level-2 .about-content {
-  padding: 20px 0px 0px 80px; }
-  .level-2 .about-content h4 {
-    font-weight: 600; }
-    .level-2 .about-content h4:before {
-      content: "\f126";
-      font-family: "Font Awesome 5 Free";
-      font-size: 30px;
-      font-weight: 700;
-      left: -65px;
-      position: absolute;
-      top: 8px; }
-
-/* LEVEL 3 */
-.level-3 .bg-about {
-  background-size: cover;
-  background: url("../images/about/ai_red.jpg") no-repeat;
-  content: "";
-  left: 0px;
-  min-height: 650px;
-  position: absolute;
-  top: 0px;
-  width: 45%; }
-
-.level-3 .about-content {
-  padding: 20px 0px 0px 80px; }
-  .level-3 .about-content h4 {
-    font-weight: 600; }
-    .level-3 .about-content h4:before {
-      content: "\f126";
-      font-family: "Font Awesome 5 Free";
-      font-size: 30px;
-      font-weight: 700;
-      left: -65px;
-      position: absolute;
-      top: 8px; }
-
 .bg-1 {
-  background: url("../images/bg/home_white.jpg") no-repeat 50% 50%;
+  background: url("../../images/bg/home_blue.jpg") no-repeat 50% 50%;
   background-size: cover;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -610,64 +538,7 @@ pre code {
   background-size: cover; }
 
 .bg-2 {
-  background: url("../images/bg/home_white.jpg");
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-/* LEVEL 1 */
-.level-1 .bg-1 {
-  background: url("../images/bg/home_blue.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.level-1 .bg-2 {
   background: url("../images/bg/home_blue.jpg");
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-/* LEVEL 2 */
-.level-2 .bg-1 {
-  background: url("../images/bg/home_green.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.level-2 .bg-2 {
-  background: url("../images/bg/home_green.jpg");
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-/* LEVEL 3 */
-.level-3 .bg-1 {
-  background: url("../images/bg/home_red.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-.level-3 .bg-2 {
-  background: url("../images/bg/home_red.jpg");
   background-size: cover;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -737,10 +608,10 @@ h3.quote::before {
   background-color: black !important; }
 
 .chatbot-open {
-  background-color: white;
-  border: none;
+  background-color: #101010;
+  border: 1px solid #101010;
   box-shadow: none;
-  color: gray;
+  color: white;
   cursor: pointer;
   height: 65px;
   padding: 10px 0 0 0;
@@ -751,14 +622,19 @@ h3.quote::before {
   right: 0;
   bottom: 0;
   width: 320px;
-  z-index: 1; }
+  z-index: 1;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
   .chatbot-open:hover {
-    color: black; }
+    color: #0064ff; }
 
 .chatbot {
   display: none;
-  background-color: white;
-  box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.3);
+  background-color: #101010;
+  box-shadow: none;
   height: 400px;
   overflow: hidden;
   position: fixed;
@@ -768,9 +644,9 @@ h3.quote::before {
   width: 320px;
   z-index: 1; }
   .chatbot .chatbot-nav {
-    background-color: white;
-    border-bottom: 1px solid gray;
-    color: gray;
+    background-color: #101010;
+    border-bottom: 1px solid white;
+    color: white;
     height: 50px;
     position: absolute;
     left: 0;
@@ -780,7 +656,11 @@ h3.quote::before {
     margin: 0;
     font-size: 30px;
     text-align: center;
-    transition: 0.3s ease;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
     width: 100%;
     z-index: 110; }
     .chatbot .chatbot-nav .chatbot-nav-item {
@@ -801,7 +681,7 @@ h3.quote::before {
         transition: 0.3s ease;
         width: 100%; }
         .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover {
-          color: black; }
+          color: #0064ff; }
   .chatbot .chatbot-inner {
     -ms-overflow-style: none;
     background: #f2f2f2;
@@ -818,288 +698,6 @@ h3.quote::before {
     .chatbot .chatbot-inner .botui-message-content.text {
       background: white; }
     .chatbot .chatbot-inner .botui-message-content.human {
-      background: gray; }
-
-/* LEVEL 1 */
-.level-1 .chatbot-open {
-  background-color: #101010;
-  border: 1px solid #101010;
-  box-shadow: none;
-  color: white;
-  cursor: pointer;
-  height: 65px;
-  padding: 10px 0 0 0;
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 320px;
-  z-index: 1;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease; }
-  .level-1 .chatbot-open:hover {
-    color: #0064ff; }
-
-.level-1 .chatbot {
-  display: none;
-  background-color: #101010;
-  box-shadow: none;
-  height: 400px;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  transition: 0.3s ease;
-  width: 320px;
-  z-index: 1; }
-  .level-1 .chatbot .chatbot-nav {
-    background-color: #101010;
-    border-bottom: 1px solid white;
-    color: white;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    list-style: none;
-    margin: 0;
-    font-size: 30px;
-    text-align: center;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease;
-    width: 100%;
-    z-index: 110; }
-    .level-1 .chatbot .chatbot-nav .chatbot-nav-item {
-      height: 50px;
-      line-height: 50px;
-      margin-right: 5px;
-      position: relative;
-      transition: 0.3s ease; }
-      .level-1 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link {
-        color: inherit;
-        display: block;
-        height: 50px;
-        line-height: 50px;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: 0.3s ease;
-        width: 100%; }
-        .level-1 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover {
-          color: #0064ff; }
-  .level-1 .chatbot .chatbot-inner {
-    -ms-overflow-style: none;
-    background: #f2f2f2;
-    height: 400px;
-    overflow: -moz-scrollbars-none;
-    overflow: scroll;
-    padding-top: 50px; }
-    .level-1 .chatbot .chatbot-inner::-webkit-scrollbar {
-      width: 0 !important; }
-    .level-1 .chatbot .chatbot-inner .botui-container {
-      background: none;
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif; }
-    .level-1 .chatbot .chatbot-inner .botui-message-content.text {
-      background: white; }
-    .level-1 .chatbot .chatbot-inner .botui-message-content.human {
-      background: gray; }
-
-/* LEVEL 2 */
-.level-2 .chatbot-open {
-  background-color: #101010;
-  border: 1px solid #101010;
-  box-shadow: none;
-  color: white;
-  cursor: pointer;
-  height: 65px;
-  padding: 10px 0 0 0;
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 320px;
-  z-index: 1;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease; }
-  .level-2 .chatbot-open:hover {
-    color: #64ff64; }
-
-.level-2 .chatbot {
-  display: none;
-  background-color: #101010;
-  box-shadow: none;
-  height: 400px;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  transition: 0.3s ease;
-  width: 320px;
-  z-index: 1; }
-  .level-2 .chatbot .chatbot-nav {
-    background-color: #101010;
-    border-bottom: 1px solid white;
-    color: white;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    list-style: none;
-    margin: 0;
-    font-size: 30px;
-    text-align: center;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease;
-    width: 100%;
-    z-index: 110; }
-    .level-2 .chatbot .chatbot-nav .chatbot-nav-item {
-      height: 50px;
-      line-height: 50px;
-      margin-right: 5px;
-      position: relative;
-      transition: 0.3s ease; }
-      .level-2 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link {
-        color: inherit;
-        display: block;
-        height: 50px;
-        line-height: 50px;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: 0.3s ease;
-        width: 100%; }
-        .level-2 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover {
-          color: #64ff64; }
-  .level-2 .chatbot .chatbot-inner {
-    -ms-overflow-style: none;
-    background: #f2f2f2;
-    height: 400px;
-    overflow: -moz-scrollbars-none;
-    overflow: scroll;
-    padding-top: 50px; }
-    .level-2 .chatbot .chatbot-inner::-webkit-scrollbar {
-      width: 0 !important; }
-    .level-2 .chatbot .chatbot-inner .botui-container {
-      background: none;
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif; }
-    .level-2 .chatbot .chatbot-inner .botui-message-content.text {
-      background: white; }
-    .level-2 .chatbot .chatbot-inner .botui-message-content.human {
-      background: gray; }
-
-/* LEVEL 3 */
-.level-3 .chatbot-open {
-  background-color: #101010;
-  border: 1px solid #101010;
-  box-shadow: none;
-  color: white;
-  cursor: pointer;
-  height: 65px;
-  padding: 10px 0 0 0;
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 320px;
-  z-index: 1;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease; }
-  .level-3 .chatbot-open:hover {
-    color: #ff3232; }
-
-.level-3 .chatbot {
-  display: none;
-  background-color: #101010;
-  box-shadow: none;
-  height: 400px;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  transition: 0.3s ease;
-  width: 320px;
-  z-index: 1; }
-  .level-3 .chatbot .chatbot-nav {
-    background-color: #101010;
-    border-bottom: 1px solid white;
-    color: white;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    list-style: none;
-    margin: 0;
-    font-size: 30px;
-    text-align: center;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease;
-    width: 100%;
-    z-index: 110; }
-    .level-3 .chatbot .chatbot-nav .chatbot-nav-item {
-      height: 50px;
-      line-height: 50px;
-      margin-right: 5px;
-      position: relative;
-      transition: 0.3s ease; }
-      .level-3 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link {
-        color: inherit;
-        display: block;
-        height: 50px;
-        line-height: 50px;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: 0.3s ease;
-        width: 100%; }
-        .level-3 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover {
-          color: #ff3232; }
-  .level-3 .chatbot .chatbot-inner {
-    -ms-overflow-style: none;
-    background: #f2f2f2;
-    height: 400px;
-    overflow: -moz-scrollbars-none;
-    overflow: scroll;
-    padding-top: 50px; }
-    .level-3 .chatbot .chatbot-inner::-webkit-scrollbar {
-      width: 0 !important; }
-    .level-3 .chatbot .chatbot-inner .botui-container {
-      background: none;
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif; }
-    .level-3 .chatbot .chatbot-inner .botui-message-content.text {
-      background: white; }
-    .level-3 .chatbot .chatbot-inner .botui-message-content.human {
       background: gray; }
 
 .address-block li {

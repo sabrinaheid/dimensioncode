@@ -1,0 +1,115 @@
+.chatbot-open {
+  background-color: $dark;
+  border: 1px solid $dark;
+  box-shadow: none;
+  color: $white;
+  cursor: pointer;
+  height: 65px;
+  padding: 10px 0 0 0;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 320px;
+  z-index: 1;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+
+  &:hover {
+    color: $blue;
+  }
+}
+
+.chatbot {
+  display: none;
+  background-color: $dark;
+  box-shadow: none;
+  height: 400px;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  transition: 0.3s ease;
+  width: 320px;
+  z-index: 1;
+
+  .chatbot-nav {
+    background-color: $dark;
+    border-bottom: 1px solid $white;
+    color: $white;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    list-style: none;
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    width: 100%;
+    z-index: 110;
+
+    .chatbot-nav-item {
+      height: 50px;
+      line-height: 50px;
+      margin-right: 5px;
+      position: relative;
+      transition: 0.3s ease;
+
+      .chatbot-nav-item-link {
+        color: inherit;
+        display: block;
+        height: 50px;
+        line-height: 50px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 0.3s ease;
+        width: 100%;
+
+        &:hover {
+          color: $blue;
+        }
+      }
+    }
+
+  }
+
+  .chatbot-inner {
+    -ms-overflow-style: none;
+    background: $lightgray;
+    height: 400px;
+    overflow: -moz-scrollbars-none;
+    overflow: scroll;
+    padding-top: 50px;
+
+    &::-webkit-scrollbar {
+      width: 0 !important;
+    }
+
+    .botui-container {
+      background: none;
+      font-size: 16px;
+      font-family: $primary-font;
+    }
+
+    .botui-message-content.text {
+      background: $white;
+    }
+
+    .botui-message-content.human {
+      background: $gray;
+    }
+  }
+}

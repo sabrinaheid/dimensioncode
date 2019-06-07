@@ -17,7 +17,24 @@
 		<link rel="stylesheet" href="js/slick-carousel/slick/slick-theme.css">
 
 		<!-- Main Stylesheet -->
-		<link rel="stylesheet" href="css/style.css">
+		<script>
+			if (localStorage.level == '1') {
+				console.log('yes');
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style-level-1.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+
+			} else {
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+			}
+		
+		</script>
 
 		<!-- Firebase (DB) Connection -->
 		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>

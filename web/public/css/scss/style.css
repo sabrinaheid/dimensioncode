@@ -737,7 +737,7 @@ h3.quote::before {
   background-color: black !important; }
 
 .chatbot-open {
-  background-color: white;
+  background-color: lime;
   border: none;
   box-shadow: none;
   color: gray;
