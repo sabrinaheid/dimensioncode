@@ -44,16 +44,6 @@
 		]
 	});
 
-
-	 $('.portfolio-gallery').each(function () {
-		$(this).find('.popup-gallery').magnificPopup({
-			type: 'image',
-			gallery: {
-				enabled: true
-			}
-		});
-	});
-
 	// Counter
 
 	$('.counter-stat').counterUp({

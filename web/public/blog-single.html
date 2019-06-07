@@ -10,11 +10,16 @@
 		<link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
 
 		<!-- Icon Font Css -->
-		<link rel="stylesheet" href="js/themify/css/themify-icons.css">
 		<link rel="stylesheet" href="js/fontawesome/css/all.css">
 
 		<!-- Main Stylesheet -->
 		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Firebase (DB) Connection -->
+		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-database.js"></script>
+		<script src="js/firebase_config.js"></script>
 	</head>
 
 	<body>
@@ -33,15 +38,14 @@
 					
 						<div class="collapse navbar-collapse text-center" id="navbarsExample09">
 							<ul class="navbar-nav ml-auto">
-								<li class="nav-item active">
+								<li class="nav-item">
 									<a class="nav-link" href="index.html">Home </a>
 								</li>
 								<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
 								<li class="nav-item"><a class="nav-link" href="ai.html">AI</a></li>
-								<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+								<li class="nav-item active"><a class="nav-link" href="blog.html">Blog</a></li>
 								<li class="nav-item"><a class="nav-link" href="sponsors.html">Sponsors</a></li>
 								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-								<li class="nav-item nav-item-download"><a class="nav-link" href="download.html">Download</a></li>
 							</ul>
 						</div>
 					</div>
@@ -50,6 +54,8 @@
 		<!-- Header Close --> 
 
 		<div class="main-wrapper ">
+			<a href="login.html" class="btn btn-main sign-btn" id="sign-in-button">sign in <i class="fas fa-sign-in-alt"></i></a>
+			<a href="#" class="btn btn-main sign-btn" id="sign-out-button">sign out <i class="fas fa-sign-out-alt"></i></a>
 			<section class="page-title bg-1">
 				<div class="container">
 					<div class="row">
@@ -159,15 +165,13 @@
 			</footer>
 		</div>
 
-		<!-- 
-		Essential Scripts
-		=====================================-->
-		
 		<!-- Main jQuery -->
 		<script src="js/jquery/jquery.js"></script>
 
 		<!-- Bootstrap 4.3.1 -->
-		<script src="js/bootstrap/js/popper.js"></script>
 		<script src="js/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Update UI after login/logout-->
+		<script src="js/check_login.js"></script>	
 	</body>
 </html>
