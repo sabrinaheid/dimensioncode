@@ -1,13 +1,13 @@
 
 
 #navbar {
-    background: orange;
+    background: $dark;
 
     li {
       padding-left: 15px;
 
       &.active .nav-link {
-        color: $blue;
+        color: $green;
       }
     }
 
@@ -25,7 +25,7 @@
       transition: all .25s ease;
 
       &:hover, &:focus {
-        color: $blue;
+        color: $green;
       }
     }
 
@@ -64,11 +64,11 @@
     }
 
     .logo-blue {
-      display: block;
+      display: none;
     }
 
     .logo-green {
-      display: none;
+      display: block;
     }
 
     .logo-red {

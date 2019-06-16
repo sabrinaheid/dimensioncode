@@ -43,7 +43,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
     box-shadow: none;
     outline: 0px; }
 
-.btn-main, .btn-small {
+.btn-main, .btn-small, .btn-without-bg {
   background: #101010;
   color: white;
   -webkit-transition: all .25s ease;
@@ -51,7 +51,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   -ms-transition: all .25s ease;
   -o-transition: all .25s ease;
   transition: all .25s ease; }
-  .btn-main:hover, .btn-small:hover {
+  .btn-main:hover, .btn-small:hover, .btn-without-bg:hover {
     background: white;
     color: black; }
 
@@ -75,7 +75,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   transition: all .25s ease; }
   .sign-btn:hover {
     background: #101010;
-    color: #0064ff; }
+    color: #c8191e; }
 
 #sign-out-button {
   display: none; }
@@ -87,11 +87,11 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   display: block; }
 
 .btn-solid-border {
-  border: 2px solid #101010;
+  border: 2px solid #c8191e;
   color: black; }
   .btn-solid-border:hover {
-    border: 2px solid #0064ff;
-    background: #0064ff;
+    border: 2px solid #c8191e;
+    background: #c8191e;
     color: black; }
 
 .btn-small {
@@ -106,6 +106,16 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 
 .btn.active:focus, .btn:active:focus, .btn:focus {
   outline: 0; }
+
+.btn-without-bg {
+  padding: 10px 25px;
+  background: none;
+  color: gray;
+  font-size: 12px; }
+  .btn-without-bg:hover {
+    border: none;
+    background: none;
+    color: black; }
 
 .bg-gray {
   background: #f2f2f2; }
@@ -168,7 +178,7 @@ a {
   transition: all .25s ease; }
 
 a:focus, a:hover {
-  color: #0064ff;
+  color: #c8191e;
   text-decoration: none; }
 
 a:focus {
@@ -181,7 +191,7 @@ a:focus {
 .page-title {
   padding: 100px 0; }
   .page-title .block h1 {
-    color: black; }
+    color: white; }
   .page-title .block p {
     color: black; }
 
@@ -191,9 +201,12 @@ code {
 pre code {
   color: black; }
 
+.blue {
+  color: #c8191e; }
+
 .bg-about {
   background-size: cover;
-  background: url("../images/about/ai_blue.jpg") no-repeat;
+  background: url("../images/about/ai_red.jpg") no-repeat;
   content: "";
   left: 0px;
   min-height: 650px;
@@ -212,10 +225,11 @@ pre code {
       font-weight: 700;
       left: -65px;
       position: absolute;
-      top: 8px; }
+      top: 8px;
+      color: #c8191e; }
 
 .bg-1 {
-  background: url("../../images/bg/home_blue.jpg") no-repeat 50% 50%;
+  background: url("../../images/bg/home_red.jpg") no-repeat 50% 50%;
   background-size: cover;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -224,7 +238,7 @@ pre code {
   background-size: cover; }
 
 .bg-2 {
-  background: url("../images/bg/home_blue.jpg");
+  background: url("../images/bg/home_red.jpg");
   background-size: cover;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -238,7 +252,7 @@ pre code {
 .blog-item-content h3 a {
   transition: all .4s ease 0s; }
   .blog-item-content h3 a:hover {
-    color: black !important; }
+    color: #c8191e !important; }
 
 .lh-36 {
   line-height: 36px; }
@@ -314,7 +328,7 @@ h3.quote::before {
   -o-transition: all .25s ease;
   transition: all .25s ease; }
   .chatbot-open:hover {
-    color: #0064ff; }
+    color: #c8191e; }
 
 .chatbot {
   display: none;
@@ -366,7 +380,7 @@ h3.quote::before {
         transition: 0.3s ease;
         width: 100%; }
         .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover {
-          color: #0064ff; }
+          color: #c8191e; }
   .chatbot .chatbot-inner {
     -ms-overflow-style: none;
     background: #f2f2f2;
@@ -446,11 +460,11 @@ h3.quote::before {
   opacity: 0.5; }
 
 #navbar {
-  background: red; }
+  background: #101010; }
   #navbar li {
     padding-left: 15px; }
     #navbar li.active .nav-link {
-      color: #0064ff; }
+      color: #c8191e; }
   #navbar .nav-link {
     color: white;
     font-family: "Montserrat", sans-serif;
@@ -464,7 +478,7 @@ h3.quote::before {
     -o-transition: all .25s ease;
     transition: all .25s ease; }
     #navbar .nav-link:hover, #navbar .nav-link:focus {
-      color: #0064ff; }
+      color: #c8191e; }
   #navbar .btn {
     padding: .5rem 1.5rem;
     color: white; }
@@ -488,11 +502,11 @@ h3.quote::before {
   .navbar-brand .logo {
     display: none; }
   .navbar-brand .logo-blue {
-    display: block; }
+    display: none; }
   .navbar-brand .logo-green {
     display: none; }
   .navbar-brand .logo-red {
-    display: none; }
+    display: block; }
 
 .portflio-item:before {
   background: rgba(0, 0, 0, 0.8);
@@ -583,7 +597,7 @@ h3.quote::before {
     opacity: .4; }
 
 .slider {
-  background: url("../images/bg/home_blue.jpg") no-repeat;
+  background: url("../images/bg/home_red.jpg") no-repeat;
   background-size: cover;
   background-position: 10% 0%;
   padding: 100px 0 150px 0;
@@ -599,7 +613,7 @@ h3.quote::before {
     font-weight: 600;
     line-height: 80px; }
   .slider .block p {
-    color: #0064ff;
+    color: #c8191e;
     font-size: 18px;
     font-weight: 300;
     line-height: 27px;
@@ -617,7 +631,8 @@ h3.quote::before {
   background: #cc66cc; }
 
 .team-img-hover .team-social li a.linkedin {
-  background: white; }
+  background: #c8191e;
+  color: white; }
 
 .team-img-hover {
   position: absolute;
@@ -706,14 +721,18 @@ h5, .h5 {
   font-size: 1.25rem; }
 
 h6, .h6 {
-  color: #0064ff;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  color: gray; }
 
 p {
   line-height: 30px; }
 
 /*=== MEDIA QUERY ===*/
 @media (max-width: 992px) {
+  .navbar button {
+    color: white; }
+    .navbar button:hover {
+      color: #c8191e; }
   .intro {
     text-align: center; }
   .about-info {
@@ -732,6 +751,10 @@ p {
     text-align: center; } }
 
 @media (max-width: 768px) {
+  .navbar button {
+    color: white; }
+    .navbar button:hover {
+      color: #c8191e; }
   .bg-about {
     display: none; }
   .footer-socials {
@@ -746,9 +769,13 @@ p {
 
 @media (max-width: 480px) {
   .navbar-toggler {
-    color: gray; }
+    color: white; }
     .navbar-toggler:hover {
-      color: black; }
+      color: #c8191e; }
+  .navbar button {
+    color: white; }
+    .navbar button:hover {
+      color: #c8191e; }
   .slider .block h1 {
     font-size: 38px;
     line-height: 45px; }
@@ -791,9 +818,13 @@ p {
 
 @media (max-width: 400px) {
   .navbar-toggler {
-    color: gray; }
+    color: white; }
     .navbar-toggler:hover {
-      color: black; }
+      color: #c8191e; }
+  .navbar button {
+    color: white; }
+    .navbar button:hover {
+      color: #c8191e; }
   .slider .block h1 {
     font-size: 38px;
     line-height: 45px; }

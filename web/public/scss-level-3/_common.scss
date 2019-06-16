@@ -83,7 +83,7 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 
   &:hover {
     background: $dark;
-    color: $blue;
+    color: $red;
   }
 }
 
@@ -103,12 +103,12 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 
 
 .btn-solid-border {
-  border: 2px solid $dark;
+  border: 2px solid $red;
   color: $black;
 
   &:hover {
-    border: 2px solid $blue;
-    background: $blue;
+    border: 2px solid $red;
+    background: $red;
     color: $black;
   }
 }
@@ -131,110 +131,124 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 	outline: 0;
 }
 
+.btn-without-bg {
+  @extend .btn-main;
+  padding: 10px 25px;
+  background: none;
+  color: $gray;
+  font-size: 12px;
+
+  &:hover {
+    border: none;
+    background: none;
+    color: $black;
+  }
+}
+
 // Background
 
 .bg-gray {
-	background: $lightgray;
+  background: $lightgray;
 }
 
 .bg-primary {
-	background: $primary-color;
+  background: $primary-color;
 }
 
-  //  Section Title
-  .section {
-    background: $dark;
-    padding: 100px 0;
+//  Section Title
+.section {
+  background: $dark;
+  padding: 100px 0;
+}
+
+.section-title {
+  margin-bottom: 70px;
+
+  .title {
+    font-size: 50px;
+    line-height: 50px;
   }
 
-  .section-title {
-    margin-bottom: 70px;
-
-    .title {
-      font-size: 50px;
-      line-height: 50px;
-    }
-
-    p {
-      color: $gray;
-      font-family: $secondary-font;
-    }
+  p {
+    color: $gray;
+    font-family: $secondary-font;
   }
+}
 
 .subtitle {
-	color: $primary-color;
-	font-size: 16px;
-	letter-spacing: 1px;
+  color: $primary-color;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .overly {
-	position: relative;
+  position: relative;
 
-	&:before {
-		content: "";
-		background: $white;
-		bottom: 0;
-		height: 100%;
-		opacity: 0.5;
-		position: absolute; 
-		left: 0; 
-		top: 0; 
-		right: 0;		
-		width: 100%;
-	}
+  &:before {
+    content: "";
+    background: $white;
+    bottom: 0;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
 }
 
 .text-color {
-	color: $white;
+  color: $white;
 }
 
 .text-sm {
-	font-size: 16px;
+  font-size: 16px;
 }
 .text-md {
-	font-size: 2.25rem;
+  font-size: 2.25rem;
 }
 .text-lg {
-	font-size:3.75rem; 
+  font-size: 3.75rem;
 }
 
-  /* Links */
-  a {
-    color: $white;
-    text-decoration: none;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease;
-  }
+/* Links */
+a {
+  color: $white;
+  text-decoration: none;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
 
-  a:focus, a:hover {
-    color: $blue;
-    text-decoration: none;
-  }
+a:focus, a:hover {
+  color: $red;
+  text-decoration: none;
+}
 
-  a:focus {
-    outline: none;
-  }
+a:focus {
+  outline: none;
+}
 
 .content-title {
-	font-size: 40px;
-	line-height: 50px;
+  font-size: 40px;
+  line-height: 50px;
 }
 
 .page-title {
-	padding: 100px 0;
+  padding: 100px 0;
 
-	.block {
-		h1 {
-			color:$black;
-		}
+  .block {
+    h1 {
+      color: $white;
+    }
 
-		p {
-			color:$black;
-		}
-	}
+    p {
+      color: $black;
+    }
+  }
 }
 
 code {
@@ -243,6 +257,10 @@ code {
 
 pre code {
   color: $black;
+}
+
+.blue {
+  color: $red;
 }
 
 
