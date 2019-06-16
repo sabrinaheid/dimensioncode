@@ -148,13 +148,30 @@
 							<div class="col-lg-4 col-md-6">
 								<div class="intro-item">
 									<i class="fas fa-award"></i>
-									<h4 class="mt-4 mb-3">Awarded licensed company</h4>
+									<h4 class="mt-4 mb-3 puzzle-1">Awarded licensed company</h4>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
+
+				<div class="overlay-puzzle-1"><span>This is a information and hint for the level 2. Go back to the game and play.</span></div>
+				<style>
+					.overlay-puzzle-1 {
+						position: fixed;
+						background: #fff;
+						opacity: 0.5;
+						padding: 20px;
+						text-align: center;
+						display: none;
+						width: 100%;
+						height: auto;
+						bottom: 0;
+						z-index: 2;
+						cursor: pointer;
+					}
+				</style>
 
 				<!-- Chatbot -->
 				<section>
@@ -417,6 +434,9 @@
 
 			<!-- Update UI after login/logout-->
 			<script src="js/check_login.js"></script>
+
+			<!-- Puzzle 1 -->
+			<script src="js/puzzle_1.js"></script>
 		</div>
 	</body>
 </html>
