@@ -106,32 +106,30 @@ function sendPasswordReset() {
 	});
 }
 
-function writeUserData() {
-	if (firebase.auth().currentUser) {
-		var uid = firebase.auth().currentUser.uid;
-		var email = firebase.auth().currentUser.email;
-
-		firebase.database().ref('users/' + uid).set({
-			email: email,
-			level: '1',
-			part: '2'
-		});
-	}
-}
-
 function readUserData() {
 	if (firebase.auth().currentUser) {
 		// Get the current userID
 		var uid = firebase.auth().currentUser.uid;
+		var db = database.ref('/users/' + uid);
 
-		// Get the user data
-		return firebase.database().ref('/users/' + uid).once('value').then(function(snapshot) {
-			//Do something with your user data located in snapshot
-			console.log(snapshot.val());
+		db.on('value', function(snapshot) {
+			var data = snapshot.val();
+
+			if (data !== null) {
+				if (data.level === '1') {
+					localStorage.level = '1';
+				}
+
+				if (data.level === '2') {
+					localStorage.level = '2';
+				}
+
+				if (data.level === '3') {
+					localStorage.level = '3';
+				}
+			}
 			window.location = '/download.html'; 
-		});
-
-		
+		});		
 	}
 }
 
@@ -160,11 +158,6 @@ function initApp() {
 			document.getElementById('quickstart-sign-in').textContent = 'Sign out';
 			document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
 
-			// if (!emailVerified) {
-			// 	document.getElementById('quickstart-verify-email').disabled = false;
-			// }
-			
-			writeUserData();
 			readUserData();
 
 		} else {
