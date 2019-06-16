@@ -1,4 +1,11 @@
-// https://docs.botui.org/
+firebase.auth().onAuthStateChanged(function(user) {
+	if (!user) {	
+		$('.chatbot-open').show();
+	} else {
+		$('.chatbot-open').hide();
+	} 
+});
+
 $('.chatbot-open').click(function() {
 	$('.chatbot').show();
 
