@@ -125,6 +125,20 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 	outline: 0;
 }
 
+.btn-without-bg {
+  @extend .btn-main ;
+  padding: 10px 25px;
+  background: none;
+  color: $gray;
+  font-size: 12px;
+
+  &:hover {
+    border: none;
+    background: none;
+    color: $black;
+  }
+}
+
 // Background
 
 .bg-gray {

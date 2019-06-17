@@ -1,6 +1,6 @@
 .bg-about {
 	background-size: cover;
-	background: url("../images/about/ai_blue.jpg") no-repeat;
+	background: url("../images/about/ai_green.jpg") no-repeat;
 	content: "";
 	left: 0px;
 	min-height: 650px;
@@ -24,6 +24,7 @@
 			left: -65px;
 			position: absolute;
 			top: 8px;
+            color: $green;
 		}
 	}
 }

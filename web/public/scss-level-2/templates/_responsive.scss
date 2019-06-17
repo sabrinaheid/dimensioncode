@@ -12,6 +12,16 @@
 }
 
 @include desktop {
+    .navbar {
+      button {
+        color: $white;
+
+        &:hover {
+          color: $green;
+        }
+      }
+    }
+
 	.intro {
 		text-align: center;
 	}
@@ -45,6 +55,16 @@
 }
 
 @include tablet{
+    .navbar {
+      button {
+        color: $white;
+
+        &:hover {
+          color: $green;
+        }
+      }
+    }
+
 	.bg-about {
 		display: none;
 	}
@@ -68,12 +88,22 @@
 
 @include mobile{
 	.navbar-toggler {
-		color: $gray;
+		color: $white;
 
 		&:hover {
-			color: $black;
+			color: $green;
 		}
 	}
+
+    .navbar {
+      button {
+        color: $white;
+
+        &:hover {
+          color: $green;
+        }
+      }
+    }
 
 	.slider .block h1 {
 		font-size: 38px;
@@ -146,12 +176,23 @@
 
 @include mobile-xs {
 	.navbar-toggler {
-		color: $gray;
+		color: $white;
 
 		&:hover {
-			color: $black;
+			color: $green;
 		}
 	}
+
+    .navbar {
+      button {
+        color: $white;
+
+        &:hover {
+          color: $green;
+        }
+      }
+    }
+
 	.slider .block h1 {
 		font-size: 38px;
 		line-height: 45px;

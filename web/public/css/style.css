@@ -43,11 +43,11 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
     box-shadow: none;
     outline: 0px; }
 
-.btn-main, .btn-small, .level-1 .btn-small, .level-2 .btn-small, .level-3 .btn-small {
+.btn-main, .btn-small, .btn-without-bg, .level-1 .btn-small, .level-2 .btn-small, .level-3 .btn-small {
   background: gray;
   color: white;
   transition: all, 0.2s, ease; }
-  .btn-main:hover, .btn-small:hover {
+  .btn-main:hover, .btn-small:hover, .btn-without-bg:hover {
     background: black;
     color: white; }
 
@@ -100,6 +100,16 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 
 .btn.active:focus, .btn:active:focus, .btn:focus {
   outline: 0; }
+
+.btn-without-bg {
+  padding: 10px 25px;
+  background: none;
+  color: gray;
+  font-size: 12px; }
+  .btn-without-bg:hover {
+    border: none;
+    background: none;
+    color: black; }
 
 .bg-gray {
   background: #f2f2f2; }
@@ -187,7 +197,7 @@ pre code {
 /* LEVEL 1 */
 .level-1 {
   /* Links */ }
-  .level-1 .btn-main, .level-1 .btn-small {
+  .level-1 .btn-main, .level-1 .btn-without-bg, .level-1 .btn-small {
     background: #101010;
     color: white;
     -webkit-transition: all .25s ease;
@@ -195,7 +205,7 @@ pre code {
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease; }
-    .level-1 .btn-main:hover, .level-1 .btn-small:hover {
+    .level-1 .btn-main:hover, .level-1 .btn-without-bg:hover, .level-1 .btn-small:hover {
       background: white;
       color: black; }
   .level-1 .sign-btn {
@@ -294,7 +304,7 @@ pre code {
 /* LEVEL 2 */
 .level-2 {
   /* Links */ }
-  .level-2 .btn-main, .level-2 .btn-small {
+  .level-2 .btn-main, .level-2 .btn-without-bg, .level-2 .btn-small {
     background: #101010;
     color: white;
     -webkit-transition: all .25s ease;
@@ -302,7 +312,7 @@ pre code {
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease; }
-    .level-2 .btn-main:hover, .level-2 .btn-small:hover {
+    .level-2 .btn-main:hover, .level-2 .btn-without-bg:hover, .level-2 .btn-small:hover {
       background: white;
       color: black; }
   .level-2 .sign-btn {
@@ -401,7 +411,7 @@ pre code {
 /* LEVEL 3 */
 .level-3 {
   /* Links */ }
-  .level-3 .btn-main, .level-3 .btn-small {
+  .level-3 .btn-main, .level-3 .btn-without-bg, .level-3 .btn-small {
     background: #101010;
     color: white;
     -webkit-transition: all .25s ease;
@@ -409,7 +419,7 @@ pre code {
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease; }
-    .level-3 .btn-main:hover, .level-3 .btn-small:hover {
+    .level-3 .btn-main:hover, .level-3 .btn-without-bg:hover, .level-3 .btn-small:hover {
       background: white;
       color: black; }
   .level-3 .sign-btn {
@@ -592,7 +602,7 @@ pre code {
   .level-3 .about-content h4 {
     font-weight: 600; }
     .level-3 .about-content h4:before {
-      content: "\f126";
+      content: "\f835";
       font-family: "Font Awesome 5 Free";
       font-size: 30px;
       font-weight: 700;
