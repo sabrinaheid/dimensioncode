@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>DimensionCode | Blog</title>
+
+		<!-- bootstrap.min css -->
+		<link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+
+		<!-- Icon Font Css -->
+		<link rel="stylesheet" href="js/fontawesome/css/all.css">
+
+		<!-- Main Stylesheet -->
+		<script>
+			if (localStorage.level == '1') {
+				console.log('1');
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style-level-1.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+			} else if (localStorage.level == '2') {
+				console.log('2');
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style-level-2.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+			} else if (localStorage.level == '3') {
+				console.log('3');
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style-level-3.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+			} else {
+				var link = document.createElement('link');
+				link.setAttribute('rel', 'stylesheet');
+				link.setAttribute('type', 'text/css');
+				link.setAttribute('href', 'css/style.css');
+				document.getElementsByTagName('head')[0].appendChild(link);
+			}
+		</script>
+
+		<!-- Firebase (DB) Connection -->
+		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-auth.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-database.js"></script>
+		<script src="js/firebase_config.js"></script>
+	</head>
+
+	<body>
+
+		<!-- Header Start --> 
+		<header class="navigation">
+			<nav class="navbar navbar-expand-lg  py-4" id="navbar">
+					<div class="container">
+						<a class="navbar-brand" href="index.html">
+							<img class="logo" alt="dimensioncode-logo" src="images/dimensioncode-logo.svg">
+							<img class="logo-blue" alt="dimensioncode-logo" src="images/dimensioncode-logo_blue.svg">
+							<img class="logo-green" alt="dimensioncode-logo" src="images/dimensioncode-logo_green.svg">
+							<img class="logo-red" alt="dimensioncode-logo" src="images/dimensioncode-logo_red.svg">
+						</a>
+			
+						<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="fa fa-bars"></span>
+						</button>
+					
+						<div class="collapse navbar-collapse text-center" id="navbarsExample09">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a class="nav-link" href="index.html">Home </a>
+								</li>
+								<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+								<li class="nav-item"><a class="nav-link" href="ai.html">AI</a></li>
+								<li class="nav-item active"><a class="nav-link" href="blog.html">Blog</a></li>
+								<li class="nav-item"><a class="nav-link" href="sponsors.html">Sponsors</a></li>
+								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+		</header>
+		<!-- Header Close --> 
+
+		<div class="main-wrapper ">
+			<a href="login.html" class="btn btn-main sign-btn" id="sign-in-button">sign in <i class="fas fa-sign-in-alt"></i></a>
+			<a href="#" class="btn btn-main sign-btn" id="sign-out-button">sign out <i class="fas fa-sign-out-alt"></i></a>
+			<section class="page-title bg-1">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="block text-center">
+								<span class="">DOLOR SIT AMET</span>
+								<h1 class="text-capitalize mb-4 text-lg">LOREM IPSUM</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section blog-wrap bg-gray">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-12 mb-5">
+									<div class="single-blog-item">
+										<img src="images/blog/1.jpg" alt="" class="img-fluid rounded">
+
+										<div class="blog-item-content bg-white p-5">
+											<div class="blog-item-meta py-1">
+												<span class="text-capitalize mr-3"><i class="ti-time mr-1"></i> 28th January</span>
+											</div> 
+
+											<h2 class="mt-3 mb-4"><a href="blog-single.html">Lorem ipsum dolor sit amet, conse.</a></h2>
+											<p class="lead mb-4">Non illo quas blanditiis repellendus laboriosam minima animi. Consectetur accusantium pariatur repudiandae!</p>
+
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem, nam voluptate in beatae.</p>
+
+											<h3 class="quote">A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well.</h3>
+											
+											<p class="lead mb-4 font-weight-normal">The same is true as we experience the emotional sensation of stress from our first instances of social rejection ridicule. We quickly learn to fear and thus automatically.</p>
+
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, rerum beatae repellat tenetur incidunt quisquam libero dolores laudantium. Nesciunt quis itaque quidem, voluptatem autem eos animi laborum iusto expedita sapiente.</p>
+
+											<div class="tag-option mt-5 clearfix">
+													<ul class="float-left list-inline"> 
+														<li>Tags:</li> 
+														<li class="list-inline-item"><a href="#" rel="tag">Advancher</a></li>
+														<li class="list-inline-item"><a href="#" rel="tag">Landscape</a></li>
+														<li class="list-inline-item"><a href="#" rel="tag">Travel</a></li>
+													</ul>        
+
+													<ul class="float-right list-inline">
+															<li class="list-inline-item"> Share: </li>
+															<li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+															<li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+															<li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
+															<li class="list-inline-item"><a href="#" target="_blank"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+													</ul>
+												</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="col-lg-12 mb-5">
+									<div class="posts-nav bg-white p-5 d-lg-flex d-md-flex justify-content-between ">
+										<a class="post-prev align-items-center" href="#">
+											<div class="posts-prev-item mb-4 mb-lg-0">
+												<span class="nav-posts-desc">Previous Post</span>
+												<h6 class="nav-posts-title mt-1">
+													Donec consectetuer ligula <br>vulputate sem tristique.
+												</h6>
+											</div>
+										</a>
+										<div class="border"></div>
+										<a class="posts-next" href="#">
+											<div class="posts-next-item pt-4 pt-lg-0">
+												<span class="nav-posts-desc text-lg-right text-md-right d-block">Next Post</span>
+												<h6 class="nav-posts-title mt-1">
+													Ut aliquam sollicitudin leo.
+												</h6>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- footer Start -->
+			<footer class="footer">
+				<div class="container">
+					<div class="footer-btm pt-4">
+						<div class="row">
+							<div class="col-lg-6">
+								<div class="copyright">
+									&copy; <span class="text-color">DimensionCode</span> 2019
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<ul class="list-inline footer-socials">
+									<li class="list-inline-item"><a href="https://www.facebook.com/" target="blank"><i class="ti-facebook mr-2"></i>Facebook</a></li>
+									<li class="list-inline-item"><a href="https://twitter.com/?lang=de" target="blank"><i class="fab fa-twitter mr-2"></i>Twitter</a></li>
+									<li class="list-inline-item"><a href="https://ch.linkedin.com/" target="blank"><i class="ti-linkedin mr-2 "></i>Linkedin</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Main jQuery -->
+		<script src="js/jquery/jquery.js"></script>
+
+		<!-- Bootstrap 4.3.1 -->
+		<script src="js/bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Update UI after login/logout-->
+		<script src="js/check_login.js"></script>	
+	</body>
+</html>
