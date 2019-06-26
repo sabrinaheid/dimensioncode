@@ -3,8 +3,8 @@ firebase.auth().onAuthStateChanged(function(user) {
 		
 
 		$('.main').addClass('isLoggedIn');
-		if (localStorage.level !== undefined) {
-			$('.navbar-nav').append('<li class="nav-item nav-item-download"><a class="nav-link" href="download.html">Download</a></li>');
+		if (localStorage.level !== undefined && window.location.pathname !== '/download.html') {
+			$('#sign-out-button').after('<a href="download.html" class="btn btn-main download-btn"><i class="fas fa-download"></i></a>');
 		}
 		
 
