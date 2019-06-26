@@ -61,12 +61,12 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   z-index: 1;
   float: right;
   height: 30px;
-  width: 120px;
+  width: 110px;
   padding: 3px 0 0 0;
   margin: 0;
   background: #101010;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
@@ -85,6 +85,28 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 
 .isLoggedIn #sign-out-button {
   display: block; }
+
+.download-btn {
+  position: relative;
+  display: block;
+  z-index: 1;
+  float: right;
+  height: 30px;
+  width: 50px;
+  padding: 3px 0 0 0;
+  margin: 0 5px 0 0;
+  background: #101010;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease; }
+  .download-btn:hover {
+    background: #101010;
+    color: #c8191e; }
 
 .btn-solid-border {
   border: 2px solid #c8191e;
