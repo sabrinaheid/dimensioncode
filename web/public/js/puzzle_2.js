@@ -60,12 +60,23 @@ $('.chatbot-open').click(function() {
 			}
 		})
 	}).then(res => { // get the result
-		if (res.value === 'test') {
+		if (res.value === '1942') {
 			botui.message.add({
 				delay: 2000,
 				loading: true,
 				content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 			});
+
+			if (firebase.auth().currentUser) {
+				var uid = firebase.auth().currentUser.uid;
+				var email = firebase.auth().currentUser.email;
+				console.log(uid + email);
+				firebase.database().ref('users/' + uid).set({
+					email: email,
+					level: '3',
+					part: '1'
+				});
+			}
 		} else {
 			botui.message.add({
 				delay: 2000,
@@ -81,12 +92,23 @@ $('.chatbot-open').click(function() {
 					}
 				})
 			}).then(res => { // get the result
-				if (res.value === 'test') {
+				if (res.value === '1942') {
 					botui.message.add({
 						delay: 2000,
 						loading: true,
 						content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 					});
+
+					if (firebase.auth().currentUser) {
+						var uid = firebase.auth().currentUser.uid;
+						var email = firebase.auth().currentUser.email;
+						console.log(uid + email);
+						firebase.database().ref('users/' + uid).set({
+							email: email,
+							level: '3',
+							part: '1'
+						});
+					}
 				} else {
 					botui.message.add({
 						delay: 2000,
@@ -102,12 +124,23 @@ $('.chatbot-open').click(function() {
 							}
 						})
 					}).then(res => { // get the result
-						if (res.value === 'test') {
+						if (res.value === '1942') {
 							botui.message.add({
 								delay: 2000,
 								loading: true,
 								content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 							});
+
+							if (firebase.auth().currentUser) {
+								var uid = firebase.auth().currentUser.uid;
+								var email = firebase.auth().currentUser.email;
+								console.log(uid + email);
+								firebase.database().ref('users/' + uid).set({
+									email: email,
+									level: '3',
+									part: '1'
+								});
+							}
 						} else {
 							botui.message.add({
 								delay: 2000,
@@ -123,12 +156,23 @@ $('.chatbot-open').click(function() {
 									}
 								})
 							}).then(res => { // get the result
-								if (res.value === 'test') {
+								if (res.value === '1942') {
 									botui.message.add({
 										delay: 2000,
 										loading: true,
 										content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 									});
+
+									if (firebase.auth().currentUser) {
+										var uid = firebase.auth().currentUser.uid;
+										var email = firebase.auth().currentUser.email;
+										console.log(uid + email);
+										firebase.database().ref('users/' + uid).set({
+											email: email,
+											level: '3',
+											part: '1'
+										});
+									}
 								} else {
 									botui.message.add({
 										delay: 2000,
@@ -144,12 +188,23 @@ $('.chatbot-open').click(function() {
 											}
 										})
 									}).then(res => { // get the result
-										if (res.value === 'test') {
+										if (res.value === '1942') {
 											botui.message.add({
 												delay: 2000,
 												loading: true,
 												content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 											});
+
+											if (firebase.auth().currentUser) {
+												var uid = firebase.auth().currentUser.uid;
+												var email = firebase.auth().currentUser.email;
+												console.log(uid + email);
+												firebase.database().ref('users/' + uid).set({
+													email: email,
+													level: '3',
+													part: '1'
+												});
+											}
 										} else {
 											botui.message.add({
 												delay: 2000,
@@ -165,12 +220,23 @@ $('.chatbot-open').click(function() {
 													}
 												})
 											}).then(res => { // get the result
-												if (res.value === 'test') {
+												if (res.value === '1942') {
 													botui.message.add({
 														delay: 2000,
 														loading: true,
 														content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 													});
+
+													if (firebase.auth().currentUser) {
+														var uid = firebase.auth().currentUser.uid;
+														var email = firebase.auth().currentUser.email;
+														console.log(uid + email);
+														firebase.database().ref('users/' + uid).set({
+															email: email,
+															level: '3',
+															part: '1'
+														});
+													}
 												} else {
 													botui.message.add({
 														delay: 2000,
@@ -186,12 +252,23 @@ $('.chatbot-open').click(function() {
 															}
 														})
 													}).then(res => { // get the result
-														if (res.value === 'test') {
+														if (res.value === '1942') {
 															botui.message.add({
 																delay: 2000,
 																loading: true,
 																content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 															});
+
+															if (firebase.auth().currentUser) {
+																var uid = firebase.auth().currentUser.uid;
+																var email = firebase.auth().currentUser.email;
+																console.log(uid + email);
+																firebase.database().ref('users/' + uid).set({
+																	email: email,
+																	level: '3',
+																	part: '1'
+																});
+															}
 														} else {
 															botui.message.add({
 																delay: 2000,
@@ -207,12 +284,23 @@ $('.chatbot-open').click(function() {
 																	}
 																})
 															}).then(res => { // get the result
-																if (res.value === 'test') {
+																if (res.value === '1942') {
 																	botui.message.add({
 																		delay: 2000,
 																		loading: true,
 																		content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 																	});
+
+																	if (firebase.auth().currentUser) {
+																		var uid = firebase.auth().currentUser.uid;
+																		var email = firebase.auth().currentUser.email;
+																		console.log(uid + email);
+																		firebase.database().ref('users/' + uid).set({
+																			email: email,
+																			level: '3',
+																			part: '1'
+																		});
+																	}
 																} else {
 																	botui.message.add({
 																		delay: 2000,
@@ -228,12 +316,23 @@ $('.chatbot-open').click(function() {
 																			}
 																		})
 																	}).then(res => { // get the result
-																		if (res.value === 'test') {
+																		if (res.value === '1942') {
 																			botui.message.add({
 																				delay: 2000,
 																				loading: true,
 																				content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 																			});
+
+																			if (firebase.auth().currentUser) {
+																				var uid = firebase.auth().currentUser.uid;
+																				var email = firebase.auth().currentUser.email;
+																				console.log(uid + email);
+																				firebase.database().ref('users/' + uid).set({
+																					email: email,
+																					level: '3',
+																					part: '1'
+																				});
+																			}
 																		} else {
 																			botui.message.add({
 																				delay: 2000,
@@ -249,12 +348,23 @@ $('.chatbot-open').click(function() {
 																					}
 																				})
 																			}).then(res => { // get the result
-																				if (res.value === 'test') {
+																				if (res.value === '1942') {
 																					botui.message.add({
 																						delay: 2000,
 																						loading: true,
 																						content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 																					});
+
+																					if (firebase.auth().currentUser) {
+																						var uid = firebase.auth().currentUser.uid;
+																						var email = firebase.auth().currentUser.email;
+																						console.log(uid + email);
+																						firebase.database().ref('users/' + uid).set({
+																							email: email,
+																							level: '3',
+																							part: '1'
+																						});
+																					}
 																				} else {
 																					botui.message.add({
 																						delay: 2000,
@@ -270,12 +380,23 @@ $('.chatbot-open').click(function() {
 																							}
 																						})
 																					}).then(res => { // get the result
-																						if (res.value === 'test') {
+																						if (res.value === '1942') {
 																							botui.message.add({
 																								delay: 2000,
 																								loading: true,
 																								content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 																							});
+
+																							if (firebase.auth().currentUser) {
+																								var uid = firebase.auth().currentUser.uid;
+																								var email = firebase.auth().currentUser.email;
+																								console.log(uid + email);
+																								firebase.database().ref('users/' + uid).set({
+																									email: email,
+																									level: '3',
+																									part: '1'
+																								});
+																							}
 																						} else {
 																							botui.message.add({
 																								delay: 2000,
@@ -291,12 +412,23 @@ $('.chatbot-open').click(function() {
 																									}
 																								})
 																							}).then(res => { // get the result
-																								if (res.value === 'test') {
+																								if (res.value === '1942') {
 																									botui.message.add({
 																										delay: 2000,
 																										loading: true,
 																										content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 																									});
+
+																									if (firebase.auth().currentUser) {
+																										var uid = firebase.auth().currentUser.uid;
+																										var email = firebase.auth().currentUser.email;
+																										console.log(uid + email);
+																										firebase.database().ref('users/' + uid).set({
+																											email: email,
+																											level: '3',
+																											part: '1'
+																										});
+																									}
 																								} else {
 																									botui.message.add({
 																										delay: 2000,
@@ -312,12 +444,23 @@ $('.chatbot-open').click(function() {
 																											}
 																										})
 																									}).then(res => { // get the result
-																										if (res.value === 'test') {
+																										if (res.value === '1942') {
 																											botui.message.add({
 																												delay: 2000,
 																												loading: true,
 																												content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 																											});
+
+																											if (firebase.auth().currentUser) {
+																												var uid = firebase.auth().currentUser.uid;
+																												var email = firebase.auth().currentUser.email;
+																												console.log(uid + email);
+																												firebase.database().ref('users/' + uid).set({
+																													email: email,
+																													level: '3',
+																													part: '1'
+																												});
+																											}
 																										} else {
 																											botui.message.add({
 																												delay: 2000,
@@ -333,12 +476,23 @@ $('.chatbot-open').click(function() {
 																													}
 																												})
 																											}).then(res => { // get the result
-																												if (res.value === 'test') {
+																												if (res.value === '1942') {
 																													botui.message.add({
 																														delay: 2000,
 																														loading: true,
 																														content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 																													});
+
+																													if (firebase.auth().currentUser) {
+																														var uid = firebase.auth().currentUser.uid;
+																														var email = firebase.auth().currentUser.email;
+																														console.log(uid + email);
+																														firebase.database().ref('users/' + uid).set({
+																															email: email,
+																															level: '3',
+																															part: '1'
+																														});
+																													}
 																												} else {
 																													botui.message.add({
 																														delay: 2000,
@@ -354,12 +508,23 @@ $('.chatbot-open').click(function() {
 																															}
 																														})
 																													}).then(res => { // get the result
-																														if (res.value === 'test') {
+																														if (res.value === '1942') {
 																															botui.message.add({
 																																delay: 2000,
 																																loading: true,
 																																content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
 																															});
+
+																															if (firebase.auth().currentUser) {
+																																var uid = firebase.auth().currentUser.uid;
+																																var email = firebase.auth().currentUser.email;
+																																console.log(uid + email);
+																																firebase.database().ref('users/' + uid).set({
+																																	email: email,
+																																	level: '3',
+																																	part: '1'
+																																});
+																															}
 																														} else {
 																															botui.message.add({
 																																delay: 2000,

@@ -234,7 +234,8 @@ pre code {
   min-height: 650px;
   position: absolute;
   top: 0px;
-  width: 45%; }
+  width: 45%;
+  margin-top: 100px; }
 
 .about-content {
   padding: 20px 0px 0px 80px; }
@@ -439,9 +440,6 @@ h3.quote::before {
 
 .counter-item p {
   margin-bottom: 0px; }
-
-.counter {
-  padding: 100px 0 0 0; }
 
 .footer {
   background: #101010; }

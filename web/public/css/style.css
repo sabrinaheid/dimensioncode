@@ -1,6 +1,17 @@
 /* LEVEL 1 */
+/*
+$blue: rgb(0, 100, 255);
+
+
 /* LEVEL 2 */
+/*
+$green: rgb(100, 255, 100);
+
+
 /* LEVEL 3 */
+/*
+$red: rgb(255, 50, 50);
+*/
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Poppins:300,400,600,700);
 @import url(https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:300,400,500,600,700);
@@ -43,7 +54,7 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
     box-shadow: none;
     outline: 0px; }
 
-.btn-main, .btn-small, .btn-without-bg, .level-1 .btn-small, .level-2 .btn-small, .level-3 .btn-small {
+.btn-main, .btn-small, .btn-without-bg {
   background: gray;
   color: white;
   transition: all, 0.2s, ease; }
@@ -120,6 +131,9 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 .section {
   padding: 100px 0; }
 
+.counter {
+  padding-top: 100px; }
+
 .section-title {
   margin-bottom: 70px; }
   .section-title .title {
@@ -194,327 +208,6 @@ code {
 pre code {
   color: black; }
 
-/* LEVEL 1 */
-.level-1 {
-  /* Links */ }
-  .level-1 .btn-main, .level-1 .btn-without-bg, .level-1 .btn-small {
-    background: #101010;
-    color: white;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .level-1 .btn-main:hover, .level-1 .btn-without-bg:hover, .level-1 .btn-small:hover {
-      background: white;
-      color: black; }
-  .level-1 .sign-btn {
-    position: relative;
-    display: block;
-    z-index: 1;
-    float: right;
-    height: 30px;
-    width: 110px;
-    padding: 3px 0 0 0;
-    background: #101010;
-    color: white;
-    font-size: 14px;
-    font-weight: 400;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .level-1 .sign-btn:hover {
-      background: #101010;
-      color: #0064ff; }
-  .level-1 .btn-solid-border {
-    border: 2px solid #101010;
-    color: black; }
-    .level-1 .btn-solid-border:hover {
-      border: 2px solid #0064ff;
-      background: #0064ff;
-      color: black; }
-  .level-1 .btn-small {
-    padding: 10px 25px;
-    font-size: 12px; }
-  .level-1 .bg-gray {
-    background: #f2f2f2; }
-  .level-1 .bg-primary {
-    background: gray; }
-  .level-1 .section {
-    background: #101010;
-    padding: 100px 0; }
-  .level-1 .section-title {
-    margin-bottom: 70px; }
-    .level-1 .section-title .title {
-      font-size: 50px;
-      line-height: 50px; }
-    .level-1 .section-title p {
-      color: gray;
-      font-family: "Montserrat", sans-serif; }
-  .level-1 .subtitle {
-    color: gray;
-    font-size: 16px;
-    letter-spacing: 1px; }
-  .level-1 .overly, .level-1 .page-title, .level-1 .bg-about, .level-1 .bg-2, .level-1 .slider {
-    position: relative; }
-    .level-1 .overly:before, .level-1 .page-title:before, .level-1 .bg-about:before, .level-1 .bg-2:before, .level-1 .slider:before {
-      content: "";
-      background: none;
-      bottom: 0;
-      height: 100%;
-      opacity: 0.5;
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      width: 100%; }
-  .level-1 .text-color {
-    color: white; }
-  .level-1 .text-sm {
-    font-size: 16px; }
-  .level-1 .text-md {
-    font-size: 2.25rem; }
-  .level-1 .text-lg {
-    font-size: 3.75rem; }
-  .level-1 a {
-    color: white;
-    text-decoration: none;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-  .level-1 a:focus, .level-1 a:hover {
-    color: #0064ff;
-    text-decoration: none; }
-  .level-1 a:focus {
-    outline: none; }
-  .level-1 .content-title {
-    font-size: 40px;
-    line-height: 50px; }
-  .level-1 .page-title {
-    padding: 100px 0; }
-    .level-1 .page-title .block h1 {
-      color: white; }
-    .level-1 .page-title .block p {
-      color: white; }
-
-/* LEVEL 2 */
-.level-2 {
-  /* Links */ }
-  .level-2 .btn-main, .level-2 .btn-without-bg, .level-2 .btn-small {
-    background: #101010;
-    color: white;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .level-2 .btn-main:hover, .level-2 .btn-without-bg:hover, .level-2 .btn-small:hover {
-      background: white;
-      color: black; }
-  .level-2 .sign-btn {
-    position: relative;
-    display: block;
-    z-index: 1;
-    float: right;
-    height: 30px;
-    width: 110px;
-    padding: 3px 0 0 0;
-    background: #101010;
-    color: white;
-    font-size: 14px;
-    font-weight: 400;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .level-2 .sign-btn:hover {
-      background: #101010;
-      color: #64ff64; }
-  .level-2 .btn-solid-border {
-    border: 2px solid #101010;
-    color: black; }
-    .level-2 .btn-solid-border:hover {
-      border: 2px solid #64ff64;
-      background: #64ff64;
-      color: black; }
-  .level-2 .btn-small {
-    padding: 10px 25px;
-    font-size: 12px; }
-  .level-2 .bg-gray {
-    background: #f2f2f2; }
-  .level-2 .bg-primary {
-    background: gray; }
-  .level-2 .section {
-    background: #101010;
-    padding: 100px 0; }
-  .level-2 .section-title {
-    margin-bottom: 70px; }
-    .level-2 .section-title .title {
-      font-size: 50px;
-      line-height: 50px; }
-    .level-2 .section-title p {
-      color: gray;
-      font-family: "Montserrat", sans-serif; }
-  .level-2 .subtitle {
-    color: gray;
-    font-size: 16px;
-    letter-spacing: 1px; }
-  .level-2 .overly, .level-2 .page-title, .level-2 .bg-about, .level-2 .bg-2, .level-2 .slider {
-    position: relative; }
-    .level-2 .overly:before, .level-2 .page-title:before, .level-2 .bg-about:before, .level-2 .bg-2:before, .level-2 .slider:before {
-      content: "";
-      background: none;
-      bottom: 0;
-      height: 100%;
-      opacity: 0.5;
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      width: 100%; }
-  .level-2 .text-color {
-    color: white; }
-  .level-2 .text-sm {
-    font-size: 16px; }
-  .level-2 .text-md {
-    font-size: 2.25rem; }
-  .level-2 .text-lg {
-    font-size: 3.75rem; }
-  .level-2 a {
-    color: white;
-    text-decoration: none;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-  .level-2 a:focus, .level-2 a:hover {
-    color: #64ff64;
-    text-decoration: none; }
-  .level-2 a:focus {
-    outline: none; }
-  .level-2 .content-title {
-    font-size: 40px;
-    line-height: 50px; }
-  .level-2 .page-title {
-    padding: 100px 0; }
-    .level-2 .page-title .block h1 {
-      color: white; }
-    .level-2 .page-title .block p {
-      color: white; }
-
-/* LEVEL 3 */
-.level-3 {
-  /* Links */ }
-  .level-3 .btn-main, .level-3 .btn-without-bg, .level-3 .btn-small {
-    background: #101010;
-    color: white;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .level-3 .btn-main:hover, .level-3 .btn-without-bg:hover, .level-3 .btn-small:hover {
-      background: white;
-      color: black; }
-  .level-3 .sign-btn {
-    position: relative;
-    display: block;
-    z-index: 1;
-    float: right;
-    height: 30px;
-    width: 110px;
-    padding: 3px 0 0 0;
-    background: #101010;
-    color: white;
-    font-size: 14px;
-    font-weight: 400;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .level-3 .sign-btn:hover {
-      background: #101010;
-      color: #ff3232; }
-  .level-3 .btn-solid-border {
-    border: 2px solid #101010;
-    color: black; }
-    .level-3 .btn-solid-border:hover {
-      border: 2px solid #ff3232;
-      background: #ff3232;
-      color: black; }
-  .level-3 .btn-small {
-    padding: 10px 25px;
-    font-size: 12px; }
-  .level-3 .bg-gray {
-    background: #f2f2f2; }
-  .level-3 .bg-primary {
-    background: gray; }
-  .level-3 .section {
-    background: #101010;
-    padding: 100px 0; }
-  .level-3 .section-title {
-    margin-bottom: 70px; }
-    .level-3 .section-title .title {
-      font-size: 50px;
-      line-height: 50px; }
-    .level-3 .section-title p {
-      color: gray;
-      font-family: "Montserrat", sans-serif; }
-  .level-3 .subtitle {
-    color: gray;
-    font-size: 16px;
-    letter-spacing: 1px; }
-  .level-3 .overly, .level-3 .page-title, .level-3 .bg-about, .level-3 .bg-2, .level-3 .slider {
-    position: relative; }
-    .level-3 .overly:before, .level-3 .page-title:before, .level-3 .bg-about:before, .level-3 .bg-2:before, .level-3 .slider:before {
-      content: "";
-      background: none;
-      bottom: 0;
-      height: 100%;
-      opacity: 0.5;
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      width: 100%; }
-  .level-3 .text-color {
-    color: white; }
-  .level-3 .text-sm {
-    font-size: 16px; }
-  .level-3 .text-md {
-    font-size: 2.25rem; }
-  .level-3 .text-lg {
-    font-size: 3.75rem; }
-  .level-3 a {
-    color: white;
-    text-decoration: none;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-  .level-3 a:focus, .level-3 a:hover {
-    color: #ff3232;
-    text-decoration: none; }
-  .level-3 a:focus {
-    outline: none; }
-  .level-3 .content-title {
-    font-size: 40px;
-    line-height: 50px; }
-  .level-3 .page-title {
-    padding: 100px 0; }
-    .level-3 .page-title .block h1 {
-      color: white; }
-    .level-3 .page-title .block p {
-      color: white; }
-
 .bg-about {
   background-size: cover;
   background: url("../images/about/ai.jpg") no-repeat;
@@ -523,7 +216,8 @@ pre code {
   min-height: 650px;
   position: absolute;
   top: 0px;
-  width: 45%; }
+  width: 45%;
+  margin-top: 100px; }
 
 .about-content {
   padding: 20px 0px 0px 80px; }
@@ -539,77 +233,113 @@ pre code {
       top: 8px; }
 
 /* LEVEL 1 */
-.level-1 .bg-about {
-  background-size: cover;
-  background: url("../images/about/ai_blue.jpg") no-repeat;
-  content: "";
-  left: 0px;
-  min-height: 650px;
-  position: absolute;
-  top: 0px;
-  width: 45%; }
+/*
+.level-1 {
 
-.level-1 .about-content {
-  padding: 20px 0px 0px 80px; }
-  .level-1 .about-content h4 {
-    font-weight: 600; }
-    .level-1 .about-content h4:before {
-      content: "\f126";
-      font-family: "Font Awesome 5 Free";
-      font-size: 30px;
-      font-weight: 700;
-      left: -65px;
-      position: absolute;
-      top: 8px; }
+  .bg-about {
+    background-size: cover;
+    background: url("../images/about/ai_blue.jpg") no-repeat;
+    content: "";
+    left: 0px;
+    min-height: 650px;
+    position: absolute;
+    top: 0px;
+    width: 45%;
+  }
 
+
+  .about-content {
+    padding: 20px 0px 0px 80px;
+
+    h4 {
+      font-weight: 600;
+
+      &:before {
+        content: "\f126";
+        font-family: "Font Awesome 5 Free";
+        font-size: 30px;
+        font-weight: 700;
+        left: -65px;
+        position: absolute;
+        top: 8px;
+      }
+    }
+  }
+
+}
+*/
 /* LEVEL 2 */
-.level-2 .bg-about {
-  background-size: cover;
-  background: url("../images/about/ai_green.jpg") no-repeat;
-  content: "";
-  left: 0px;
-  min-height: 650px;
-  position: absolute;
-  top: 0px;
-  width: 45%; }
+/*
+.level-2 {
 
-.level-2 .about-content {
-  padding: 20px 0px 0px 80px; }
-  .level-2 .about-content h4 {
-    font-weight: 600; }
-    .level-2 .about-content h4:before {
-      content: "\f126";
-      font-family: "Font Awesome 5 Free";
-      font-size: 30px;
-      font-weight: 700;
-      left: -65px;
-      position: absolute;
-      top: 8px; }
+  .bg-about {
+    background-size: cover;
+    background: url("../images/about/ai_green.jpg") no-repeat;
+    content: "";
+    left: 0px;
+    min-height: 650px;
+    position: absolute;
+    top: 0px;
+    width: 45%;
+  }
 
+
+  .about-content {
+    padding: 20px 0px 0px 80px;
+
+    h4 {
+      font-weight: 600;
+
+      &:before {
+        content: "\f126";
+        font-family: "Font Awesome 5 Free";
+        font-size: 30px;
+        font-weight: 700;
+        left: -65px;
+        position: absolute;
+        top: 8px;
+      }
+    }
+  }
+
+}
+*/
 /* LEVEL 3 */
-.level-3 .bg-about {
-  background-size: cover;
-  background: url("../images/about/ai_red.jpg") no-repeat;
-  content: "";
-  left: 0px;
-  min-height: 650px;
-  position: absolute;
-  top: 0px;
-  width: 45%; }
+/*
+.level-3 {
 
-.level-3 .about-content {
-  padding: 20px 0px 0px 80px; }
-  .level-3 .about-content h4 {
-    font-weight: 600; }
-    .level-3 .about-content h4:before {
-      content: "\f835";
-      font-family: "Font Awesome 5 Free";
-      font-size: 30px;
-      font-weight: 700;
-      left: -65px;
-      position: absolute;
-      top: 8px; }
+  .bg-about {
+    background-size: cover;
+    background: url("../images/about/ai_red.jpg") no-repeat;
+    content: "";
+    left: 0px;
+    min-height: 650px;
+    position: absolute;
+    top: 0px;
+    width: 45%;
+  }
 
+
+  .about-content {
+    padding: 20px 0px 0px 80px;
+
+    h4 {
+      font-weight: 600;
+
+      &:before {
+        content: "\f835";
+        font-family: "Font Awesome 5 Free";
+        font-size: 30px;
+        font-weight: 700;
+        left: -65px;
+        position: absolute;
+        top: 8px;
+      }
+    }
+  }
+
+}
+*/
 .bg-1 {
   background: url("../images/bg/home_white.jpg") no-repeat 50% 50%;
   background-size: cover;
@@ -629,62 +359,89 @@ pre code {
   background-size: cover; }
 
 /* LEVEL 1 */
-.level-1 .bg-1 {
-  background: url("../images/bg/home_blue.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+/*
+.level-1 {
 
-.level-1 .bg-2 {
-  background: url("../images/bg/home_blue.jpg");
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  .bg-1 {
+    background: url("../images/bg/home_blue.jpg") no-repeat 50% 50%;
+    background-size: cover;
 
+    /* Create the parallax scrolling effect */
+/*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-2 {
+    background: url("../images/bg/home_blue.jpg");
+    background-size: cover;
+
+    /* Create the parallax scrolling effect */
+/*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+*/
 /* LEVEL 2 */
-.level-2 .bg-1 {
-  background: url("../images/bg/home_green.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+/*
+.level-2 {
 
-.level-2 .bg-2 {
-  background: url("../images/bg/home_green.jpg");
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  .bg-1 {
+    background: url("../images/bg/home_green.jpg") no-repeat 50% 50%;
+    background-size: cover;
 
+    /* Create the parallax scrolling effect */
+/*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-2 {
+    background: url("../images/bg/home_green.jpg");
+    background-size: cover;
+
+    /* Create the parallax scrolling effect */
+/*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+*/
 /* LEVEL 3 */
-.level-3 .bg-1 {
-  background: url("../images/bg/home_red.jpg") no-repeat 50% 50%;
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+/*
+.level-3 {
 
-.level-3 .bg-2 {
-  background: url("../images/bg/home_red.jpg");
-  background-size: cover;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  .bg-1 {
+    background: url("../images/bg/home_red.jpg") no-repeat 50% 50%;
+    background-size: cover;
 
+    /* Create the parallax scrolling effect */
+/*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg-2 {
+    background: url("../images/bg/home_red.jpg");
+    background-size: cover;
+
+    /* Create the parallax scrolling effect */
+/*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+*/
 .blog-item-content h3 {
   line-height: 36px; }
 
@@ -743,9 +500,15 @@ h3.quote::before {
   position: relative; }
 
 /* LEVEL 1 */
-.level-1 .bg-white {
-  background-color: black !important; }
+/*
+.level-1 {
 
+  .bg-white {
+    background-color: $black !important;
+  }
+
+}
+*/
 .chatbot-open {
   background-color: white;
   border: none;
@@ -831,287 +594,371 @@ h3.quote::before {
       background: gray; }
 
 /* LEVEL 1 */
-.level-1 .chatbot-open {
-  background-color: #101010;
-  border: 1px solid #101010;
-  box-shadow: none;
-  color: white;
-  cursor: pointer;
-  height: 65px;
-  padding: 10px 0 0 0;
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 320px;
-  z-index: 1;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease; }
-  .level-1 .chatbot-open:hover {
-    color: #0064ff; }
+/*
+.level-1 {
 
-.level-1 .chatbot {
-  display: none;
-  background-color: #101010;
-  box-shadow: none;
-  height: 400px;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  transition: 0.3s ease;
-  width: 320px;
-  z-index: 1; }
-  .level-1 .chatbot .chatbot-nav {
-    background-color: #101010;
-    border-bottom: 1px solid white;
-    color: white;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    list-style: none;
-    margin: 0;
+  .chatbot-open {
+    background-color: $dark;
+    border: 1px solid $dark;
+    box-shadow: none;
+    color: $white;
+    cursor: pointer;
+    height: 65px;
+    padding: 10px 0 0 0;
     font-size: 30px;
     text-align: center;
+    text-transform: uppercase;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    z-index: 1;
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
-    width: 100%;
-    z-index: 110; }
-    .level-1 .chatbot .chatbot-nav .chatbot-nav-item {
+
+    &:hover {
+      color: $blue;
+    }
+  }
+
+  .chatbot {
+    display: none;
+    background-color: $dark;
+    box-shadow: none;
+    height: 400px;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transition: 0.3s ease;
+    width: 320px;
+    z-index: 1;
+
+    .chatbot-nav {
+      background-color: $dark;
+      border-bottom: 1px solid $white;
+      color: $white;
       height: 50px;
-      line-height: 50px;
-      margin-right: 5px;
-      position: relative;
-      transition: 0.3s ease; }
-      .level-1 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link {
-        color: inherit;
-        display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      list-style: none;
+      margin: 0;
+      font-size: 30px;
+      text-align: center;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+      width: 100%;
+      z-index: 110;
+
+      .chatbot-nav-item {
         height: 50px;
         line-height: 50px;
+        margin-right: 5px;
         position: relative;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
         transition: 0.3s ease;
-        width: 100%; }
-        .level-1 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover {
-          color: #0064ff; }
-  .level-1 .chatbot .chatbot-inner {
-    -ms-overflow-style: none;
-    background: #f2f2f2;
-    height: 400px;
-    overflow: -moz-scrollbars-none;
-    overflow: scroll;
-    padding-top: 50px; }
-    .level-1 .chatbot .chatbot-inner::-webkit-scrollbar {
-      width: 0 !important; }
-    .level-1 .chatbot .chatbot-inner .botui-container {
-      background: none;
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif; }
-    .level-1 .chatbot .chatbot-inner .botui-message-content.text {
-      background: white; }
-    .level-1 .chatbot .chatbot-inner .botui-message-content.human {
-      background: gray; }
 
+        .chatbot-nav-item-link {
+          color: inherit;
+          display: block;
+          height: 50px;
+          line-height: 50px;
+          position: relative;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          transition: 0.3s ease;
+          width: 100%;
+
+          &:hover {
+            color: $blue;
+          }
+        }
+      }
+
+    }
+
+    .chatbot-inner {
+      -ms-overflow-style: none;
+      background: $lightgray;
+      height: 400px;
+      overflow: -moz-scrollbars-none;
+      overflow: scroll;
+      padding-top: 50px;
+
+      &::-webkit-scrollbar {
+        width: 0 !important;
+      }
+
+      .botui-container {
+        background: none;
+        font-size: 16px;
+        font-family: $primary-font;
+      }
+
+      .botui-message-content.text {
+        background: $white;
+      }
+
+      .botui-message-content.human {
+        background: $gray;
+      }
+    }
+  }
+
+}
+*/
 /* LEVEL 2 */
-.level-2 .chatbot-open {
-  background-color: #101010;
-  border: 1px solid #101010;
-  box-shadow: none;
-  color: white;
-  cursor: pointer;
-  height: 65px;
-  padding: 10px 0 0 0;
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 320px;
-  z-index: 1;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease; }
-  .level-2 .chatbot-open:hover {
-    color: #64ff64; }
+/*
+.level-2 {
 
-.level-2 .chatbot {
-  display: none;
-  background-color: #101010;
-  box-shadow: none;
-  height: 400px;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  transition: 0.3s ease;
-  width: 320px;
-  z-index: 1; }
-  .level-2 .chatbot .chatbot-nav {
-    background-color: #101010;
-    border-bottom: 1px solid white;
-    color: white;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    list-style: none;
-    margin: 0;
+  .chatbot-open {
+    background-color: $dark;
+    border: 1px solid $dark;
+    box-shadow: none;
+    color: $white;
+    cursor: pointer;
+    height: 65px;
+    padding: 10px 0 0 0;
     font-size: 30px;
     text-align: center;
+    text-transform: uppercase;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    z-index: 1;
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
-    width: 100%;
-    z-index: 110; }
-    .level-2 .chatbot .chatbot-nav .chatbot-nav-item {
+
+    &:hover {
+      color: $green;
+    }
+  }
+
+  .chatbot {
+    display: none;
+    background-color: $dark;
+    box-shadow: none;
+    height: 400px;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transition: 0.3s ease;
+    width: 320px;
+    z-index: 1;
+
+    .chatbot-nav {
+      background-color: $dark;
+      border-bottom: 1px solid $white;
+      color: $white;
       height: 50px;
-      line-height: 50px;
-      margin-right: 5px;
-      position: relative;
-      transition: 0.3s ease; }
-      .level-2 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link {
-        color: inherit;
-        display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      list-style: none;
+      margin: 0;
+      font-size: 30px;
+      text-align: center;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+      width: 100%;
+      z-index: 110;
+
+      .chatbot-nav-item {
         height: 50px;
         line-height: 50px;
+        margin-right: 5px;
         position: relative;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
         transition: 0.3s ease;
-        width: 100%; }
-        .level-2 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover {
-          color: #64ff64; }
-  .level-2 .chatbot .chatbot-inner {
-    -ms-overflow-style: none;
-    background: #f2f2f2;
-    height: 400px;
-    overflow: -moz-scrollbars-none;
-    overflow: scroll;
-    padding-top: 50px; }
-    .level-2 .chatbot .chatbot-inner::-webkit-scrollbar {
-      width: 0 !important; }
-    .level-2 .chatbot .chatbot-inner .botui-container {
-      background: none;
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif; }
-    .level-2 .chatbot .chatbot-inner .botui-message-content.text {
-      background: white; }
-    .level-2 .chatbot .chatbot-inner .botui-message-content.human {
-      background: gray; }
 
+        .chatbot-nav-item-link {
+          color: inherit;
+          display: block;
+          height: 50px;
+          line-height: 50px;
+          position: relative;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          transition: 0.3s ease;
+          width: 100%;
+
+          &:hover {
+            color: $green;
+          }
+        }
+      }
+
+    }
+
+    .chatbot-inner {
+      -ms-overflow-style: none;
+      background: $lightgray;
+      height: 400px;
+      overflow: -moz-scrollbars-none;
+      overflow: scroll;
+      padding-top: 50px;
+
+      &::-webkit-scrollbar {
+        width: 0 !important;
+      }
+
+      .botui-container {
+        background: none;
+        font-size: 16px;
+        font-family: $primary-font;
+      }
+
+      .botui-message-content.text {
+        background: $white;
+      }
+
+      .botui-message-content.human {
+        background: $gray;
+      }
+    }
+  }
+
+}
+*/
 /* LEVEL 3 */
-.level-3 .chatbot-open {
-  background-color: #101010;
-  border: 1px solid #101010;
-  box-shadow: none;
-  color: white;
-  cursor: pointer;
-  height: 65px;
-  padding: 10px 0 0 0;
-  font-size: 30px;
-  text-align: center;
-  text-transform: uppercase;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  width: 320px;
-  z-index: 1;
-  -webkit-transition: all .25s ease;
-  -moz-transition: all .25s ease;
-  -ms-transition: all .25s ease;
-  -o-transition: all .25s ease;
-  transition: all .25s ease; }
-  .level-3 .chatbot-open:hover {
-    color: #ff3232; }
+/*
+.level-3 {
 
-.level-3 .chatbot {
-  display: none;
-  background-color: #101010;
-  box-shadow: none;
-  height: 400px;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  transition: 0.3s ease;
-  width: 320px;
-  z-index: 1; }
-  .level-3 .chatbot .chatbot-nav {
-    background-color: #101010;
-    border-bottom: 1px solid white;
-    color: white;
-    height: 50px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    list-style: none;
-    margin: 0;
+  .chatbot-open {
+    background-color: $dark;
+    border: 1px solid $dark;
+    box-shadow: none;
+    color: $white;
+    cursor: pointer;
+    height: 65px;
+    padding: 10px 0 0 0;
     font-size: 30px;
     text-align: center;
+    text-transform: uppercase;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 320px;
+    z-index: 1;
     -webkit-transition: all .25s ease;
     -moz-transition: all .25s ease;
     -ms-transition: all .25s ease;
     -o-transition: all .25s ease;
     transition: all .25s ease;
-    width: 100%;
-    z-index: 110; }
-    .level-3 .chatbot .chatbot-nav .chatbot-nav-item {
+
+    &:hover {
+      color: $red;
+    }
+  }
+
+  .chatbot {
+    display: none;
+    background-color: $dark;
+    box-shadow: none;
+    height: 400px;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    transition: 0.3s ease;
+    width: 320px;
+    z-index: 1;
+
+    .chatbot-nav {
+      background-color: $dark;
+      border-bottom: 1px solid $white;
+      color: $white;
       height: 50px;
-      line-height: 50px;
-      margin-right: 5px;
-      position: relative;
-      transition: 0.3s ease; }
-      .level-3 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link {
-        color: inherit;
-        display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      list-style: none;
+      margin: 0;
+      font-size: 30px;
+      text-align: center;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+      width: 100%;
+      z-index: 110;
+
+      .chatbot-nav-item {
         height: 50px;
         line-height: 50px;
+        margin-right: 5px;
         position: relative;
-        text-align: center;
-        text-decoration: none;
-        text-transform: uppercase;
         transition: 0.3s ease;
-        width: 100%; }
-        .level-3 .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover {
-          color: #ff3232; }
-  .level-3 .chatbot .chatbot-inner {
-    -ms-overflow-style: none;
-    background: #f2f2f2;
-    height: 400px;
-    overflow: -moz-scrollbars-none;
-    overflow: scroll;
-    padding-top: 50px; }
-    .level-3 .chatbot .chatbot-inner::-webkit-scrollbar {
-      width: 0 !important; }
-    .level-3 .chatbot .chatbot-inner .botui-container {
-      background: none;
-      font-size: 16px;
-      font-family: "Montserrat", sans-serif; }
-    .level-3 .chatbot .chatbot-inner .botui-message-content.text {
-      background: white; }
-    .level-3 .chatbot .chatbot-inner .botui-message-content.human {
-      background: gray; }
 
+        .chatbot-nav-item-link {
+          color: inherit;
+          display: block;
+          height: 50px;
+          line-height: 50px;
+          position: relative;
+          text-align: center;
+          text-decoration: none;
+          text-transform: uppercase;
+          transition: 0.3s ease;
+          width: 100%;
+
+          &:hover {
+            color: $red;
+          }
+        }
+      }
+
+    }
+
+    .chatbot-inner {
+      -ms-overflow-style: none;
+      background: $lightgray;
+      height: 400px;
+      overflow: -moz-scrollbars-none;
+      overflow: scroll;
+      padding-top: 50px;
+
+      &::-webkit-scrollbar {
+        width: 0 !important;
+      }
+
+      .botui-container {
+        background: none;
+        font-size: 16px;
+        font-family: $primary-font;
+      }
+
+      .botui-message-content.text {
+        background: $white;
+      }
+
+      .botui-message-content.human {
+        background: $gray;
+      }
+    }
+  }
+
+}
+*/
 .address-block li {
   margin-bottom: 10px; }
   .address-block li i {
@@ -1131,9 +978,6 @@ h3.quote::before {
 .counter-item p {
   margin-bottom: 0px; }
 
-.counter {
-  padding: 100px 0 0 0; }
-
 .footer .copyright a {
   font-weight: 600; }
 
@@ -1144,41 +988,80 @@ h3.quote::before {
   margin-left: 15px; }
 
 /* LEVEL 1 */
-.level-1 .footer {
-  background: #101010; }
-  .level-1 .footer .copyright a {
-    font-weight: 600; }
+/*
+.level-1 {
 
-.level-1 .footer-btm {
-  border-top: 1px solid #101010; }
+  .footer {
+    background: $dark;
+    .copyright {
+      a {
+        font-weight: 600;
+      }
+    }
+  }
 
-.level-1 .footer-socials li a {
-  margin-left: 15px; }
+  .footer-btm {
+    border-top: 1px solid $dark;
+  }
 
+  .footer-socials {
+    li a {
+      margin-left: 15px;
+    }
+  }
+
+}
+*/
 /* LEVEL 2 */
-.level-2 .footer {
-  background: #101010; }
-  .level-2 .footer .copyright a {
-    font-weight: 600; }
+/*
+.level-2 {
 
-.level-2 .footer-btm {
-  border-top: 1px solid #101010; }
+  .footer {
+    background: $dark;
+    .copyright {
+      a {
+        font-weight: 600;
+      }
+    }
+  }
 
-.level-2 .footer-socials li a {
-  margin-left: 15px; }
+  .footer-btm {
+    border-top: 1px solid $dark;
+  }
 
+  .footer-socials {
+    li a {
+      margin-left: 15px;
+    }
+  }
+
+}
+*/
 /* LEVEL 3 */
-.level-3 .footer {
-  background: #101010; }
-  .level-3 .footer .copyright a {
-    font-weight: 600; }
+/*
+.level-3 {
 
-.level-3 .footer-btm {
-  border-top: 1px solid #101010; }
+  .footer {
+    background: $dark;
+    .copyright {
+      a {
+        font-weight: 600;
+      }
+    }
+  }
 
-.level-3 .footer-socials li a {
-  margin-left: 15px; }
+  .footer-btm {
+    border-top: 1px solid $dark;
+  }
 
+  .footer-socials {
+    li a {
+      margin-left: 15px;
+    }
+  }
+
+}
+*/
 .intro-item i {
   font-size: 60px;
   line-height: 60px; }
@@ -1256,155 +1139,254 @@ h3.quote::before {
     display: none; }
 
 /* LEVEL 1 */
-.level-1 #navbar {
-  background: #101010; }
-  .level-1 #navbar li {
-    padding-left: 15px; }
-    .level-1 #navbar li.active .nav-link {
-      color: #0064ff; }
-  .level-1 #navbar .nav-link {
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: .5px;
-    text-transform: uppercase;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .level-1 #navbar .nav-link:hover, .level-1 #navbar .nav-link:focus {
-      color: #0064ff; }
-  .level-1 #navbar .btn {
-    padding: .5rem 1.5rem;
-    color: white; }
-  .level-1 #navbar .sign-btn {
-    padding: .5rem 1.5rem .5rem 0rem;
-    background: black;
-    color: gray;
-    font-size: 20px;
-    font-weight: 400;
-    transition: all, 0.2s, ease; }
-    .level-1 #navbar .sign-btn:hover {
-      background: black;
-      color: white; }
+/*
+.level-1 {
 
-.level-1 .navbar-brand {
-  width: 300px;
-  height: auto; }
-  @media (max-width: 480px) {
-    .level-1 .navbar-brand {
-      width: 240px; } }
-  .level-1 .navbar-brand .logo {
-    display: none; }
-  .level-1 .navbar-brand .logo-blue {
-    display: block; }
-  .level-1 .navbar-brand .logo-green {
-    display: none; }
-  .level-1 .navbar-brand .logo-red {
-    display: none; }
+  #navbar {
+    background: $dark;
 
+    li {
+      padding-left: 15px;
+
+      &.active .nav-link {
+        color: $blue;
+      }
+    }
+
+    .nav-link {
+      color: $white;
+      font-family: $secondary-font;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+
+      &:hover, &:focus {
+        color: $blue;
+      }
+    }
+
+
+    .btn {
+      padding: .5rem 1.5rem;
+      color: $white;
+    }
+
+    .sign-btn {
+      padding: .5rem 1.5rem .5rem 0rem;
+      background: $black;
+      color: $gray;
+      font-size: 20px;
+      font-weight: 400;
+      transition: all, 0.2s, ease;
+
+      &:hover {
+        background: $black;
+        color: $white;
+      }
+    }
+
+  }
+
+  .navbar-brand {
+    width: 300px;
+    height: auto;
+
+    @include mobile {
+      width: 240px;
+    }
+
+    .logo {
+      display: none;
+    }
+
+    .logo-blue {
+      display: block;
+    }
+
+    .logo-green {
+      display: none;
+    }
+
+    .logo-red {
+      display: none;
+    }
+
+  }
+
+}
+*/
 /* LEVEL 2 */
-.level-2 #navbar {
-  background: #101010; }
-  .level-2 #navbar li {
-    padding-left: 15px; }
-    .level-2 #navbar li.active .nav-link {
-      color: #64ff64; }
-  .level-2 #navbar .nav-link {
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: .5px;
-    text-transform: uppercase;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .level-2 #navbar .nav-link:hover, .level-2 #navbar .nav-link:focus {
-      color: #64ff64; }
-  .level-2 #navbar .btn {
-    padding: .5rem 1.5rem;
-    color: white; }
-  .level-2 #navbar .sign-btn {
-    padding: .5rem 1.5rem .5rem 0rem;
-    background: black;
-    color: gray;
-    font-size: 20px;
-    font-weight: 400;
-    transition: all, 0.2s, ease; }
-    .level-2 #navbar .sign-btn:hover {
-      background: black;
-      color: white; }
+/*
+.level-2 {
 
-.level-2 .navbar-brand {
-  width: 300px;
-  height: auto; }
-  @media (max-width: 480px) {
-    .level-2 .navbar-brand {
-      width: 240px; } }
-  .level-2 .navbar-brand .logo {
-    display: none; }
-  .level-2 .navbar-brand .logo-blue {
-    display: none; }
-  .level-2 .navbar-brand .logo-green {
-    display: block; }
-  .level-2 .navbar-brand .logo-red {
-    display: none; }
+  #navbar {
+    background: $dark;
 
+    li {
+      padding-left: 15px;
+
+      &.active .nav-link {
+        color: $green;
+      }
+    }
+
+    .nav-link {
+      color: $white;
+      font-family: $secondary-font;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+
+      &:hover, &:focus {
+        color: $green;
+      }
+    }
+
+
+    .btn {
+      padding: .5rem 1.5rem;
+      color: $white;
+    }
+
+    .sign-btn {
+      padding: .5rem 1.5rem .5rem 0rem;
+      background: $black;
+      color: $gray;
+      font-size: 20px;
+      font-weight: 400;
+      transition: all, 0.2s, ease;
+
+      &:hover {
+        background: $black;
+        color: $white;
+      }
+    }
+
+  }
+
+  .navbar-brand {
+    width: 300px;
+    height: auto;
+
+    @include mobile {
+      width: 240px;
+    }
+
+    .logo {
+      display: none;
+    }
+
+    .logo-blue {
+      display: none;
+    }
+
+    .logo-green {
+      display: block;
+    }
+
+    .logo-red {
+      display: none;
+    }
+
+  }
+
+}
+*/
 /* LEVEL 3 */
-.level-3 #navbar {
-  background: #101010; }
-  .level-3 #navbar li {
-    padding-left: 15px; }
-    .level-3 #navbar li.active .nav-link {
-      color: #ff3232; }
-  .level-3 #navbar .nav-link {
-    color: white;
-    font-family: "Montserrat", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: .5px;
-    text-transform: uppercase;
-    -webkit-transition: all .25s ease;
-    -moz-transition: all .25s ease;
-    -ms-transition: all .25s ease;
-    -o-transition: all .25s ease;
-    transition: all .25s ease; }
-    .level-3 #navbar .nav-link:hover, .level-3 #navbar .nav-link:focus {
-      color: #ff3232; }
-  .level-3 #navbar .btn {
-    padding: .5rem 1.5rem;
-    color: white; }
-  .level-3 #navbar .sign-btn {
-    padding: .5rem 1.5rem .5rem 0rem;
-    background: black;
-    color: gray;
-    font-size: 20px;
-    font-weight: 400;
-    transition: all, 0.2s, ease; }
-    .level-3 #navbar .sign-btn:hover {
-      background: black;
-      color: white; }
+/*
+.level-3 {
 
-.level-3 .navbar-brand {
-  width: 300px;
-  height: auto; }
-  @media (max-width: 480px) {
-    .level-3 .navbar-brand {
-      width: 240px; } }
-  .level-3 .navbar-brand .logo {
-    display: none; }
-  .level-3 .navbar-brand .logo-blue {
-    display: none; }
-  .level-3 .navbar-brand .logo-green {
-    display: none; }
-  .level-3 .navbar-brand .logo-red {
-    display: block; }
+  #navbar {
+    background: $dark;
 
+    li {
+      padding-left: 15px;
+
+      &.active .nav-link {
+        color: $red;
+      }
+    }
+
+    .nav-link {
+      color: $white;
+      font-family: $secondary-font;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: .5px;
+      text-transform: uppercase;
+      -webkit-transition: all .25s ease;
+      -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+      -o-transition: all .25s ease;
+      transition: all .25s ease;
+
+      &:hover, &:focus {
+        color: $red;
+      }
+    }
+
+
+    .btn {
+      padding: .5rem 1.5rem;
+      color: $white;
+    }
+
+    .sign-btn {
+      padding: .5rem 1.5rem .5rem 0rem;
+      background: $black;
+      color: $gray;
+      font-size: 20px;
+      font-weight: 400;
+      transition: all, 0.2s, ease;
+
+      &:hover {
+        background: $black;
+        color: $white;
+      }
+    }
+
+  }
+
+  .navbar-brand {
+    width: 300px;
+    height: auto;
+
+    @include mobile {
+      width: 240px;
+    }
+
+    .logo {
+      display: none;
+    }
+
+    .logo-blue {
+      display: none;
+    }
+
+    .logo-green {
+      display: none;
+    }
+
+    .logo-red {
+      display: block;
+    }
+
+  }
+
+}
+*/
 .portflio-item:before {
   background: rgba(0, 0, 0, 0.8);
   content: "";
@@ -1519,83 +1501,131 @@ h3.quote::before {
     letter-spacing: 1px; }
 
 /* LEVEL 1 */
-.level-1 .slider {
-  background: url("../images/bg/home_blue.jpg") no-repeat;
-  background-size: cover;
-  background-position: 10% 0%;
-  padding: 100px 0 150px 0;
-  position: relative;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .level-1 .slider .block h1 {
-    color: white;
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 80px; }
-  .level-1 .slider .block p {
-    color: #0064ff;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 27px;
-    margin-bottom: 30px; }
-  .level-1 .slider .block span {
-    letter-spacing: 1px; }
+/*
+.level-1 {
 
+  .slider{
+    background: url("../images/bg/home_blue.jpg") no-repeat;
+    background-size: cover;
+    background-position: 10% 0%;
+    padding:100px 0 150px 0;
+    position: relative;
+
+    /* Create the parallax scrolling effect */
+/*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .block {
+      h1 {
+        color: $white;
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 80px;
+
+      }
+
+      p {
+        color: $blue;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-bottom: 30px;
+      }
+
+      span {
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+}
+*/
 /* LEVEL 2 */
-.level-2 .slider {
-  background: url("../images/bg/home_green.jpg") no-repeat;
-  background-size: cover;
-  background-position: 10% 0%;
-  padding: 100px 0 150px 0;
-  position: relative;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .level-2 .slider .block h1 {
-    color: white;
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 80px; }
-  .level-2 .slider .block p {
-    color: #64ff64;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 27px;
-    margin-bottom: 30px; }
-  .level-2 .slider .block span {
-    letter-spacing: 1px; }
+/*
+.level-2 {
 
+  .slider{
+    background: url("../images/bg/home_green.jpg") no-repeat;
+    background-size: cover;
+    background-position: 10% 0%;
+    padding:100px 0 150px 0;
+    position: relative;
+
+    /* Create the parallax scrolling effect */
+/*background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .block {
+      h1 {
+        color: $white;
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 80px;
+
+      }
+
+      p {
+        color: $green;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-bottom: 30px;
+      }
+
+      span {
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+}
+*/
 /* LEVEL 3 */
-.level-3 .slider {
-  background: url("../images/bg/home_red.jpg") no-repeat;
-  background-size: cover;
-  background-position: 10% 0%;
-  padding: 100px 0 150px 0;
-  position: relative;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-  .level-3 .slider .block h1 {
-    color: white;
-    font-size: 70px;
-    font-weight: 600;
-    line-height: 80px; }
-  .level-3 .slider .block p {
-    color: #ff3232;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 27px;
-    margin-bottom: 30px; }
-  .level-3 .slider .block span {
-    letter-spacing: 1px; }
+/*
+.level-3 {
 
+  .slider{
+    background: url("../images/bg/home_red.jpg") no-repeat;
+    background-size: cover;
+    background-position: 10% 0%;
+    padding:100px 0 150px 0;
+    position: relative;
+
+    /* Create the parallax scrolling effect 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .block {
+      h1 {
+        color: $white;
+        font-size: 70px;
+        font-weight: 600;
+        line-height: 80px;
+
+      }
+
+      p {
+        color: $red;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-bottom: 30px;
+      }
+
+      span {
+        letter-spacing: 1px;
+      }
+    }
+  }
+
+}
+*/
 .team-img-hover .team-social li a.facebook {
   background: #6666cc; }
 
@@ -1702,56 +1732,83 @@ p {
   line-height: 30px; }
 
 /* LEVEL 1 */
-.level-1 body {
-  -webkit-font-smoothing: antialiased;
-  color: #0064ff;
-  font-family: "Montserrat", serif;
-  font-size: 16px;
-  line-height: 1.5; }
+/*
+.level-1 {
 
-.level-1 h1, .level-1 .h1, .level-1 h2, .level-1 .h2, .level-1 h3, .level-1 .h3, .level-1 h4, .level-1 .h4, .level-1 h5, .level-1 .h5, .level-1 h6, .level-1 .h6 {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600; }
+  body {
+    -webkit-font-smoothing: antialiased;
+    color: $blue;
+    font-family: $extra-font;
+    font-size: 16px;
+    line-height: 1.5;
 
-.level-1 h6, .level-1 .h6 {
-  color: #0064ff;
-  font-size: 1.2rem; }
+  }
 
+  h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+    color: $white;
+    font-family: $secondary-font;
+    font-weight:600;
+  }
+
+  h6,.h6 {
+    color: $blue;
+    font-size: 1.2rem;
+  }
+
+}
+*/
 /* LEVEL 2 */
-.level-2 body {
-  -webkit-font-smoothing: antialiased;
-  color: #64ff64;
-  font-family: "Montserrat", serif;
-  font-size: 16px;
-  line-height: 1.5; }
+/*
+.level-2 {
 
-.level-2 h1, .level-2 .h1, .level-2 h2, .level-2 .h2, .level-2 h3, .level-2 .h3, .level-2 h4, .level-2 .h4, .level-2 h5, .level-2 .h5, .level-2 h6, .level-2 .h6 {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600; }
+  body {
+    -webkit-font-smoothing: antialiased;
+    color: $green;
+    font-family: $extra-font;
+    font-size: 16px;
+    line-height: 1.5;
 
-.level-2 h6, .level-2 .h6 {
-  color: #64ff64;
-  font-size: 1.2rem; }
+  }
 
+  h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+    color: $white;
+    font-family: $secondary-font;
+    font-weight:600;
+  }
+
+  h6,.h6 {
+    color: $green;
+    font-size: 1.2rem;
+  }
+
+}
+*/
 /* LEVEL 3 */
-.level-3 body {
-  -webkit-font-smoothing: antialiased;
-  color: #ff3232;
-  font-family: "Montserrat", serif;
-  font-size: 16px;
-  line-height: 1.5; }
+/*
+.level-3 {
 
-.level-3 h1, .level-3 .h1, .level-3 h2, .level-3 .h2, .level-3 h3, .level-3 .h3, .level-3 h4, .level-3 .h4, .level-3 h5, .level-3 .h5, .level-3 h6, .level-3 .h6 {
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600; }
+  body {
+    -webkit-font-smoothing: antialiased;
+    color: $red;
+    font-family: $extra-font;
+    font-size: 16px;
+    line-height: 1.5;
 
-.level-3 h6, .level-3 .h6 {
-  color: #ff3232;
-  font-size: 1.2rem; }
+  }
 
+  h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+    color: $white;
+    font-family: $secondary-font;
+    font-weight:600;
+  }
+
+  h6,.h6 {
+    color: $red;
+    font-size: 1.2rem;
+  }
+
+}
+*/
 /*=== MEDIA QUERY ===*/
 @media (max-width: 992px) {
   .intro {
@@ -1764,6 +1821,8 @@ p {
     text-align: center; }
   .section {
     padding: 50px 0; }
+  .counter {
+    padding-top: 0; }
   .content-title,
   .section-title {
     text-align: center; }
