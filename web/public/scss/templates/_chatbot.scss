@@ -3,7 +3,6 @@
 	border: none;
 	box-shadow: none;
 	color: $gray;
-	cursor: pointer;
 	height: 65px;
 	padding: 10px 0 0 0;
     font-size: 30px;
@@ -14,10 +13,6 @@
 	bottom: 0;
 	width: 320px;
     z-index: 1;
-
-    &:hover {
-      color: $black;
-    }
 }
 
 .chatbot {
@@ -101,7 +96,17 @@
 
 		.botui-message-content.human {
 			background: $gray;
-		} 
+    } 
+    
+    .botui-actions-buttons-button {
+      background: $gray;
+
+      &:hover {
+        background: $lightgray;
+        color: #595a5a;
+        transition: 0.5s;
+      }
+    }
 	}
 }
 

@@ -49,6 +49,10 @@
 		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-auth.js"></script>
 		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-database.js"></script>
 		<script src="js/firebase_config.js"></script>
+
+		<!-- Chatbot -->
+		<link rel="stylesheet" href="https://unpkg.com/botui/build/botui.min.css">
+		<link rel="stylesheet" href="https://unpkg.com/botui/build/botui-theme-default.css">
 	</head>
 
 	<body>
@@ -197,6 +201,29 @@
 				</footer>
 			</div>
 
+			<!-- Chatbot -->
+			<section class="chatbot-container">
+				<div class="container">
+					<div class="row ">
+						<div class="col-12 justify-content-center">
+							<div class="chatbot-open"><i class="fas fa-comments"></i></div>
+							<div class="chatbot">
+								<nav class="chatbot-nav">
+									<div class="chatbot-nav-item">
+										<a class="chatbot-nav-item-link" href="#"><i class="fas fa-comments"></i></a>
+									</div>
+								</nav>
+								<div class="chatbot-inner">
+									<div class="chatbot-content" id="chatbot-inner">
+										<bot-ui></bot-ui>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<!-- Main jQuery -->
 			<script src="js/jquery/jquery.js"></script>
 
@@ -205,6 +232,14 @@
 
 			<!-- Update UI after login/logout-->
 			<script src="js/check_login.js"></script>
+
+			<!-- Chatbot JS -->
+			<script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+			<script src="https://unpkg.com/botui/build/botui.min.js"></script>
+			<script src="js/chatbot_blog.js"></script>
+
+			<!-- END -->
+			<script src="js/end.js"></script>
 		</div>
 	</body>
 </html>

@@ -329,6 +329,10 @@ h3.quote::before {
 .bg-white {
   background-color: black !important; }
 
+.chatbot-container {
+  display: none; }
+
+.chatbot-open-level,
 .chatbot-open {
   background-color: #101010;
   border: 1px solid #101010;
@@ -350,9 +354,11 @@ h3.quote::before {
   -ms-transition: all .25s ease;
   -o-transition: all .25s ease;
   transition: all .25s ease; }
+  .chatbot-open-level:hover,
   .chatbot-open:hover {
     color: #1ec819; }
 
+.chatbot-level,
 .chatbot {
   display: none;
   background-color: #101010;
@@ -365,6 +371,7 @@ h3.quote::before {
   transition: 0.3s ease;
   width: 320px;
   z-index: 1; }
+  .chatbot-level .chatbot-nav,
   .chatbot .chatbot-nav {
     background-color: #101010;
     border-bottom: 1px solid white;
@@ -385,12 +392,14 @@ h3.quote::before {
     transition: all .25s ease;
     width: 100%;
     z-index: 110; }
+    .chatbot-level .chatbot-nav .chatbot-nav-item,
     .chatbot .chatbot-nav .chatbot-nav-item {
       height: 50px;
       line-height: 50px;
       margin-right: 5px;
       position: relative;
       transition: 0.3s ease; }
+      .chatbot-level .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link,
       .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link {
         color: inherit;
         display: block;
@@ -402,24 +411,33 @@ h3.quote::before {
         text-transform: uppercase;
         transition: 0.3s ease;
         width: 100%; }
+        .chatbot-level .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover,
         .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link:hover {
           color: #1ec819; }
-  .chatbot .chatbot-inner {
+  .chatbot-level .chatbot-inner-level,
+  .chatbot .chatbot-inner-level {
     -ms-overflow-style: none;
     background: #f2f2f2;
     height: 400px;
     overflow: -moz-scrollbars-none;
     overflow: scroll;
     padding-top: 50px; }
-    .chatbot .chatbot-inner::-webkit-scrollbar {
+    .chatbot-level .chatbot-inner-level::-webkit-scrollbar,
+    .chatbot .chatbot-inner-level::-webkit-scrollbar {
       width: 0 !important; }
-    .chatbot .chatbot-inner .botui-container {
+    .chatbot-level .chatbot-inner-level .botui-container,
+    .chatbot .chatbot-inner-level .botui-container {
       background: none;
       font-size: 16px;
       font-family: "Montserrat", sans-serif; }
-    .chatbot .chatbot-inner .botui-message-content.text {
+    .chatbot-level .chatbot-inner-level .botui-message-content.text,
+    .chatbot .chatbot-inner-level .botui-message-content.text {
       background: white; }
-    .chatbot .chatbot-inner .botui-message-content.human {
+      .chatbot-level .chatbot-inner-level .botui-message-content.text a,
+      .chatbot .chatbot-inner-level .botui-message-content.text a {
+        color: #1ec819; }
+    .chatbot-level .chatbot-inner-level .botui-message-content.human,
+    .chatbot .chatbot-inner-level .botui-message-content.human {
       background: gray; }
 
 .address-block li {

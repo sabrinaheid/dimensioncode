@@ -89,7 +89,7 @@
 			</header>
 			<!-- Header Close -->
 
-			<div class="main-wrapper ">
+			<div class="main-wrapper">
 				<a href="login.html" class="btn btn-main sign-btn" id="sign-in-button">sign in</a>
 				<a href="#" class="btn btn-main sign-btn" id="sign-out-button">sign out</a>
 				<section class="page-title bg-1">
@@ -104,29 +104,6 @@
 						</div>
 					</div>
 				</section>
-
-				<!-- Chatbot -->
-				<section>
-						<div class="container">
-							<div class="row ">
-								<div class="col-12 justify-content-center">
-									<div class="chatbot-open chatbot-open-level" style="display: none"><i class="far fa-comments"></i></div>
-									<div class="chatbot">
-										<nav class="chatbot-nav">
-											<div class="chatbot-nav-item">
-												<a class="chatbot-nav-item-link" href="#"><i class="far fa-comments"></i></a>
-											</div>
-										</nav>
-										<div class="chatbot-inner">
-											<div class="chatbot-content" id="chatbot-inner">
-												<bot-ui></bot-ui>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
 
 				<!-- contact form start -->
 				<section class="contact-form-wrap section">
@@ -195,6 +172,52 @@
 
 			</div>
 
+			<!-- Chatbot for the rätsel 2-->
+			<section class="chatbot-container-level">
+					<div class="container">
+						<div class="row ">
+							<div class="col-12 justify-content-center">
+								<div class="chatbot-open-level" style="display: none"><i class="far fa-comments"></i></div>
+								<div class="chatbot-level">
+									<nav class="chatbot-nav">
+										<div class="chatbot-nav-item">
+											<a class="chatbot-nav-item-link" href="#"><i class="far fa-comments"></i></a>
+										</div>
+									</nav>
+									<div class="chatbot-inner-level">
+										<div class="chatbot-content" id="chatbot-inner-level">
+											<bot-ui></bot-ui>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Chatbot -->
+			<section class="chatbot-container">
+					<div class="container">
+						<div class="row ">
+							<div class="col-12 justify-content-center">
+								<div class="chatbot-open"><i class="fas fa-comments"></i></div>
+								<div class="chatbot">
+									<nav class="chatbot-nav">
+										<div class="chatbot-nav-item">
+											<a class="chatbot-nav-item-link" href="#"><i class="fas fa-comments"></i></a>
+										</div>
+									</nav>
+									<div class="chatbot-inner">
+										<div class="chatbot-content" id="chatbot-inner">
+											<bot-ui></bot-ui>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
 			<!-- Main jQuery -->
 			<script src="js/jquery/jquery.js"></script>
 
@@ -208,6 +231,10 @@
 			<script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
 			<script src="https://unpkg.com/botui/build/botui.min.js"></script>
 			<script src="js/puzzle_2.js"></script>
+			<script src="js/chatbot_contact.js"></script>
+
+			<!-- END -->
+			<script src="js/end.js"></script>
 		</div>
 	</body>
 </html>

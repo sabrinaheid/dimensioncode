@@ -514,7 +514,6 @@ h3.quote::before {
   border: none;
   box-shadow: none;
   color: gray;
-  cursor: pointer;
   height: 65px;
   padding: 10px 0 0 0;
   font-size: 30px;
@@ -525,8 +524,6 @@ h3.quote::before {
   bottom: 0;
   width: 320px;
   z-index: 1; }
-  .chatbot-open:hover {
-    color: black; }
 
 .chatbot {
   display: none;
@@ -592,6 +589,12 @@ h3.quote::before {
       background: white; }
     .chatbot .chatbot-inner .botui-message-content.human {
       background: gray; }
+    .chatbot .chatbot-inner .botui-actions-buttons-button {
+      background: gray; }
+      .chatbot .chatbot-inner .botui-actions-buttons-button:hover {
+        background: #f2f2f2;
+        color: #595a5a;
+        transition: 0.5s; }
 
 /* LEVEL 1 */
 /*

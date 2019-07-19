@@ -17,26 +17,14 @@ firebase.auth().onAuthStateChanged(function(user) {
 			if (data !== null) {
 				if (data.level === '1') {
 					localStorage.level = '1';
-					// location.reload();
-					// $('.main').addClass('level-1');
-					// $('.main').removeClass('level-2');
-					// $('.main').removeClass('level-3');
 				}
 
 				if (data.level === '2') {
 					localStorage.level = '2';
-					// location.reload();
-					// $('.main').addClass('level-2');
-					// $('.main').removeClass('level-1');
-					// $('.main').removeClass('level-3');
 				}
 
 				if (data.level === '3') {
 					localStorage.level = '3';
-					// location.reload();
-					// $('.main').addClass('level-3');
-					// $('.main').removeClass('level-1');
-					// $('.main').removeClass('level-2');
 				}
 			}
 			

@@ -10,13 +10,3 @@ var config = {
 firebase.initializeApp(config);
 
 var database = firebase.database();
-
-// var starCountRef = database.ref('test');
-// starCountRef.on('value', function(snapshot) {
-// 	document.getElementById("test").innerHTML=snapshot.val();
-// });
-
-// function sendData(){
-// 	var input = document.getElementById("testInput").value;
-// 	database.ref('test').set(input);
-// }

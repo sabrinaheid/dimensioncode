@@ -7,13 +7,55 @@ firebase.auth().onAuthStateChanged(function(user) {
 		setTimeout(function() {
 			$('.chatbot').show();
 			startDialog();
-		}, 5000);
+		}, 5000);	
 
 		function startDialog() {
 			botui.message.add({
 				delay: 2000,
 				loading: true,
-				content: 'Hello human, My name is Kayla.'
+				content: "They won’t get in touch, but I will... ;-)"
+			}).then(() => {
+				return botui.message.add({
+					delay: 2000,
+					loading: true,
+					content: "Are you interested?"
+				})
+			}).then(() => {
+				return botui.action.button({
+					delay: 2000,
+					loading: true,
+					human: true,
+					action: [
+							{
+								text: "Yes",
+								value: 0
+							},
+							{
+								text: "No",
+								value: 1
+							}
+					]
+				});
+			}).then(res => {
+				if (res.value == 0) {
+					return botui.message.add({
+						delay: 2000,
+						loading: true,
+						content: "Let's start."
+					});
+				} else {
+					return botui.message.add({
+						delay: 2000,
+						loading: true,
+						content: "Well let’s start anyways!"
+					});
+				};
+			}).then(() => {
+				return botui.message.add({
+					delay: 2000,
+					loading: true,
+					content: "Hello human, My name is Kayla."
+				})
 			}).then(() => {
 				return botui.message.add({
 					delay: 2000,

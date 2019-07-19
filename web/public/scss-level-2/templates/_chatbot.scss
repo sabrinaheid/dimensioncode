@@ -1,3 +1,9 @@
+// hide the chat with kayla
+.chatbot-container {
+  display: none;
+}
+
+.chatbot-open-level,
 .chatbot-open {
   background-color: $dark;
   border: 1px solid $dark;
@@ -25,6 +31,7 @@
   }
 }
 
+.chatbot-level,
 .chatbot {
   display: none;
   background-color: $dark;
@@ -86,7 +93,7 @@
 
   }
 
-  .chatbot-inner {
+  .chatbot-inner-level {
     -ms-overflow-style: none;
     background: $lightgray;
     height: 400px;
@@ -106,6 +113,10 @@
 
     .botui-message-content.text {
       background: $white;
+
+      a {
+        color: $green;
+      }
     }
 
     .botui-message-content.human {

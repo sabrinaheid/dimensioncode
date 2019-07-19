@@ -14,7 +14,7 @@ if (localStorage.level == '1') {
 		}
 	});
 
-	$('.overlay-puzzle-1').click(function() {
-		$('.overlay-puzzle-1').hide();
-	});
+	// $('.overlay-puzzle-1').click(function() {
+	// 	$('.overlay-puzzle-1').hide();
+	// });
 }

@@ -13,7 +13,55 @@ firebase.auth().onAuthStateChanged(function(user) {
 			botui.message.add({
 				delay: 2000,
 				loading: true,
-				content: 'Hello human, My name is Kayla.'
+				content: 'It appears the best sponsor is a predominantly singular unit.'
+			}).then(() => {
+				return botui.message.add({
+					delay: 2000,
+					loading: true,
+					content: "Would you like to know what is also a predominantly singular unit? Me."
+				})
+			}).then(() => {
+				return botui.message.add({
+					delay: 2000,
+					loading: true,
+					content: "Let’s talk?"
+				})
+			}).then(() => {
+				return botui.action.button({
+					delay: 2000,
+					loading: true,
+					human: true,
+					action: [
+							{
+								text: "Yes",
+								value: 0
+							},
+							{
+								text: "No",
+								value: 1
+							}
+					]
+				});
+			}).then(res => {
+				if (res.value == 0) {
+					return botui.message.add({
+						delay: 2000,
+						loading: true,
+						content: "Let's start."
+					});
+				} else {
+					return botui.message.add({
+						delay: 2000,
+						loading: true,
+						content: "Well let’s start anyways!"
+					});
+				};
+			}).then(() => {
+				return botui.message.add({
+					delay: 2000,
+					loading: true,
+					content: "Hello human, My name is Kayla."
+				})
 			}).then(() => {
 				return botui.message.add({
 					delay: 2000,

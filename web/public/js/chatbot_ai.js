@@ -13,7 +13,49 @@ firebase.auth().onAuthStateChanged(function(user) {
 			botui.message.add({
 				delay: 2000,
 				loading: true,
-				content: 'Hello human, My name is Kayla.'
+				content: "Well maybe I can tell you something from personal experience, if you are really interested."
+			}).then(() => {
+				return botui.message.add({
+					delay: 2000,
+					loading: true,
+					content: "Are you interested?"
+				})
+			}).then(() => {
+				return botui.action.button({
+					delay: 2000,
+					loading: true,
+					human: true,
+					action: [
+							{
+								text: "Yes",
+								value: 0
+							},
+							{
+								text: "No",
+								value: 1
+							}
+					]
+				});
+			}).then(res => {
+				if (res.value == 0) {
+					return botui.message.add({
+						delay: 2000,
+						loading: true,
+						content: "Let's start."
+					});
+				} else {
+					return botui.message.add({
+						delay: 2000,
+						loading: true,
+						content: "Well let’s start anyways!"
+					});
+				};
+			}).then(() => {
+				return botui.message.add({
+					delay: 2000,
+					loading: true,
+					content: "Hello human, My name is Kayla."
+				})
 			}).then(() => {
 				return botui.message.add({
 					delay: 2000,
@@ -222,6 +264,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 				startDialog();
 			}, 5000);
 		});
+
 	} else {
 		$('.chatbot-open').hide();
 	} 

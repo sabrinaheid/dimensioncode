@@ -19,21 +19,18 @@
 		<!-- Main Stylesheet -->
 		<script>
 			if (localStorage.level == '1') {
-				console.log('1');
 				var link = document.createElement('link');
 				link.setAttribute('rel', 'stylesheet');
 				link.setAttribute('type', 'text/css');
 				link.setAttribute('href', 'css/style-level-1.css');
 				document.getElementsByTagName('head')[0].appendChild(link);
 			} else if (localStorage.level == '2') {
-				console.log('2');
 				var link = document.createElement('link');
 				link.setAttribute('rel', 'stylesheet');
 				link.setAttribute('type', 'text/css');
 				link.setAttribute('href', 'css/style-level-2.css');
 				document.getElementsByTagName('head')[0].appendChild(link);
 			} else if (localStorage.level == '3') {
-				console.log('3');
 				var link = document.createElement('link');
 				link.setAttribute('rel', 'stylesheet');
 				link.setAttribute('type', 'text/css');
@@ -94,8 +91,6 @@
 			<!-- Header Close -->
 
 			<div class="main-wrapper">
-				<div id="my-botui-app"></div>
-        
 			    <a href="login.html" class="btn btn-main sign-btn" id="sign-in-button">sign in</a>
 		    	<a href="#" class="btn btn-main sign-btn" id="sign-out-button">sign out</a>
 				
@@ -156,7 +151,7 @@
 					</div>
 				</section>
 
-				<div class="overlay-puzzle-1"><span>You are now in Level 2. Woohoo!</span></div>
+				<div class="overlay-puzzle-1"><span>You did it. Woohoo! Click <a href="index.html">here</a> to go to the next level.</span></div>
 				<style>
 					.overlay-puzzle-1 {
 						position: fixed;
@@ -173,29 +168,6 @@
 						cursor: pointer;
 					}
 				</style>
-
-				<!-- Chatbot -->
-				<section>
-					<div class="container">
-						<div class="row ">
-							<div class="col-12 justify-content-center">
-								<div class="chatbot-open"><i class="fas fa-comments"></i></div>
-								<div class="chatbot">
-									<nav class="chatbot-nav">
-										<div class="chatbot-nav-item">
-											<a class="chatbot-nav-item-link" href="#"><i class="fas fa-comments"></i></a>
-										</div>
-									</nav>
-									<div class="chatbot-inner">
-										<div class="chatbot-content" id="chatbot-inner">
-											<bot-ui></bot-ui>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
 
 				<!-- Section About Start -->
 				<section class="section about position-relative">
@@ -327,6 +299,29 @@
 				</footer>
 			</div>
 
+			<!-- Chatbot -->
+			<section class="chatbot-container">
+					<div class="container">
+						<div class="row ">
+							<div class="col-12 justify-content-center">
+								<div class="chatbot-open"><i class="fas fa-comments"></i></div>
+								<div class="chatbot">
+									<nav class="chatbot-nav">
+										<div class="chatbot-nav-item">
+											<a class="chatbot-nav-item-link" href="#"><i class="fas fa-comments"></i></a>
+										</div>
+									</nav>
+									<div class="chatbot-inner">
+										<div class="chatbot-content" id="chatbot-inner">
+											<bot-ui></bot-ui>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
 			<!-- Main jQuery -->
 			<script src="js/jquery/jquery.js"></script>
 
@@ -353,6 +348,9 @@
 
 			<!-- Puzzle 1 -->
 			<script src="js/puzzle_1.js"></script>
+
+			<!-- END -->
+			<script src="js/end.js"></script>
 		</div>
 	</body>
 </html>

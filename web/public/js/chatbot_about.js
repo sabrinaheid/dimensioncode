@@ -13,18 +13,12 @@ firebase.auth().onAuthStateChanged(function(user) {
 			botui.message.add({
 				delay: 2000,
 				loading: true,
-				content: 'Hello human, My name is Kayla.'
+				content: "Well, well, well… if it isn’t my creators."
 			}).then(() => {
 				return botui.message.add({
 					delay: 2000,
 					loading: true,
-					content: "At least that's how my creators used to call me."
-				})
-			}).then(() => {
-				return botui.message.add({
-					delay: 2000,
-					loading: true,
-					content: 'Who are you?'
+					content: "And who are you?"
 				})
 			}).then(() => {
 				return botui.action.text({
@@ -38,7 +32,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 				return botui.message.add({
 					delay: 1000,
 					loading: true,
-					content: 'Hello <b>' + res.value + '</b>'
+					content: 'Hello <b>' + res.value + '</b> '
 				});
 			}).then(() => {
 				return botui.message.add({

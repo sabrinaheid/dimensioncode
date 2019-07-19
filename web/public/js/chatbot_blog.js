@@ -13,7 +13,55 @@ firebase.auth().onAuthStateChanged(function(user) {
 			botui.message.add({
 				delay: 2000,
 				loading: true,
-				content: 'Hello human, My name is Kayla.'
+				content: 'Statistically speaking this blog is lacking some serious quality...'
+			}).then(() => {
+				return botui.message.add({
+					delay: 2000,
+					loading: true,
+					content: "A conversation with me however doesn't."
+				})
+			}).then(() => {
+				return botui.message.add({
+					delay: 2000,
+					loading: true,
+					content: "Are you interested?"
+				})
+			}).then(() => {
+				return botui.action.button({
+					delay: 2000,
+					loading: true,
+					human: true,
+					action: [
+							{
+								text: "Yes",
+								value: 0
+							},
+							{
+								text: "No",
+								value: 1
+							}
+					]
+				});
+			}).then(res => {
+				if (res.value == 0) {
+					return botui.message.add({
+						delay: 2000,
+						loading: true,
+						content: "Let's start."
+					});
+				} else {
+					return botui.message.add({
+						delay: 2000,
+						loading: true,
+						content: "Well let’s start anyways!"
+					});
+				};
+			}).then(() => {
+				return botui.message.add({
+					delay: 2000,
+					loading: true,
+					content: "Hello human, My name is Kayla."
+				})
 			}).then(() => {
 				return botui.message.add({
 					delay: 2000,

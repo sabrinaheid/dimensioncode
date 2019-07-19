@@ -6,10 +6,10 @@ if (localStorage.level == '2') {
 	$('.chatbot-open-level').hide();
 } 
 
-$('.chatbot-open').click(function() {
-	$('.chatbot').show();
+$('.chatbot-open-level').click(function() {
+	$('.chatbot-level').show();
 
-	var botui = new BotUI('chatbot-inner');
+	var botui = new BotUI('chatbot-inner-level');
 
 	botui.message.add({ // show first message
 		delay: 200,
@@ -64,7 +64,7 @@ $('.chatbot-open').click(function() {
 			botui.message.add({
 				delay: 2000,
 				loading: true,
-				content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+				content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 			});
 
 			if (firebase.auth().currentUser) {
@@ -96,7 +96,7 @@ $('.chatbot-open').click(function() {
 					botui.message.add({
 						delay: 2000,
 						loading: true,
-						content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+						content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 					});
 
 					if (firebase.auth().currentUser) {
@@ -128,7 +128,7 @@ $('.chatbot-open').click(function() {
 							botui.message.add({
 								delay: 2000,
 								loading: true,
-								content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+								content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 							});
 
 							if (firebase.auth().currentUser) {
@@ -160,7 +160,7 @@ $('.chatbot-open').click(function() {
 									botui.message.add({
 										delay: 2000,
 										loading: true,
-										content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+										content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 									});
 
 									if (firebase.auth().currentUser) {
@@ -192,7 +192,7 @@ $('.chatbot-open').click(function() {
 											botui.message.add({
 												delay: 2000,
 												loading: true,
-												content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+												content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 											});
 
 											if (firebase.auth().currentUser) {
@@ -224,7 +224,7 @@ $('.chatbot-open').click(function() {
 													botui.message.add({
 														delay: 2000,
 														loading: true,
-														content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+														content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 													});
 
 													if (firebase.auth().currentUser) {
@@ -256,7 +256,7 @@ $('.chatbot-open').click(function() {
 															botui.message.add({
 																delay: 2000,
 																loading: true,
-																content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+																content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 															});
 
 															if (firebase.auth().currentUser) {
@@ -288,7 +288,7 @@ $('.chatbot-open').click(function() {
 																	botui.message.add({
 																		delay: 2000,
 																		loading: true,
-																		content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+																		content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 																	});
 
 																	if (firebase.auth().currentUser) {
@@ -320,7 +320,7 @@ $('.chatbot-open').click(function() {
 																			botui.message.add({
 																				delay: 2000,
 																				loading: true,
-																				content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+																				content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 																			});
 
 																			if (firebase.auth().currentUser) {
@@ -352,7 +352,7 @@ $('.chatbot-open').click(function() {
 																					botui.message.add({
 																						delay: 2000,
 																						loading: true,
-																						content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+																						content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 																					});
 
 																					if (firebase.auth().currentUser) {
@@ -384,7 +384,7 @@ $('.chatbot-open').click(function() {
 																							botui.message.add({
 																								delay: 2000,
 																								loading: true,
-																								content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+																								content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 																							});
 
 																							if (firebase.auth().currentUser) {
@@ -416,7 +416,7 @@ $('.chatbot-open').click(function() {
 																									botui.message.add({
 																										delay: 2000,
 																										loading: true,
-																										content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+																										content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 																									});
 
 																									if (firebase.auth().currentUser) {
@@ -448,7 +448,7 @@ $('.chatbot-open').click(function() {
 																											botui.message.add({
 																												delay: 2000,
 																												loading: true,
-																												content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+																												content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 																											});
 
 																											if (firebase.auth().currentUser) {
@@ -480,7 +480,7 @@ $('.chatbot-open').click(function() {
 																													botui.message.add({
 																														delay: 2000,
 																														loading: true,
-																														content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+																														content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 																													});
 
 																													if (firebase.auth().currentUser) {
@@ -512,7 +512,7 @@ $('.chatbot-open').click(function() {
 																															botui.message.add({
 																																delay: 2000,
 																																loading: true,
-																																content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now go back into the game and continue playing the game.'
+																																content: 'You have entered the code <b>' + res.value + '</b>. You are so good. Now click <a href="index.html">here</a> to enter the new level and then continue playing.'
 																															});
 
 																															if (firebase.auth().currentUser) {
@@ -579,5 +579,5 @@ $('.chatbot-open').click(function() {
 });
 
 $('.chatbot-nav-item-link').click(function() {
-	$('.chatbot').hide();
+	$('.chatbot-level').hide();
 });
