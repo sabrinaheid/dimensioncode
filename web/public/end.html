@@ -12,37 +12,7 @@
 		<!-- Icon Font Css -->
 		<link rel="stylesheet" href="js/fontawesome/css/all.css">
 
-		<!-- Main Stylesheet -->
-		<script>
-			if (localStorage.level == '1') {
-				console.log('1');
-				var link = document.createElement('link');
-				link.setAttribute('rel', 'stylesheet');
-				link.setAttribute('type', 'text/css');
-				link.setAttribute('href', 'css/style-level-1.css');
-				document.getElementsByTagName('head')[0].appendChild(link);
-			} else if (localStorage.level == '2') {
-				console.log('2');
-				var link = document.createElement('link');
-				link.setAttribute('rel', 'stylesheet');
-				link.setAttribute('type', 'text/css');
-				link.setAttribute('href', 'css/style-level-2.css');
-				document.getElementsByTagName('head')[0].appendChild(link);
-			} else if (localStorage.level == '3') {
-				console.log('3');
-				var link = document.createElement('link');
-				link.setAttribute('rel', 'stylesheet');
-				link.setAttribute('type', 'text/css');
-				link.setAttribute('href', 'css/style-level-3.css');
-				document.getElementsByTagName('head')[0].appendChild(link);
-			} else {
-				var link = document.createElement('link');
-				link.setAttribute('rel', 'stylesheet');
-				link.setAttribute('type', 'text/css');
-				link.setAttribute('href', 'css/style.css');
-				document.getElementsByTagName('head')[0].appendChild(link);
-			}
-		</script>
+		<link rel="stylesheet" href="css/style.css">
 
 		<!-- Firebase (DB) Connection -->
 		<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
@@ -511,29 +481,6 @@
 				</footer>
 			</div>
 
-			<!-- Chatbot -->
-			<section class="chatbot-container">
-					<div class="container">
-						<div class="row ">
-							<div class="col-12 justify-content-center">
-								<div class="chatbot-open"><i class="fas fa-comments"></i></div>
-								<div class="chatbot">
-									<nav class="chatbot-nav">
-										<div class="chatbot-nav-item">
-											<a class="chatbot-nav-item-link" href="#"><i class="fas fa-comments"></i></a>
-										</div>
-									</nav>
-									<div class="chatbot-inner">
-										<div class="chatbot-content" id="chatbot-inner">
-											<bot-ui></bot-ui>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-
 			<!-- Main jQuery -->
 			<script src="js/jquery/jquery.js"></script>
 
@@ -541,15 +488,7 @@
 			<script src="js/bootstrap/js/bootstrap.min.js"></script>
 
 			<!-- Update UI after login/logout-->
-			<script src="js/check_login.js"></script>	
-
-			<!-- Chatbot JS -->
-			<script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
-			<script src="https://unpkg.com/botui/build/botui.min.js"></script>
-			<script src="js/chatbot_about.js"></script>
-
-			<!-- Puzzle 3 -->
-			<script src="js/puzzle_3.js"></script>
+			<script src="js/check_login.js"></script>
 		</div>
 	</body>
 </html>

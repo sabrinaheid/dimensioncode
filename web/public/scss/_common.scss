@@ -256,3 +256,26 @@ code {
 pre code {
   color: $black;
 }
+
+.download-btn {
+	position: relative;
+	display: block;
+	z-index: 1;
+	float: right;
+	height: 30px;
+	width: 50px;
+	padding: 3px 0 0 0;
+	margin: 0 5px 0 0;
+	color: $white;
+	font-size: 14px;
+	font-weight: 400;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+  
+	&:hover {
+	  background: $dark;
+	}
+  }
