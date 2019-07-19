@@ -360,8 +360,10 @@ h3.quote::before {
 .footer-btm {
   border-top: 1px solid #101010; }
 
-.footer-socials li a {
-  margin-left: 15px; }
+.footer-socials {
+  text-align: right; }
+  .footer-socials li a {
+    margin-left: 15px; }
 
 .intro-item i {
   font-size: 60px;
@@ -679,7 +681,10 @@ p {
     text-align: center; }
   .address-block,
   .social-icons {
-    text-align: center; } }
+    text-align: center; }
+  .footer-socials {
+    text-align: center;
+    margin-top: 16px; } }
 
 @media (max-width: 768px) {
   .navbar button {
@@ -689,7 +694,8 @@ p {
   .bg-about {
     display: none; }
   .footer-socials {
-    margin-top: 20px; }
+    margin-top: 20px;
+    text-align: center; }
   .footer-socials li a {
     margin-left: 0px; }
   .slider .block h1 {
@@ -735,7 +741,8 @@ p {
   .testimonial-item {
     padding: 50px 30px 0 30px; }
   .footer-socials {
-    margin-top: 20px; }
+    margin-top: 20px;
+    text-align: center; }
   .footer-socials li a {
     margin-left: 0px; }
   .blog-item-meta span {

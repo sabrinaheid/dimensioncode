@@ -56,6 +56,11 @@
 		text-align: center;
 	}
 
+	.footer-socials {
+		text-align: center;
+		margin-top: 16px;
+	}
+
 }
 
 @include tablet{
@@ -75,6 +80,7 @@
 
 	.footer-socials {
 		margin-top: 20px;
+		text-align: center;
 	}
 
 	.footer-socials li a {
@@ -160,6 +166,7 @@
 
 	.footer-socials {
 		margin-top: 20px;
+		text-align: center;
 	}
 	.footer-socials li a {
 		margin-left: 0px;
