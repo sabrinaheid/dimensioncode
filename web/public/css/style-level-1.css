@@ -226,6 +226,9 @@ pre code {
 .blue {
   color: #004bb4; }
 
+.puzzle-1:hover {
+  cursor: pointer; }
+
 .overlay-puzzle-1 a {
   color: #004bb4; }
 

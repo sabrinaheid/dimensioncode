@@ -1,6 +1,6 @@
 
 /**
- * Handles the sign in button press.
+ * Handles the Login button press.
  */
 function toggleSignIn() {
 	if (firebase.auth().currentUser) {
@@ -19,7 +19,7 @@ function toggleSignIn() {
 			return;
 		}
 
-		// Sign in with email and pass.
+		// Login with email and pass.
 		firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
 
 			// Handle Errors here.
@@ -42,7 +42,7 @@ function toggleSignIn() {
 }
 
 /**
- * Handles the sign up button press.
+ * Handles the Register button press.
  */
 function handleSignUp() {
 	var email = document.getElementById('email').value;
@@ -58,7 +58,7 @@ function handleSignUp() {
 		return;
 	}
 
-	// Sign in with email and pass.
+	// Login with email and pass.
 	firebase.auth().createUserWithEmailAndPassword(email, password).catch(function(error) {
 		// Handle Errors here.
 		var errorCode = error.code;
@@ -154,17 +154,17 @@ function initApp() {
 			var uid = user.uid;
 			var providerData = user.providerData;
 
-			document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
-			document.getElementById('quickstart-sign-in').textContent = 'Sign out';
-			document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
+			// document.getElementById('quickstart-sign-in-status').textContent = 'Signed in';
+			document.getElementById('quickstart-sign-in').textContent = 'Logout';
+			// document.getElementById('quickstart-account-details').textContent = JSON.stringify(user, null, '  ');
 
 			readUserData();
 
 		} else {
 			// User is signed out.
-			document.getElementById('quickstart-sign-in-status').textContent = 'Signed out';
-			document.getElementById('quickstart-sign-in').textContent = 'Sign in';
-			document.getElementById('quickstart-account-details').textContent = 'null';
+			// document.getElementById('quickstart-sign-in-status').textContent = 'Signed out';
+			document.getElementById('quickstart-sign-in').textContent = 'Login';
+			// document.getElementById('quickstart-account-details').textContent = 'null';
 		}
 
 		document.getElementById('quickstart-sign-in').disabled = false;

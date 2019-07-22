@@ -289,6 +289,9 @@ pre code {
 }
 
 // rätsel 1
+.puzzle-1:hover {
+  cursor: pointer;
+}
 .overlay-puzzle-1 a {
   color: $blue;
 }
