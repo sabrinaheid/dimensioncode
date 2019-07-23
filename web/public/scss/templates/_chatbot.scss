@@ -92,21 +92,51 @@
 
 		.botui-message-content.text { 
 			background: $white;
+            color: $gray;
 		} 
 
 		.botui-message-content.human {
 			background: $gray;
-    } 
+        }
     
-    .botui-actions-buttons-button {
-      background: $gray;
+        .botui-actions-buttons-button {
+            background: $gray;
+            font-family: "Montserrat", sans-serif;
+            box-shadow: none;
 
-      &:hover {
-        background: $lightgray;
-        color: #595a5a;
-        transition: 0.5s;
+          &:hover {
+            background: $black;
+            color: $white;
+            transition: 0.5s;
+          }
+        }
+
+        .botui-actions-text-input {
+          font-family: "Montserrat", sans-serif;
+          color: $gray;
+          border-bottom: 1px solid $gray;
+
+          &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+            color: $gray;
+            opacity: 0.6;
+          }
+          &::-moz-placeholder { /* Firefox 19+ */
+            color: $gray;
+            opacity: 0.6;
+          }
+          &:-ms-input-placeholder { /* IE 10+ */
+            color: $gray;
+            opacity: 0.6;
+          }
+          &:-moz-placeholder { /* Firefox 18- */
+            color: $gray;
+            opacity: 0.6;
+          }
+        }
+      .botui-actions-text-submit {
+        font-family: "Montserrat", sans-serif;
+
       }
-    }
 	}
 }
 

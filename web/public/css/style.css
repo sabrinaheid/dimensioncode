@@ -129,10 +129,11 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   background: gray; }
 
 .section {
-  padding: 100px 0; }
+  padding: 50px 0; }
 
 .counter {
-  padding-top: 100px; }
+  margin-top: -50px;
+  padding-bottom: 30px; }
 
 .section-title {
   margin-bottom: 70px; }
@@ -148,9 +149,9 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
   font-size: 16px;
   letter-spacing: 1px; }
 
-.overly, .page-title, .bg-about, .bg-2, .slider {
+.overly, .page-title, .bg-2, .slider {
   position: relative; }
-  .overly:before, .page-title:before, .bg-about:before, .bg-2:before, .slider:before {
+  .overly:before, .page-title:before, .bg-2:before, .slider:before {
     content: "";
     background: white;
     bottom: 0;
@@ -228,9 +229,21 @@ pre code {
   .download-btn:hover {
     background: #101010; }
 
+/* blog preview on homepage */
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0; }
+
+/* AI section homepage*/
+#ai-gray {
+  display: block; }
+
+#ai-blue, #ai-green, #ai-red {
+  display: none; }
+
 .bg-about {
   background-size: cover;
-  background: url("../images/about/ai.jpg") no-repeat;
+  background: url("../images/about/ai_neu.jpg") no-repeat;
   content: "";
   left: 0px;
   min-height: 650px;
@@ -239,19 +252,25 @@ pre code {
   width: 45%;
   margin-top: 100px; }
 
+/*
 .about-content {
-  padding: 20px 0px 0px 80px; }
-  .about-content h4 {
-    font-weight: 600; }
-    .about-content h4:before {
-      content: "\f126";
-      font-family: "Font Awesome 5 Free";
-      font-size: 30px;
-      font-weight: 700;
-      left: -65px;
-      position: absolute;
-      top: 8px; }
+	padding: 20px 0px 0px 80px;
 
+	h4 {
+		font-weight: 600;
+
+		&:before {
+			content: "\f126";
+			font-family: "Font Awesome 5 Free";
+			font-size: 30px;
+			font-weight: 700;
+			left: -65px;
+			position: absolute;
+			top: 8px;
+		}
+	}
+}
+*/
 /* LEVEL 1 */
 /*
 .level-1 {
@@ -606,15 +625,40 @@ h3.quote::before {
       font-size: 16px;
       font-family: "Montserrat", sans-serif; }
     .chatbot .chatbot-inner .botui-message-content.text {
-      background: white; }
+      background: white;
+      color: gray; }
     .chatbot .chatbot-inner .botui-message-content.human {
       background: gray; }
     .chatbot .chatbot-inner .botui-actions-buttons-button {
-      background: gray; }
+      background: gray;
+      font-family: "Montserrat", sans-serif;
+      box-shadow: none; }
       .chatbot .chatbot-inner .botui-actions-buttons-button:hover {
-        background: #f2f2f2;
-        color: #595a5a;
+        background: black;
+        color: white;
         transition: 0.5s; }
+    .chatbot .chatbot-inner .botui-actions-text-input {
+      font-family: "Montserrat", sans-serif;
+      color: gray;
+      border-bottom: 1px solid gray; }
+      .chatbot .chatbot-inner .botui-actions-text-input::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        color: gray;
+        opacity: 0.6; }
+      .chatbot .chatbot-inner .botui-actions-text-input::-moz-placeholder {
+        /* Firefox 19+ */
+        color: gray;
+        opacity: 0.6; }
+      .chatbot .chatbot-inner .botui-actions-text-input:-ms-input-placeholder {
+        /* IE 10+ */
+        color: gray;
+        opacity: 0.6; }
+      .chatbot .chatbot-inner .botui-actions-text-input:-moz-placeholder {
+        /* Firefox 18- */
+        color: gray;
+        opacity: 0.6; }
+    .chatbot .chatbot-inner .botui-actions-text-submit {
+      font-family: "Montserrat", sans-serif; }
 
 /* LEVEL 1 */
 /*

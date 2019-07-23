@@ -1,17 +1,16 @@
 .bg-about {
 	background-size: cover;
-	background: url("../images/about/ai.jpg") no-repeat;
+	background: url("../images/about/ai_neu.jpg") no-repeat;
 	content: "";
 	left: 0px;
 	min-height: 650px;
 	position: absolute;
 	top: 0px;
 	width: 45%;
-  @extend .overly;
-  margin-top: 100px;
+    margin-top: 100px;
 }
 
-
+/*
 .about-content {
 	padding: 20px 0px 0px 80px;
 
@@ -29,7 +28,7 @@
 		}
 	}
 }
-
+*/
 
 
 /* LEVEL 1 */

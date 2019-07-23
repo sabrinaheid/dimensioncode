@@ -151,11 +151,12 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 
 //  Section Title
 .section {
-	padding: 100px 0;
+	padding: 50px 0;
 }
 
 .counter {
-	padding-top: 100px;
+    margin-top: -50px;
+	padding-bottom: 30px;
 }
 
 .section-title {
@@ -279,3 +280,20 @@ pre code {
 	  background: $dark;
 	}
   }
+
+
+/* blog preview on homepage */
+.card {
+  background-color: rgba(255,255,255,0.8);
+  border-radius: 0;
+}
+
+/* AI section homepage*/
+#ai-gray {
+  display: block;
+}
+#ai-blue, #ai-green, #ai-red {
+  display: none;
+}
+
+
