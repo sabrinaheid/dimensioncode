@@ -183,7 +183,12 @@ input[type="email"],input[type="password"],input[type="text"],input[type="tel"]{
 //  Section Title
 .section {
   background: $dark;
-  padding: 100px 0;
+  padding: 50px 0;
+}
+
+.counter {
+  margin-top: -50px;
+  padding-bottom: 30px;
 }
 
 .section-title {
@@ -289,9 +294,20 @@ pre code {
 }
 
 
-  
+/* blog preview on homepage */
+.card {
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 0;
+}
 
-  
+/* AI section homepage */
+#ai-green {
+  display: block;
+}
+#ai-gray, #ai-blue, #ai-red {
+  display: none;
+}
+
 
 
  

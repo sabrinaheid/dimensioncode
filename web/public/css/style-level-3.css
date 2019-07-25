@@ -147,7 +147,11 @@ input[type="email"], input[type="password"], input[type="text"], input[type="tel
 
 .section {
   background: #101010;
-  padding: 100px 0; }
+  padding: 50px 0; }
+
+.counter {
+  margin-top: -50px;
+  padding-bottom: 30px; }
 
 .section-title {
   margin-bottom: 70px; }
@@ -226,6 +230,18 @@ pre code {
 .blue {
   color: #c8191e; }
 
+/* blog preview on homepage */
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 0; }
+
+/* AI section homepage */
+#ai-red {
+  display: block; }
+
+#ai-gray, #ai-blue, #ai-green {
+  display: none; }
+
 .bg-about {
   background-size: cover;
   background: url("../images/about/ai_red.jpg") no-repeat;
@@ -237,20 +253,26 @@ pre code {
   width: 45%;
   margin-top: 100px; }
 
+/*
 .about-content {
-  padding: 20px 0px 0px 80px; }
-  .about-content h4 {
-    font-weight: 600; }
-    .about-content h4:before {
-      content: "\f126";
-      font-family: "Font Awesome 5 Free";
-      font-size: 30px;
-      font-weight: 700;
-      left: -65px;
-      position: absolute;
-      top: 8px;
-      color: #c8191e; }
+	padding: 20px 0px 0px 80px;
 
+	h4 {
+		font-weight: 600;
+
+		&:before {
+			content: "\f126";
+			font-family: "Font Awesome 5 Free";
+			font-size: 30px;
+			font-weight: 700;
+			left: -65px;
+			position: absolute;
+			top: 8px;
+            color: $red;
+		}
+	}
+}
+*/
 .bg-1 {
   background: url("../../images/bg/home_red.jpg") no-repeat 50% 50%;
   background-size: cover;
