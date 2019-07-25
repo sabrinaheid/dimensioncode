@@ -599,6 +599,7 @@ h3.quote::before {
       position: relative;
       transition: 0.3s ease; }
       .chatbot .chatbot-nav .chatbot-nav-item .chatbot-nav-item-link {
+        cursor: pointer;
         color: inherit;
         display: block;
         height: 50px;
@@ -659,6 +660,9 @@ h3.quote::before {
         opacity: 0.6; }
     .chatbot .chatbot-inner .botui-actions-text-submit {
       font-family: "Montserrat", sans-serif; }
+
+.chatbot-container-level {
+  display: none; }
 
 /* LEVEL 1 */
 /*
