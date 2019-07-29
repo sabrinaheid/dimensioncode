@@ -234,11 +234,25 @@ pre code {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 0; }
 
-/* AI section homepage*/
+/* AI section homepage */
 #ai-gray {
   display: block; }
 
 #ai-blue, #ai-green, #ai-red {
+  display: none; }
+
+/* Sponsor Logo */
+#sae_logo {
+  display: block; }
+
+#sae_logo_negativ {
+  display: none; }
+
+/* AI Content img */
+#ai {
+  display: block; }
+
+#ai_dark {
   display: none; }
 
 .bg-about {

@@ -242,6 +242,20 @@ pre code {
 #ai-gray, #ai-blue, #ai-green {
   display: none; }
 
+/* Sponsor Logo */
+#sae_logo {
+  display: none; }
+
+#sae_logo_negativ {
+  display: block; }
+
+/* AI Content img */
+#ai {
+  display: none; }
+
+#ai_dark {
+  display: block; }
+
 .bg-about {
   background-size: cover;
   background: url("../images/about/ai_red.jpg") no-repeat;
