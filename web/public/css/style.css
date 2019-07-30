@@ -503,6 +503,16 @@ pre code {
   .blog-item-content h3 a:hover {
     color: black !important; }
 
+.blog-item-content a {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  /* Non standard for webkit */
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto; }
+
 .lh-36 {
   line-height: 36px; }
 
@@ -582,6 +592,7 @@ h3.quote::before {
   display: none;
   background-color: white;
   box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.3);
+  opacity: 0.95;
   height: 400px;
   overflow: hidden;
   position: fixed;
@@ -643,7 +654,8 @@ h3.quote::before {
       background: white;
       color: gray; }
     .chatbot .chatbot-inner .botui-message-content.human {
-      background: gray; }
+      background: gray;
+      color: white; }
     .chatbot .chatbot-inner .botui-actions-buttons-button {
       background: gray;
       font-family: "Montserrat", sans-serif;
@@ -1818,84 +1830,6 @@ h6, .h6 {
 p {
   line-height: 30px; }
 
-/* LEVEL 1 */
-/*
-.level-1 {
-
-  body {
-    -webkit-font-smoothing: antialiased;
-    color: $blue;
-    font-family: $extra-font;
-    font-size: 16px;
-    line-height: 1.5;
-
-  }
-
-  h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
-    color: $white;
-    font-family: $secondary-font;
-    font-weight:600;
-  }
-
-  h6,.h6 {
-    color: $blue;
-    font-size: 1.2rem;
-  }
-
-}
-*/
-/* LEVEL 2 */
-/*
-.level-2 {
-
-  body {
-    -webkit-font-smoothing: antialiased;
-    color: $green;
-    font-family: $extra-font;
-    font-size: 16px;
-    line-height: 1.5;
-
-  }
-
-  h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
-    color: $white;
-    font-family: $secondary-font;
-    font-weight:600;
-  }
-
-  h6,.h6 {
-    color: $green;
-    font-size: 1.2rem;
-  }
-
-}
-*/
-/* LEVEL 3 */
-/*
-.level-3 {
-
-  body {
-    -webkit-font-smoothing: antialiased;
-    color: $red;
-    font-family: $extra-font;
-    font-size: 16px;
-    line-height: 1.5;
-
-  }
-
-  h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
-    color: $white;
-    font-family: $secondary-font;
-    font-weight:600;
-  }
-
-  h6,.h6 {
-    color: $red;
-    font-size: 1.2rem;
-  }
-
-}
-*/
 /*=== MEDIA QUERY ===*/
 @media (max-width: 992px) {
   .intro {
@@ -2019,6 +1953,6 @@ p {
   .footer-socials li a {
     margin-left: 0px; }
   .text-lg {
-    font-size: 3rem; }
+    font-size: 2.9rem; }
   .blog-item-meta span {
     margin: 6px 0px; } }

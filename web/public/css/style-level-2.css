@@ -399,6 +399,7 @@ h3.quote::before {
   display: none;
   background-color: #101010;
   box-shadow: none;
+  opacity: 0.95;
   height: 400px;
   overflow: hidden;
   position: fixed;

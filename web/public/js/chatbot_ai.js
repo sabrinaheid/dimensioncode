@@ -6,6 +6,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 
 		setTimeout(function() {
 			$('.chatbot').show();
+			$('.chatbot-open').hide();
 			startDialog();
 		}, 5000);
 
