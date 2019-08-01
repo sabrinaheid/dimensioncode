@@ -60,7 +60,7 @@ $('.chatbot-open-level').click(function() {
 			}
 		})
 	}).then(res => { // get the result
-		if (res.value === '1942') {
+		if (res.value === '6891056') {
 			botui.message.add({
 				delay: 2000,
 				loading: true,
@@ -92,7 +92,7 @@ $('.chatbot-open-level').click(function() {
 					}
 				})
 			}).then(res => { // get the result
-				if (res.value === '1942') {
+				if (res.value === '6891056') {
 					botui.message.add({
 						delay: 2000,
 						loading: true,
@@ -124,7 +124,7 @@ $('.chatbot-open-level').click(function() {
 							}
 						})
 					}).then(res => { // get the result
-						if (res.value === '1942') {
+						if (res.value === '6891056') {
 							botui.message.add({
 								delay: 2000,
 								loading: true,
@@ -156,7 +156,7 @@ $('.chatbot-open-level').click(function() {
 									}
 								})
 							}).then(res => { // get the result
-								if (res.value === '1942') {
+								if (res.value === '6891056') {
 									botui.message.add({
 										delay: 2000,
 										loading: true,
@@ -188,7 +188,7 @@ $('.chatbot-open-level').click(function() {
 											}
 										})
 									}).then(res => { // get the result
-										if (res.value === '1942') {
+										if (res.value === '6891056') {
 											botui.message.add({
 												delay: 2000,
 												loading: true,
@@ -220,7 +220,7 @@ $('.chatbot-open-level').click(function() {
 													}
 												})
 											}).then(res => { // get the result
-												if (res.value === '1942') {
+												if (res.value === '6891056') {
 													botui.message.add({
 														delay: 2000,
 														loading: true,
@@ -252,7 +252,7 @@ $('.chatbot-open-level').click(function() {
 															}
 														})
 													}).then(res => { // get the result
-														if (res.value === '1942') {
+														if (res.value === '6891056') {
 															botui.message.add({
 																delay: 2000,
 																loading: true,
@@ -284,7 +284,7 @@ $('.chatbot-open-level').click(function() {
 																	}
 																})
 															}).then(res => { // get the result
-																if (res.value === '1942') {
+																if (res.value === '6891056') {
 																	botui.message.add({
 																		delay: 2000,
 																		loading: true,
@@ -316,7 +316,7 @@ $('.chatbot-open-level').click(function() {
 																			}
 																		})
 																	}).then(res => { // get the result
-																		if (res.value === '1942') {
+																		if (res.value === '6891056') {
 																			botui.message.add({
 																				delay: 2000,
 																				loading: true,
@@ -348,7 +348,7 @@ $('.chatbot-open-level').click(function() {
 																					}
 																				})
 																			}).then(res => { // get the result
-																				if (res.value === '1942') {
+																				if (res.value === '6891056') {
 																					botui.message.add({
 																						delay: 2000,
 																						loading: true,
@@ -380,7 +380,7 @@ $('.chatbot-open-level').click(function() {
 																							}
 																						})
 																					}).then(res => { // get the result
-																						if (res.value === '1942') {
+																						if (res.value === '6891056') {
 																							botui.message.add({
 																								delay: 2000,
 																								loading: true,
@@ -412,7 +412,7 @@ $('.chatbot-open-level').click(function() {
 																									}
 																								})
 																							}).then(res => { // get the result
-																								if (res.value === '1942') {
+																								if (res.value === '6891056') {
 																									botui.message.add({
 																										delay: 2000,
 																										loading: true,
@@ -444,7 +444,7 @@ $('.chatbot-open-level').click(function() {
 																											}
 																										})
 																									}).then(res => { // get the result
-																										if (res.value === '1942') {
+																										if (res.value === '6891056') {
 																											botui.message.add({
 																												delay: 2000,
 																												loading: true,
@@ -476,7 +476,7 @@ $('.chatbot-open-level').click(function() {
 																													}
 																												})
 																											}).then(res => { // get the result
-																												if (res.value === '1942') {
+																												if (res.value === '6891056') {
 																													botui.message.add({
 																														delay: 2000,
 																														loading: true,
@@ -508,7 +508,7 @@ $('.chatbot-open-level').click(function() {
 																															}
 																														})
 																													}).then(res => { // get the result
-																														if (res.value === '1942') {
+																														if (res.value === '6891056') {
 																															botui.message.add({
 																																delay: 2000,
 																																loading: true,
@@ -529,7 +529,7 @@ $('.chatbot-open-level').click(function() {
 																															botui.message.add({
 																																delay: 2000,
 																																loading: true,
-																																content: 'You have entered the code <b>' + res.value + '</b>. That is wrong. YOU ARE SO BAD. The correct word is <b>dimensioncode</b>. Now you go back to the game in the room and search a ball.'
+																																content: 'You have entered the code <b>' + res.value + '</b>. That is wrong. YOU ARE SO BAD. The correct code is <b>6891056</b>. Now you go back to the game.'
 																															});
 																														}
 																														
