@@ -19,6 +19,7 @@
 	display: none;
 	background-color: white;
     box-shadow: 3px 3px 3px 3px rgba(50, 50, 50, 0.3);
+    opacity: 0.95;
 	height: 400px;
 	overflow: hidden;
 	position: fixed;
@@ -98,6 +99,7 @@
 
 		.botui-message-content.human {
 			background: $gray;
+            color: $white;
         }
     
         .botui-actions-buttons-button {
