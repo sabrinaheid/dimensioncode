@@ -255,6 +255,17 @@ pre code {
 #ai_dark {
   display: none; }
 
+#typed-strings1,
+#typed-strings2,
+#typed-strings3,
+#typed-strings4,
+#typed-strings5,
+#typed-strings6 {
+  display: none; }
+
+.end-text {
+  padding-bottom: 30px; }
+
 .bg-about {
   background-size: cover;
   background: url("../images/about/ai_neu.jpg") no-repeat;
