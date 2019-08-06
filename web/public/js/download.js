@@ -8,7 +8,7 @@ $('.download-button').click(function() {
 		firebase.database().ref('users/' + uid).set({
 			email: email,
 			level: '1',
-			part: '2'
+			part: '1'
 		});
 
 		location.reload();

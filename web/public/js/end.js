@@ -6,7 +6,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 		var db = database.ref('/users/' + uid);
 		db.on('value', function(snapshot) {
 
-			if(snapshot.val().level == 3 && snapshot.val().part == 3) {
+			if(snapshot.val().level == 4) {
 				firebase.database().ref('users/' + uid).set({
 					email: email,
 					level: '1',
