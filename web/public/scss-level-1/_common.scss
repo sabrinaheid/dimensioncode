@@ -333,3 +333,11 @@ pre code {
 #ai_dark {
   display: block;
 }
+
+.download-button {
+	color: $gray;
+
+	&:hover {
+		color: $white;
+	} 
+} 

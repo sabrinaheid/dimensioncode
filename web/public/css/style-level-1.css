@@ -262,6 +262,11 @@ pre code {
 #ai_dark {
   display: block; }
 
+.download-button {
+  color: gray; }
+  .download-button:hover {
+    color: white; }
+
 .bg-about {
   background-size: cover;
   background: url("../images/about/ai_blue.jpg") no-repeat;

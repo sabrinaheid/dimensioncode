@@ -266,6 +266,11 @@ pre code {
 .end-text {
   padding-bottom: 30px; }
 
+.download-button {
+  color: gray; }
+  .download-button:hover {
+    color: white; }
+
 .bg-about {
   background-size: cover;
   background: url("../images/about/ai_neu.jpg") no-repeat;
